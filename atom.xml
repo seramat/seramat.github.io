@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[mGoAlltWay]]></title>
+  <subtitle><![CDATA[Step by Step, to Happiness]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://mm.hanbobo.net/"/>
+  <updated>2015-10-13T05:45:07.997Z</updated>
+  <id>http://mm.hanbobo.net/</id>
+  
+  <author>
+    <name><![CDATA[GangX]]></name>
+    <email><![CDATA[exodus.bo@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[ Windows平台Cisco AnyConnect VPN的使用]]></title>
+    <link href="http://mm.hanbobo.net/2015/10/12/Cisco-AnyConnect-guide-for-Windows/"/>
+    <id>http://mm.hanbobo.net/2015/10/12/Cisco-AnyConnect-guide-for-Windows/</id>
+    <published>2015-10-12T00:54:22.000Z</published>
+    <updated>2015-10-13T05:45:07.997Z</updated>
+    <content type="html"><![CDATA[<p>本文说明Cisco ANyConnect客户端在Windows平台的安装使用。<br><a id="more"></a></p>
+<p><strong>1. 下载Cisco AnyConnect客户端</strong></p>
+<blockquote>
+<p>说明</p>
+<ol>
+<li>推荐安装版本3.0.3054，最稳定</li>
+<li>Win8环境如果上面版本不可用，请安装3.1.00495</li>
+<li>Win10请用4.1.0.4011</li>
+<li>AnyConnect和Windows的Internet Connection Sharing（ICS)不兼容，如果你打开了ICS, 把它关掉才能正常使用AnyConnect</li>
+<li>Anyconnect 和 Connectify也不能一起工作，它们同时开启将导致网络不稳定</li>
+</ol>
+</blockquote>
+<p><strong>2. 安装客户端</strong><br>安装步骤很简单，傻瓜式，一直点下一步，最后接受协议就OK了。<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/win-anyconnect-01.png" alt="安装01"></p>
+<p><img src="http://7xi4vv.com1.z0.glb.clouddn.com/win-anyconnect-02.png" alt="安装02"></p>
+<p><img src="http://7xi4vv.com1.z0.glb.clouddn.com/win-anyconnect-03.png" alt="安装03"></p>
+<p><img src="http://7xi4vv.com1.z0.glb.clouddn.com/win-anyconnect-04.png" alt="安装04">  </p>
+<p><strong>3. 使用客户端连接VPN</strong><br>打开安装的程序Cisco AnyConnect Secure Mobility Client，在框里输入ANyConnect VPN的服务器地址<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/win-anyconnect-05a.png" alt="使用01"></p>
+<p>输入用户名和密码</p>
+<p><img src="http://7xi4vv.com1.z0.glb.clouddn.com/win-anyconnect-06a.png" alt="使用02"><br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/win-anyconnect-09a.png" alt="使用03"></p>
+<p>连接OK,左边出现绿勾就表示连接成功</p>
+<p><img src="http://7xi4vv.com1.z0.glb.clouddn.com/win-anyconnect-07.png" alt="使用04"></p>
+<p><strong>4. Troubleshooting</strong><br>有的服务器用的是自有SSL证书，连接时可能遇到这个Warning，<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/macos-anyconnect-8.jpg" alt="使用05"><br>请修改去掉Block connections to untrusted servers勾选<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/macos-anyconnect-9.jpg" alt="使用06"></p>
+<p>如果出现出现“Failed to initialize connection subsystem”错误,<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/win-anyconnect-10.jpg" alt="使用07"><br>请按照以下方法处理</p>
+<blockquote>
+<p> “右键点击Cisco AnyConnect Secure Mobility Client”，打开Cisco AnyConnect Secure Mobility Client的“属性” —- “兼容性”，“兼容模式”中勾上“以兼容模式运行这个程序”，下拉菜单选择“windows 7”，并勾上“以管理员身份启动”，就可以正常启动了。</p>
+</blockquote>
+<p><img src="http://7xi4vv.com1.z0.glb.clouddn.com/win-anyconnect-11.jpg" alt="使用08"></p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>本文说明Cisco ANyConnect客户端在Windows平台的安装使用。<br>]]>
+    
+    </summary>
+    
+      <category term="AnyConnect" scheme="http://mm.hanbobo.net/tags/AnyConnect/"/>
+    
+      <category term="ocserv" scheme="http://mm.hanbobo.net/tags/ocserv/"/>
+    
+      <category term="VPN" scheme="http://mm.hanbobo.net/categories/VPN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[昱岭关入门]]></title>
+    <link href="http://mm.hanbobo.net/2015/05/06/Yuling-Guan/"/>
+    <id>http://mm.hanbobo.net/2015/05/06/Yuling-Guan/</id>
+    <published>2015-05-06T03:22:06.000Z</published>
+    <updated>2015-09-24T01:52:36.041Z</updated>
+    <content type="html"><![CDATA[<p>　　春光灿烂的季节，在风景优美的小山村，度过一个难忘的周末…<br><a id="more"></a><br>　　《水浒传》的读者一定知道昱岭关这个地名,该书第一百一十八回的回目就是:“卢俊义大战昱岭关宋公明智取清溪洞”。这个地点预示着这部不朽名著的哀伤结局:宋江投降朝廷后,率水泊108将与南国方腊血战于此,损失数十员大将——曾经快意恩仇的梁山好汉们自此渐渐陷入“招安”悲剧的泥淖。<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/CIMG3027.jpg" alt="此处输入图片的描述"><br>　　昱岭关是杭徽交通要道，地理位置重要，历来为兵家必争之地，南宋置关。史籍多次记载昱岭关战事。关隘多次维修，昱岭关是研究古代防御建筑的重要实例，同时见证着浙皖两地经济、贸易往来的历史。 昱岭七十里，徽杭霜雪明；绿水映青山，飒沓如流星；几度旦夕景，千里不留行；汗水裹驴装，深藏身与名。<br>　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/DSCN5853.jpg" alt="此处输入图片的描述"><br>　　昱岭山脉北起清凉峰，沿浙皖界向南，经昱岭关折东行至塔岭一线。山脉走向为东西向。北西高南东低。本次穿越线路主要经过山峰有：昱岭关、搁船尖、雨伞尖、大岭塔、千亩田、牵牛岗、王岩尖、大山尖、元宝尖、大茂尖、金紫尖、蔗山、燕山、羡山、天井尖等,著名的大明山风景区,十門九不关皆位于昱岭山脉。<br>　　昱岭关的徒步路线很多，号称“纵横昱岭八十里”，相比于江浙徽一带的传统高强度路线“三尖”“七尖”等，名声不显，而实际上昱岭关全程强度要远高于这些路线。<br>　　当然，本次咱们只是昱岭关入门，只走一小段。<br>　　1. 周五晚间出发，4-5小时车程G56三阳出，入住三阳镇农家。农家标间70元/晚，带卫生间空调。<br>　　2. 周六农家早餐后坐车20分钟到达竹铺浩川村（海拔300米）下车，开始徒步，2-3小时候到达本次徒步重镇：福泉村（海拔1000米）。在此扎营。农家可以提供饮食住宿。<br>　　3. 周六下午在福泉村周边游玩，观赏美景。晚餐在农家吃，也可以自己野餐。<br>　　4. 周日早餐后，爬搁船尖（海拔1477米），上下3小时左右。<br>　　5. 稍作休息，可以在福泉村午餐，也可以到三阳午餐后，返回上海。<br>　　<br>　　装备要求（山村晚间温度10度左右）</p>
+<ol>
+<li>露营：帐篷/睡袋/防潮垫/背包</li>
+<li>衣物：登山鞋帽，快干衣裤（内衣带一备一），袜子，外套</li>
+<li>其他：头灯手电，洗漱用品，墨镜，防晒霜，垃圾袋，水壶水袋，口哨等<br>　　<br>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>　　春光灿烂的季节，在风景优美的小山村，度过一个难忘的周末…<br>]]>
+    
+    </summary>
+    
+      <category term="福泉" scheme="http://mm.hanbobo.net/tags/%E7%A6%8F%E6%B3%89/"/>
+    
+      <category term="徒步" scheme="http://mm.hanbobo.net/categories/%E5%BE%92%E6%AD%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[AnyConnect VPN用户配置]]></title>
+    <link href="http://mm.hanbobo.net/2015/04/24/AnyConnect-VPN-per-User/"/>
+    <id>http://mm.hanbobo.net/2015/04/24/AnyConnect-VPN-per-User/</id>
+    <published>2015-04-24T01:54:43.000Z</published>
+    <updated>2015-09-24T01:59:29.817Z</updated>
+    <content type="html"><![CDATA[<p>　　在之前的文章”<a href="http://gangxiao.ga/2015/03/26/Cisco-AnyConnect-with-ocserv/" target="_blank" rel="external">在VPS上配置Cisco AnyConnect VPN服务</a>“已经说明了ocserv配置的Any Connect VPN服务可以下发路由表达到智能上网的功能，有网友问是不是可以做到不同的用<br><a id="more"></a><br>户使用不同的配置文件，比如，用户A使用全局VPN，而用户B国内网站不走VPN以智能上网。这个很容易做到。<br>　　ocserv的主用配置文件就是/etc/ocserv.conf，我们可以把通用的配置放在这个里面。拿路由表举例，可以把这个文件里面的路由表全部#掉。比如usera需要智能上网，而userb不用，首先创建用户并设置密码<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ocpasswd -c <span class="regexp">/etc/</span>ocserv/ocpasswd usera</span><br><span class="line">ocpasswd -c <span class="regexp">/etc/</span>ocserv/ocpasswd userb</span><br></pre></td></tr></table></figure></p>
+<p>创建usera的配置文件(无后缀）<br><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano etc<span class="regexp">/ocserv/</span>config-per-user<span class="regexp">/usera</span></span><br></pre></td></tr></table></figure></p>
+<p>把路由表放进这个文件。<br>编辑/etc/ocserv.conf使用用户名登入，<br><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#auth = "plain[passwd=./sample.passwd]"</span></span><br><span class="line">auth = <span class="string">"plain[passwd=/etc/ocserv/ocpasswd]"</span></span><br><span class="line"><span class="comment">#auth = "certificate"</span></span><br><span class="line"><span class="keyword">...</span></span><br><span class="line">config-per-user = /etc/ocserv/config-per-user/</span><br><span class="line">config-per-group = /etc/ocserv/config-per-group/</span><br></pre></td></tr></table></figure></p>
+<p>之后重启ocserv服务。现在使用usera登入VPN就是智能上网，而userb就是全局VPN。<br>另外，用户配置支持 route，dns，限速，独立子网网段等参数，可以自行摸索。</p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>　　在之前的文章”<a href="http://gangxiao.ga/2015/03/26/Cisco-AnyConnect-with-ocserv/">在VPS上配置Cisco AnyConnect VPN服务</a>“已经说明了ocserv配置的Any Connect VPN服务可以下发路由表达到智能上网的功能，有网友问是不是可以做到不同的用<br>]]>
+    
+    </summary>
+    
+      <category term="AnyConnect" scheme="http://mm.hanbobo.net/tags/AnyConnect/"/>
+    
+      <category term="ocserv" scheme="http://mm.hanbobo.net/tags/ocserv/"/>
+    
+      <category term="VPN" scheme="http://mm.hanbobo.net/categories/VPN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Upload YouTube Video from VPS to 百度云]]></title>
+    <link href="http://mm.hanbobo.net/2015/04/08/Upload-YouTube-Video-from-VPS-to-Baiduyun/"/>
+    <id>http://mm.hanbobo.net/2015/04/08/Upload-YouTube-Video-from-VPS-to-Baiduyun/</id>
+    <published>2015-04-08T07:26:57.000Z</published>
+    <updated>2015-04-08T14:13:52.000Z</updated>
+    <content type="html"><![CDATA[<p>　　最近在收集纪录片，而国外好多最新的纪录片是在YouTube上发布的，由于众所周知的原因，有一些高清版本的纪录片即使是科学上网也不能流畅观看，就想着把YouTube的片子下载下来，网上搜索发现这个神器，<a href="http://rg3.github.io/youtube-dl/index.html" target="_blank" rel="external">youtube-dl</a>,<br><a id="more"></a>        </p>
+<blockquote>
+<p>youtube-dl is a small command-line program to download videos from YouTube.com and a few more sites.  </p>
+</blockquote>
+<p>这个工具在各种平台都可以运行，首先尝试在Win 7里运行，由于墙内下载速度很慢，就想先在Linux VPS里面下载。先下载这个工具 （<a href="https://github.com/rg3/youtube-dl/blob/master/README.md#readme" target="_blank" rel="external">详细步骤</a>）<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo curl http<span class="variable">s:</span>//yt-<span class="keyword">dl</span>.org/latest/youtube-<span class="keyword">dl</span> -<span class="keyword">o</span> /usr/local/bin/youtube-<span class="keyword">dl</span></span><br><span class="line">sudo chmod <span class="keyword">a</span>+<span class="keyword">x</span> /usr/local/bin/youtube-<span class="keyword">dl</span></span><br></pre></td></tr></table></figure></p>
+<p>之后找到要下载的YouTube视频链接<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">#下载playlist：</span><br><span class="line">youtube-<span class="keyword">dl</span> --<span class="built_in">max</span>-quality mp4 http<span class="variable">s:</span>//www.youtube.<span class="keyword">com</span>/playlist?<span class="keyword">list</span>=PLirQw_9uS3ElBBrk4DW9M4TEfxLxhJycR</span><br><span class="line"></span><br><span class="line">#从第<span class="number">10</span>集开始下载：</span><br><span class="line">youtube-<span class="keyword">dl</span> --<span class="built_in">max</span>-quality mp4 --playlist-start <span class="number">10</span> http<span class="variable">s:</span>//www.youtube.<span class="keyword">com</span>/playlist?<span class="keyword">list</span>=PLirQw_9uS3ElBBrk4DW9M4TEfxLxhJycR</span><br><span class="line"></span><br><span class="line">#下载某人上传的视频：</span><br><span class="line">youtube-<span class="keyword">dl</span> --<span class="built_in">max</span>-quality mp4 http<span class="variable">s:</span>//www.youtube.<span class="keyword">com</span>/user/clubwubai</span><br><span class="line"></span><br><span class="line">#下载某人上传的标题含有某关键字的视频：</span><br><span class="line">youtube-<span class="keyword">dl</span> --<span class="built_in">max</span>-quality mp4  http<span class="variable">s:</span>//youtube.<span class="keyword">com</span>/user/universaltwn --<span class="built_in">match</span>-title 伍佰</span><br></pre></td></tr></table></figure></p>
+<p>如果通过代理下载，加上这个选项<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">youtube-<span class="tag">dl</span> --max-quality mp4 --proxy <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">8123</span> https:<span class="comment">//www.youtube.com/playlist?list=PLirQw_9uS3ElBBrk4DW9M4TEfxLxhJycR</span></span><br></pre></td></tr></table></figure></p>
+<p>在美国的VPS上下载视频那是秒传。Ok,现在我们需要把视频下载到本地。我先是把视频放在Web服务器的文件夹然后用Orbit Downloader来下载，这样下载速度可以达到500KB/S左右，可以接受。更好的方法是利用第三方工具<a href="http://oott123.github.io/bpcs_uploader/" target="_blank" rel="external">bpcs_uploader</a>把视频直接传到百度云上。<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">sudo</span> curl <span class="url">https://github.com/oott123/bpcs_uploader/zipball/master</span></span><br><span class="line">unzip master</span><br><span class="line">mv oott123-bpcs_uploader-3a75324 bpcs_uploader <span class="comment">#重命名</span></span><br><span class="line">cd bpcs_uploader <span class="comment">#进入目录</span></span><br><span class="line">chmod +x bpcs_uploader.php <span class="comment">#设置权限</span></span><br><span class="line">./bpcs_uploader.php quickinit <span class="comment">#运行初始化</span></span><br></pre></td></tr></table></figure></p>
+<p>运行之后按界面指示在<a href="https://openapi.baidu.com/device" target="_blank" rel="external">https://openapi.baidu.com/device</a> 输入API Key。<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/bpcs02.png" alt="百度云App Key"></p>
+<p>继续初始化完成后看到存储空间的剩余量，和【Have fun!】提示，即说明成功初始化。<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/bpcs03.png" alt="初始化成功"></p>
+<p>现在可以上传文件了<br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./<span class="tag">bpcs_uploader</span><span class="class">.php</span> <span class="tag">upload</span> <span class="attr_selector">[path_local]</span> <span class="attr_selector">[path_remote]</span></span><br></pre></td></tr></table></figure></p>
+<p>路径格式：foo/bar/file.ext（路径中一定要包括文件名） 上传后，能在百度网盘/我的应用数据/应用名/foo/bar下找到一个叫file.ext的文件。</p>
+<p>参考<a href="http://www.freehao123.com/baiduyun-linux-vps/" target="_blank" rel="external">文1</a>和<a href="http://oott123.github.io/bpcs_uploader/" target="_blank" rel="external">文2</a>.</p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>　　最近在收集纪录片，而国外好多最新的纪录片是在YouTube上发布的，由于众所周知的原因，有一些高清版本的纪录片即使是科学上网也不能流畅观看，就想着把YouTube的片子下载下来，网上搜索发现这个神器，<a href="http://rg3.github.io/youtube-dl/index.html">youtube-dl</a>,<br>]]>
+    
+    </summary>
+    
+      <category term="VPS" scheme="http://mm.hanbobo.net/tags/VPS/"/>
+    
+      <category term="笔记" scheme="http://mm.hanbobo.net/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Shadowsocks for Android devices]]></title>
+    <link href="http://mm.hanbobo.net/2015/03/31/SS-for-Android_E/"/>
+    <id>http://mm.hanbobo.net/2015/03/31/SS-for-Android_E/</id>
+    <published>2015-03-31T14:34:18.000Z</published>
+    <updated>2015-04-01T12:51:44.000Z</updated>
+    <content type="html"><![CDATA[<p>　　<a href="http://shadowsocks.org/en/index.html" target="_blank" rel="external">Shadowsocks</a> is a light secure socks5 proxy,designed to protect your Internet traffi. And it has been widely used in China by those who want to bypass the infamous Great Firewall to access blocked sites such as Google/Facebook/Twitter.<br><a id="more"></a></p>
+<blockquote>
+<p>Shadowsocks key features<br>1.Super Fast, Bleeding edge techniques using Asynchronous I/O and Event-driven programming.<br>2.Flexible Encryption, Secured with industry level encryption algorithm. Flexible to support custom algorithms.<br>3.Mobile Ready, Optimized for mobile device and wireless network, without any keep-alive connections.<br>4.Cross Platform, Avaliable on multiple platforms, including PC, MAC, Mobile (Android and iOS) and Routers (OpenWRT).；<br>5.Open Source, Totally free and open source. A worldwide community devoted to deliver bug-free code and long-term support.</p>
+</blockquote>
+<p>　　It is also very efficient and does not consume a lot of resources in your devices. You can hardly notice it when you run the client in your smart phone. This document will show you how to configure it for your Android smart phone (the guides for other platforms are also available.)<br>　<br>1, Download and install Shadowsocks (SS) from <a href="https://play.google.com/store/apps/details?id=com.github.shadowsocks&amp;hl=zh_CN" target="_blank" rel="external">Google Play Store</a>. You can also get it from my server as Play Store is blocked in China. <a href="http://www.hanbobo.net/wp-content/uploads/2015/03/Shadowsocks_2.6.4.apk" target="_blank" rel="external">Click to Download</a>。</p>
+<p>2, Open SS, add Profile —- this is to add the SS server (you can obtain free one at the bottom of the page).</p>
+<p>　　<img src="http://www.hanbobo.net/wp-content/uploads/2015/03/ss01.png" alt=""></p>
+<p>3, If you have the QR code of the SS server，just scan it，otherwise choose Manual</p>
+<p>　　<img src="http://www.hanbobo.net/wp-content/uploads/2015/03/ss02.png" alt=""></p>
+<p>4, Just fill in accordingly，the highlighted items have to be filling in<br>　　<img src="http://www.hanbobo.net/wp-content/uploads/2015/03/ss03.png" alt=""></p>
+<p>5, Here, Route；”All/Bypass Lan/Bypass LAN &amp; China”, respectively means a)All traffic goes via SS proxy b)Lan traffic goes via SS proxy c)China&amp;Lan traffic goes via SS proxy. In my opinion this is the coolest feature of SS as it enables you to only use the proxy while accessing the sites outside of China, while browsing normally for sites inside the GFW.<br>　　<img src="http://www.hanbobo.net/wp-content/uploads/2015/03/ss04.png" alt=""><br>Of cause you can also use this feature as a VPN-like service while connected to a unsecure network such as public WIFI.</p>
+<p>6, Save the setting, enable SS clicking the top right button. If your Android is Rooted （if you do not know what Rooted means, your phone is probably NOT rooted), grant it root request. Now you are using what is frequently referred as SS NAT mode. If your phone is NOT rooted, a VPN window will pop out,</p>
+<p>　　<img src="http://www.hanbobo.net/wp-content/uploads/2015/03/ss04.png" alt=""></p>
+<p>Choose accept, and now the phone is in VPN mode.</p>
+<p>7, When SS client is successfully connected, there will be a icon in top left corner,<br>VPN Mode</p>
+<p>　　<img src="http://www.hanbobo.net/wp-content/uploads/2015/03/ss06.png" alt=""></p>
+<p>NATMode</p>
+<p>　　<img src="http://www.hanbobo.net/wp-content/uploads/2015/03/ss07.png" alt=""></p>
+<p>That’s it! Now you can access Google/Facebook/Twitter and all other GFW-certified sites just like you are in a GFWless region. Please Twitter me for free Shadowsocks account. Or click 本页底部的<strong>先锋加速</strong>获取免费SS账号.</p>
+<p><strong>Thank you!</strong><br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>　　<a href="http://shadowsocks.org/en/index.html">Shadowsocks</a> is a light secure socks5 proxy,designed to protect your Internet traffi. And it has been widely used in China by those who want to bypass the infamous Great Firewall to access blocked sites such as Google/Facebook/Twitter.<br>]]>
+    
+    </summary>
+    
+      <category term="SS" scheme="http://mm.hanbobo.net/tags/SS/"/>
+    
+      <category term="Shadowsocks" scheme="http://mm.hanbobo.net/categories/Shadowsocks/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[在VPS上配置Cisco AnyConnect VPN服务 ]]></title>
+    <link href="http://mm.hanbobo.net/2015/03/26/Cisco-AnyConnect-with-ocserv/"/>
+    <id>http://mm.hanbobo.net/2015/03/26/Cisco-AnyConnect-with-ocserv/</id>
+    <published>2015-03-26T14:59:22.000Z</published>
+    <updated>2015-03-26T15:57:53.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="什么是Cisco_Anyconnect?">什么是Cisco Anyconnect?</h2><p>　　Cisco Anyconnect是思科公司提供的企业集SSL VPN服务解决方案，被思科公司的企业用户广泛使用。其背后的开源技术是OpenConnect，简单来说就是平时使用 UDP 的 DTLS 协议进行加密，掉线时自动使用 TCP 的 TLS 协议进行备份恢复，因此相对其它 VPN<br><a id="more"></a>（L2TP/PPTP等） 比较稳定；相比于思科早前推出（在iOS内置）的IPSec VPN, AnyConnect在用户认证管理和安全协议等方面更加强大，当然对于思科公司意味着更多revenue，貌似成为近年来思科强推产品；并且，AnyConnect对于长latency网络更加容忍度更高。综合以上几点，可以发现Anyconnect服务特别适合天朝的网络现状：不容易被误杀，对于大部分位于美国的廉价VPS比较友好。AnyConnect在各种平台都有客户端，MAC, Win, Android, iOS, Linux, 应有尽有。</p>
+<h2 id="什么是ocserv？">什么是ocserv？</h2><p>　　早前只有思科设备支持AnyConnect，后来有人开发了<a href="http://www.infradead.org/ocserv/index.html" target="_blank" rel="external">CopenConnect VPN Server (ocserv)</a>，其基于OpenConnect SSL  VPN协议，现行版本兼容思科AnyConnect。ocserv支持客户端下发路由表（好像是200条），用以实现国内国外按需分配路由，就是所谓的智能服务。ocserv支持各种通行的Linux/Unix版本。</p>
+<h2 id="在Ubuntu_14-04_LTS中部署ocserv">在Ubuntu 14.04 LTS中部署ocserv</h2><p>　　本人在DO中使用的是Ubuntu 14.04 LTS，而在BW用的是Centos6.5，在2个系统中都顺利部署成功，这里用Ubuntu为例。</p>
+<p><strong>1. 安装依赖项目</strong> (使用root用户)<br><figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt-<span class="built_in">get</span> install build-essential libgnutls28-<span class="built_in">dev</span> libpam0g-<span class="built_in">dev</span> libwrap0-<span class="built_in">dev</span> libreadline-<span class="built_in">dev</span> libnl-nf-<span class="number">3</span>-<span class="built_in">dev</span> libseccomp-<span class="built_in">dev</span> pkg-config[/code]</span><br></pre></td></tr></table></figure></p>
+<p><strong>2. 下载最新的ocserv程序源码</strong><br>当前最新版本是0.9.1，后续或有不同<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd /usr/src</span><br><span class="line">wget ftp:<span class="comment">//ftp.infradead.org/pub/ocserv/ocserv-0.9.1.tar.xz</span></span><br><span class="line">tar xvf ocserv-<span class="number">0.9</span>.<span class="number">1</span><span class="class">.tar</span><span class="class">.xz</span></span><br><span class="line">cd ocserv-<span class="number">0.9</span>.<span class="number">1</span>[/code]</span><br></pre></td></tr></table></figure></p>
+<p><strong>3. 编译和安装ocserv</strong><br><figure class="highlight brainfuck"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">.</span><span class="comment">/configure</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">enable</span><span class="literal">-</span><span class="comment">local</span><span class="literal">-</span><span class="comment">libopts</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">enable</span><span class="literal">-</span><span class="comment">libopts</span><span class="literal">-</span><span class="comment">install</span></span><br><span class="line"><span class="comment">make</span> <span class="comment">&amp;&amp;</span> <span class="comment">make</span> <span class="comment">install</span><span class="title">[</span><span class="comment">/code</span><span class="title">]</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>4. ocserv的配置</strong><br>详细内容请参考<a href="http://www.infradead.org/ocserv/manual.html" target="_blank" rel="external">官方文档</a>。我们需要创建一些证书，先建立放置证书的directory<br><figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /usr/src/ocserv-<span class="number">0</span>.<span class="number">9</span>.<span class="number">2</span></span><br><span class="line"><span class="built_in">mkdir</span> certificates</span><br><span class="line"><span class="built_in">cd</span> certificates[/code]</span><br></pre></td></tr></table></figure></p>
+<h4 id="4-1_建立CA模板和CA证书">4.1 建立CA模板和CA证书</h4><p>建立CA模板并存储，我用的是nano，当然也可以使用vi<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano ca<span class="class">.tmpl</span>[/code]</span><br></pre></td></tr></table></figure></p>
+<p>CA模板的格式是：</p>
+<blockquote>
+<p>cn = “任意填写”<br>organization = “任意填写”<br>serial = 1<br>expiration_days = 365<br>ca<br>signing_key<br>cert_signing_key<br>crl_signing_key</p>
+</blockquote>
+<p>生成CA密钥和CA证书<br><figure class="highlight nimrod"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">certtool --generate-privkey --outfile ca-key.pem</span><br><span class="line">certtool --generate-self-signed --load-privkey ca-key.pem --<span class="keyword">template</span> ca.tmpl --outfile ca-cert.pem</span><br></pre></td></tr></table></figure></p>
+<h4 id="4-2_建立服务器模板和证书">4.2 建立服务器模板和证书</h4><p>建立服务器模板并存储<br><figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano <span class="keyword">server</span>.tmpl</span><br></pre></td></tr></table></figure></p>
+<p>服务器模板的格式是如下，这里的cn必须如实填写，而organization填写自己钟意的名称，</p>
+<blockquote>
+<p>cn = “服务器hostname或者IP地址”<br>organization = “任意填写”<br>serial = 2<br>expiration_days = 3650<br>signing_key<br>encryption_key<br>tls_www_server</p>
+</blockquote>
+<p>生成服务器密钥和证书<br><figure class="highlight nimrod"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">certtool --generate-privkey --outfile server-key.pem</span><br><span class="line">certtool --generate-certificate --load-privkey server-key.pem --load-ca-certificate ca-cert.pem --load-ca-privkey ca-key.pem --<span class="keyword">template</span> server.tmpl --outfile server-cert.pem</span><br></pre></td></tr></table></figure></p>
+<h4 id="4-3_创建用户证书">4.3 创建用户证书</h4><p>先建立用户模板<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano user<span class="class">.tmpl</span>[/code]</span><br></pre></td></tr></table></figure></p>
+<p>客户端模板的格式是</p>
+<blockquote>
+<p>cn = “任意填写”<br>unit = “任意填写”<br>expiration_days = 365<br>signing_key<br>tls_www_client</p>
+</blockquote>
+<p>生成用户密码和证书<br><figure class="highlight nimrod"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">certtool --generate-privkey --outfile user-key.pem</span><br><span class="line">certtool --generate-certificate --load-privkey user-key.pem --load-ca-certificate ca-cert.pem --load-ca-privkey ca-key.pem --<span class="keyword">template</span> user.tmpl --outfile user-cert.pem</span><br></pre></td></tr></table></figure></p>
+<p>然后用openssl将生成的用户证书转成客户端能直接使用的p12格式<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">openssl pkcs12 -export -inkey user-key<span class="class">.pem</span> -<span class="keyword">in</span> user-cert<span class="class">.pem</span> -certfile ca-cert<span class="class">.pem</span> -out user.p12</span><br></pre></td></tr></table></figure></p>
+<p>转换时会要求设置密码，这样用户倒入证书时也需要输入对应的密码；也可以不设。</p>
+<h4 id="4-4_安装证书">4.4 安装证书</h4><p>吧证书导入正确的文件夹<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo cp ca-cert<span class="class">.pem</span> /etc/ssl/certs/my-ca-cert<span class="class">.pem</span></span><br><span class="line">sudo cp server-cert<span class="class">.pem</span> /etc/ssl/certs/my-server-cert<span class="class">.pem</span></span><br><span class="line">sudo cp server-key<span class="class">.pem</span> /etc/ssl/private/my-server-key.pem</span><br></pre></td></tr></table></figure></p>
+<p>将生成的user.p12证书通过ulr或者邮件形式分发给用户就可以了。</p>
+<h4 id="4-5_ocserv的配置文件">4.5 ocserv的配置文件</h4><p>下载的ocserv程序源码里面有配置文件的密码，我们拷贝过来编辑。<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd <span class="regexp">/usr/</span>src/ocserv-<span class="number">0.9</span><span class="number">.2</span></span><br><span class="line">mkdir <span class="regexp">/etc/</span>ocserv</span><br><span class="line">cp doc<span class="regexp">/sample.config /</span>etc<span class="regexp">/ocserv/</span>ocserv.conf</span><br><span class="line">nano <span class="regexp">/etc/</span>ocserv/ocserv.conf</span><br></pre></td></tr></table></figure></p>
+<p>在网上各种搜索参考之后，链接是<a href="http://www.hanbobo.net/ocserv.conf.do" target="_blank" rel="external">我的配置</a>，供参考采用<br>比较重要的有</p>
+<blockquote>
+<p>#ocserv支持各种登入方式，我使用的是证书，后续会提到如何使用用户/密码登入<br>auth = “certificate”<br>#auth = “plain[./sample.passwd]”<br>#auth = “plain[/etc/ocserv/ocpasswd]”<br>#auth = “pam”<br>#证书地址要填写正确<br>server-cert = /etc/ssl/certs/my-server-cert.pem<br>server-key =  /etc/ssl/private/my-server-key.pem<br>ca-cert = /etc/ssl/certs/my-ca-cert.pem<br>#最大客户端数量和单个用户连接数量，按自己需求<br>max-clients = 36<br>max-same-clients = 6<br># MTU discovery  这个要打开<br>try-mtu-discovery = true<br>deny-roaming = false<br># 服务监听的TCP/UDP端口<br>tcp-port = 9000<br>udp-port = 9001<br>#VPN下发虚拟网卡地址，建议不要用本地无线路由器常用192.168地址<br>ipv4-network = 10.168.1.0<br>ipv4-netmask = 255.255.255.0<br>#使用google DNS<br>dns = 8.8.8.8<br>dns = 8.8.4.4<br># 那一大段路由是 添加的自动翻墙路由表，也可以参考这个<a href="https://gist.github.com/bao3/bc717ec2294257209c30" target="_blank" rel="external">路由表</a><br>#route = 192.168.1.0/255.255.255.0<br>#route = 192.168.5.0/255.255.255.0<br>#route = fef4:db8:1000:1001::/64<br>#启用cisco客户端兼容性支持<br>cisco-client-compat = true</p>
+</blockquote>
+<h4 id="4-6_修改firewall的配置">4.6 修改firewall的配置</h4><p>之前我按照<a href="https://www.linode.com/docs/security/securing-your-server" target="_blank" rel="external">Linode的VPS安全设置</a>做过通过iptables做过firewall的配置，现在需要针对ocserv做一些必要的修改。<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano /etc/iptables<span class="class">.firewall</span><span class="class">.rules</span></span><br></pre></td></tr></table></figure></p>
+<p>打开ocserv使用的端口和隔离客户端<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">\<span class="id">#Allow</span> OCserv TCP/UDP</span><br><span class="line">-A INPUT -<span class="tag">p</span> tcp -m state --state NEW --dport <span class="number">9000</span> -j ACCEPT</span><br><span class="line">-A INPUT -<span class="tag">p</span> udp -m state --state NEW --dport <span class="number">9001</span> -j ACCEPT</span><br><span class="line">\<span class="id">#allow</span> traffic from vpn clients</span><br><span class="line">-A FORWARD -s <span class="number">10.168</span>.<span class="number">1.0</span>/<span class="number">24</span> -j ACCEPT</span><br><span class="line">\<span class="id">#block</span> communication between VPN clients</span><br><span class="line">-A FORWARD -s <span class="number">10.168</span>.<span class="number">1.0</span>/<span class="number">24</span> -d <span class="number">10.168</span>.<span class="number">1.0</span>/<span class="number">24</span> -j DROP</span><br><span class="line">\<span class="id">#start</span> NAT</span><br><span class="line">*nat</span><br><span class="line">-A POSTROUTING -j MASQUERADE</span><br><span class="line">COMMIT</span><br></pre></td></tr></table></figure></p>
+<p>完成编辑之后倒入配置并检查配置是否正确<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">iptables-restore &lt; /etc/iptables<span class="class">.firewall</span><span class="class">.rules</span></span><br><span class="line">iptables -L</span><br></pre></td></tr></table></figure></p>
+<p>我们还需要打开IPv4的流量转发。<br><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano <span class="regexp">/etc/</span>sysctl.conf</span><br></pre></td></tr></table></figure></p>
+<p>启用这一项并刷新配置</p>
+<blockquote>
+<p>net.ipv4.ip_forward=1<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sysctl -<span class="tag">p</span> /etc/sysctl.conf</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p><strong>5. 测试ocserv</strong><br>至此ocserv的安装配置已经完成，在服务器启动ocserv服务<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ocserv <span class="operator">-f</span> <span class="operator">-d</span> <span class="number">1</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>6. 自动化ocserv服务</strong><br>为ocserv写一个简单的启动脚本<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">cd</span> /etc/init.<span class="literal">d</span></span><br><span class="line">ln -s /lib/init/upstart-job ocserv</span><br><span class="line"><span class="keyword">cd</span> /etc/init</span><br><span class="line">nano ocserv.<span class="keyword">conf</span></span><br></pre></td></tr></table></figure></p>
+<p>放入以下内容</p>
+<blockquote>
+<p>#!upstart<br>description “OpenConnect Server”<br>start on runlevel [2345]<br>stop on runlevel [06]<br>respawn<br>respawn limit 20 5<br>script<br>    exec start-stop-daemon —start —pidfile /var/run/ocserv.pid —exec /usr/local/sbin/ocserv — -f &gt;&gt; /dev/null 2&gt;&amp;1<br>end script</p>
+</blockquote>
+<p>这样就可以用以下方式启动/暂停服务<br><figure class="highlight puppet"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">]sudo <span class="keyword">service</span> ocserv <span class="literal">start</span></span><br><span class="line">sudo <span class="keyword">service</span> ocserv <span class="literal">stop</span></span><br></pre></td></tr></table></figure></p>
+<p>也可以在/var/log/syslog中查看VPN连接状态。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tail <span class="operator">-f</span> /var/<span class="built_in">log</span>/syslog[/code]</span><br></pre></td></tr></table></figure></p>
+<p>*关于iOS和Android客户端使用Cisco AnyConnect, 请参考<a href="http://mm.hanbobo.net/2015/03/13/Cisco-AnyConnect-iOS/" target="_blank" rel="external">Cisco AnyConnect 让iOS设备(iPadiPhone)科学上网</a>.</p>
+<p>注：本文作为初学者的学习笔记参考了网上各位高人的文章<a href="http://bitinn.net/11084/" target="_blank" rel="external">1</a>， <a href="https://www.stunnel.info/%E5%9C%A8centos-6-5%E4%B8%8A%E9%85%8D%E7%BD%AEcisco-anyconnect-vpn/" target="_blank" rel="external">2</a>， <a href="http://tangbutian.info/2014/12/17/10" target="_blank" rel="external">3</a>等，不一一列举，感谢！</p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="什么是Cisco_Anyconnect?">什么是Cisco Anyconnect?</h2><p>　　Cisco Anyconnect是思科公司提供的企业集SSL VPN服务解决方案，被思科公司的企业用户广泛使用。其背后的开源技术是OpenConnect，简单来说就是平时使用 UDP 的 DTLS 协议进行加密，掉线时自动使用 TCP 的 TLS 协议进行备份恢复，因此相对其它 VPN<br>]]>
+    
+    </summary>
+    
+      <category term="VPN" scheme="http://mm.hanbobo.net/tags/VPN/"/>
+    
+      <category term="ocserv" scheme="http://mm.hanbobo.net/tags/ocserv/"/>
+    
+      <category term="笔记" scheme="http://mm.hanbobo.net/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="VPN" scheme="http://mm.hanbobo.net/categories/VPN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Applock程序管理]]></title>
+    <link href="http://mm.hanbobo.net/2015/03/26/Applock/"/>
+    <id>http://mm.hanbobo.net/2015/03/26/Applock/</id>
+    <published>2015-03-26T03:56:20.000Z</published>
+    <updated>2015-03-26T07:36:41.000Z</updated>
+    <content type="html"><![CDATA[<p>　　孩子每天做校车上学，给他一个手机用于联系，同时他在校车上听Audiobook(这一段时间迷上”听春秋”).有一天发现他偷偷打游戏,想着是不是要控制一下,就找到一个锁程序的App —- Applock.这个App功能强大,这里简单介绍一下.<br><a id="more"></a></p>
+<h2 id="基本用法">基本用法</h2><p>　　Play Store搜索下载Applock, 打开就要求输入密码或者Pattern Lock,之后进入程序界面,选择需要锁住的程序,Play Store/应用宝或者其他第三方应用市场当然要锁住,这样他想自由自在地下载安装游戏就不可能了<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/applock01.png" alt="Applock01"><br>　　<br>　　其它各种游戏社交应用等程序都可以这样锁住，这样每次打开这些程序都要输入密码．还可以把WIFI和数据开关锁住,这样就可以限制上网了.</p>
+<h2 id="情景模式">情景模式</h2><p>　　可能像上面那样全部锁住有点简单粗暴，这就要用到＂情景模式＂了. 例如我要创建一个”no video”的情景模式,限制孩子不能看视频,<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/applock04.png" alt="no video">　　<br>　　<br>　　再建立一个”game lock”的模式(手机里没有安装Game用Google+代替),<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/applock05.png" alt="game lock"></p>
+<h2 id="位置锁定">位置锁定</h2><p>　　Applock支持位置锁定,就是当手机连上某个WIFI网络的时候,你可以指定锁定程序.Perfect! 我希望Pad连到3G路由器的时候,不要看视频,不然流量大了. 建立一个位置锁 “no video”, 选择之前建立的情景模式”no video”, 搞定!<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/applock06a.png" alt="location lock">　　<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/applock06.png" alt="no video"></p>
+<h2 id="时间锁定">时间锁定</h2><p>　　可以利用时间锁定来限制打游戏的时间.建立一个时间锁”game time”,按图中设置,每天19:30全部解锁,自由时间, happy time:)<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/applock07.png" alt="game time">　　<br>　　<br>　　再建立一个时间锁”game end”,15分钟后,锁定.<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/applock08.png" alt="game end">　　</p>
+<h2 id="Applock隐藏">Applock隐藏</h2><p>　　设置了这些功能,要是孩子把Applock直接卸载,岂不是一切成空? Applock的隐藏功能可以把自己藏起来,每次需要在键盘输入密码才能够打开.<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/applock09.png" alt="applock hide"><br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/applock10.png" alt="applock hide a"></p>
+<p>　　晚上在家摸索设置一下,想象第二天孩子拿到手机之后打开游戏的样子吧…和孩子们的斗争也是斗智斗勇啊:)　<br>Applock还有很多功能,大家可以挖掘分享.当然,最重要的是要培养孩子自觉自律,这些控制程序不可避免地落入下乘了.　　</p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>　　孩子每天做校车上学，给他一个手机用于联系，同时他在校车上听Audiobook(这一段时间迷上”听春秋”).有一天发现他偷偷打游戏,想着是不是要控制一下,就找到一个锁程序的App —- Applock.这个App功能强大,这里简单介绍一下.<br>]]>
+    
+    </summary>
+    
+      <category term="先锋" scheme="http://mm.hanbobo.net/tags/%E5%85%88%E9%94%8B/"/>
+    
+      <category term="笔记" scheme="http://mm.hanbobo.net/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="先锋" scheme="http://mm.hanbobo.net/categories/%E5%85%88%E9%94%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Why climb GFW?]]></title>
+    <link href="http://mm.hanbobo.net/2015/03/23/Why-climb-GFW/"/>
+    <id>http://mm.hanbobo.net/2015/03/23/Why-climb-GFW/</id>
+    <published>2015-03-23T05:32:53.000Z</published>
+    <updated>2015-03-24T05:12:50.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<ul>
+<li>求实，求是  </li>
+<li>博学而笃志，切问而近思</li>
+<li>独立之精神，自由之思想</li>
+</ul>
+</blockquote>
+<h2 id="为什么翻墙">为什么翻墙</h2><p>可能吧在2010年做过一个网上民调<a href="https://kenengba.com/post/2920.html" target="_blank" rel="external">中国翻墙网民状况调查</a>，结果显示，</p>
+<blockquote>
+<p>80%的人翻墙仅仅是为了“正常”地使用Google等互联网基础服务，他们或许只是想正常地搜索“胡萝卜”。75%的人翻墙会上Twitter等 社交网 站，72%的人会看外媒的新闻。60%的人翻墙是为了娱乐，<br><a id="more"></a><br>比如观看Youtube。因为国内的互联网产品行业相对落后，而优秀的外国互联网产品往往又是 被屏蔽，很多人翻墙是为了学习外国的互联网产品，这个比例占了52%。30%的人翻墙会上成人网站。另外有26%的人工作必须翻墙。</p>
+</blockquote>
+<p>　　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/fq_stat.png" alt="Ｆ_Stat"><br>　　而我经验来看，周围的朋友有的是为了看台湾的中文媒体，有的是为了上Twitter，还有的是为了上Google Scholar。而我个人，主要是Google搜索和Twitter/Google+等社交网络。<br>　　有网友总结了GFW三大定律，</p>
+<blockquote>
+<ol>
+<li>GFW 第一定律：只要是 “用户产生内容”(User-generated content, UGC) 的国外网站都会被和谐。</li>
+<li>GFW 第二定律：只要是被和谐的网站，国内一定会有个克隆版。</li>
+<li>GFW 第三定律：没有被和谐的网站一定不是同类竞争者中最出色的。　　</li>
+</ol>
+</blockquote>
+<p>现在孩子渐渐大了，<strong>我不希望他长大之后只知道微信/微博/百度/QQ/优酷，而应该知道Twitter/Facebook/Google/YouTube/Wikepedia这些原创的社交网络服务。更重要的是，绝大部分优质的资源和信息是用英文储存在国外网络上的，而这些都只能翻墙之后通过Google等搜索网络才能发现。</strong></p>
+<h2 id="翻墙合法么">翻墙合法么</h2><p>　　天朝政府从来就不承认有GFW的存在，那么就没有翻墙是不是合法的问题了。当然，翻墙之后上网行为也要遵守所在国家的法律，能查到的沾点边的法条是：</p>
+<blockquote>
+<p>《计算机信息网络国际互联网安全保护管理办法》第5 条，任何单位和个人不得利用国际互联网制作、复制、查阅和传播下列信息：(一)煽动抗拒、破坏宪法和法律、行政法规实施的；(二)煽动颠覆国家政权，推翻社会主义制度的；(三)煽动分裂国家、破坏国家统一的；(四)煽动民族仇恨、民族歧视，破坏民族团结的；(五)捏造或者歪曲事实，散布谣言，扰乱社会秩序的；(六)宣扬封建迷信、淫秽、色情、赌博、暴力、凶杀、恐怖、教唆犯罪的；(七)公然侮辱他人或者捏造事实诽谤他人的；(八)损害国家机关信誉的；(九)其他违反宪法和法律、行政法规的。  　　</p>
+</blockquote>
+<p>　　就是说不管在哪里上网都要遵守这些法律法规，和翻墙与否无关。当然，在天朝网络生活久了，各种心灵鸡汤美食美颜歌舞升平看多了，突然之间看到残酷的真实世界，可能觉得心里不爽快，那连续看3天新闻联播就恢复过来了。</p>
+<h2 id="如何翻墙">如何翻墙</h2><p>　　请参考<a href="http://mm.hanbobo.net/2015/03/14/SS-for-Android/" target="_blank" rel="external">Android手机端SS的使用</a>和<a href="http://mm.hanbobo.net/2015/03/13/Cisco-AnyConnect-iOS/" target="_blank" rel="external">Cisco AnyConnect 让iOS设备(iPadiPhone)科学上网</a>。</p>
+<h2 id="翻墙之后干什么">翻墙之后干什么</h2><p>1, 注册和使用Google的各项服务，包括Gmail，Search, Google+ 和YouTube，这里主要说说Google+和YOuTube。Google+是Google公司推出的社交网络服务，本意是来应对Facebook和Twitter的竞争，用户可以在朋友圈分享文章照片等，也可以参加各种各样的Community社群，而我主要是使用这个社群功能。</p>
+<h3 id="建议参加的社群有，">建议参加的社群有，</h3><ul>
+<li><a href="https://plus.google.com/u/1/communities/111298192566988133095" target="_blank" rel="external">Science on G+</a></li>
+<li><a href="https://plus.google.com/u/1/communities/110735137114266214515" target="_blank" rel="external">Google+书评</a></li>
+<li><a href="https://plus.google.com/u/1/communities/101996609942925099701" target="_blank" rel="external">Science on Google+</a></li>
+<li><a href="https://plus.google.com/u/1/communities/109933143164651576714" target="_blank" rel="external">Amazing places to see</a></li>
+<li><a href="https://plus.google.com/u/1/communities/102258006648528420388" target="_blank" rel="external">Outdoor Adventure</a></li>
+<li><a href="https://plus.google.com/u/1/communities/100276549585470687394" target="_blank" rel="external">Space</a></li>
+<li><a href="https://plus.google.com/u/1/communities/117630443654797609517" target="_blank" rel="external">Travel Around the World</a></li>
+<li><a href="https://plus.google.com/u/1/communities/105645984815440438942" target="_blank" rel="external">National Geographic Education</a></li>
+<li><a href="https://plus.google.com/communities/106364254296651187923" target="_blank" rel="external">Mathematics Education (K-12)</a></li>
+<li><a href="https://plus.google.com/u/1/communities/100568607954673744130" target="_blank" rel="external">Mathematics</a></li>
+</ul>
+<h3 id="推荐给孩子的YouTube_Channel有">推荐给孩子的YouTube Channel有</h3><ul>
+<li><a href="https://www.youtube.com/user/thebrainscoop" target="_blank" rel="external">The Brain Scoop</a><blockquote>
+<p>From the Chicago Field Museum comes this quirky educational channel that provides a glimpse behind the scenes of a natural history museum. Trips to the animal prep lab (where skinning and gutting happens), hands-on demonstrations of earth science concepts, and explanations of animals and species are hosted by the highly entertaining and knowledgeable Chief Curiosity Correspondent Emily Graslie. Each video has a “viewer’s discretion” disclaimer and a “grossometer” meter so you can decide if it’s appropriate for your kid.</p>
+</blockquote>
+</li>
+<li><p><a href="https://www.youtube.com/user/soulpancake" target="_blank" rel="external">SoulPancake</a></p>
+<blockquote>
+<p>Cofounded by actor Rainn Wilson, this uplifting channel offers several shows — including “Kid President,” “The Science of Happiness,” and “Metaphysical Milkshake” — targeted at a range of ages. The idea is to get kids to think, question, and act ethically.</p>
+</blockquote>
+</li>
+<li><p><a href="https://www.youtube.com/user/vlogbrothers" target="_blank" rel="external">Vlogbrothers</a></p>
+<blockquote>
+<p>He and his brother Hank make up the Vlogbrothers, who promote curiosity and learning on just about every topic, from health care and ethics to psychology. Both former teachers, the duo run several off-shoot channels including CrashCourse (mini-lessons on history, literature, and more), SciShow (science explainers), and others (not all as age-appropriate as the original Vlogbrothers channel).</p>
+</blockquote>
+</li>
+<li><p><a href="https://www.youtube.com/user/numberphile" target="_blank" rel="external">numberphile</a></p>
+<blockquote>
+<p>Documentary maker Bardy Harah produces several eiducational YouTube channels, including ‘numberpile’ which is all about interesitng number from pi to i； ‘<a href="https://www.youtube.com/user/Computerphile" target="_blank" rel="external">computerphile</a>‘ about basic computing logics and ‘<a href="https://www.youtube.com/user/periodicvideos" target="_blank" rel="external">Periodic Videos</a>‘ about the elements in the elements table.</p>
+</blockquote>
+</li>
+</ul>
+<p>2, 注册和使用Twitter服务<br>及其讨厌天朝各大微博的垃圾信息泛滥和各种过滤，所以转战Twitter，主要是Follow各大新闻媒体。</p>
+<blockquote>
+<ul>
+<li>使用推特进行强交互式阅读，别人会把有价值的内容自动推到你眼前，节省筛选时间，信息获取效率更高。</li>
+<li>把自己的观点发布到推特上，可以随时接受他人的检验。</li>
+<li>推特涨粉终极法则：持续提供有价值的信息，包括事实或观点。</li>
+</ul>
+</blockquote>
+<p><a href="https://twitter.com/NASA" target="_blank" rel="external">@NASA</a>, <a href="https://twitter.com/SPACEdotcom" target="_blank" rel="external">@SPACEdotcom</a>, <a href="https://twitter.com/RichardDawkins" target="_blank" rel="external">@RichardDawkins</a>, <a href="https://twitter.com/guardian" target="_blank" rel="external">@guardian</a>, <a href="https://twitter.com/Reuters" target="_blank" rel="external">@Reuters</a>, <a href="https://twitter.com/nytimes" target="_blank" rel="external">@nytimes</a></p>
+<h2 id="翻墙之后需要注意什么">翻墙之后需要注意什么</h2><p>　　我们让孩子上网的主要目的是让他们保持和世界的联系，接触Internet上的先进和优质资源，而Internet上鱼龙混杂，在“接触”和“控制”之间的度要注意把握。上网除了要遵守各国法律法规之外，要特别注意不要让孩子成为Cyberbullying的受害者，当然，也不能成为Cyberbullying的帮闲。大名鼎鼎的Monica Lewinsky最近在TED Talk用亲身经历结合现实例子做了一个这方面的演讲，可以看看。</p>
+<p><em>参考1：<a href="http://igfw.net/archives/4006" target="_blank" rel="external">我为什么要翻墙</a></em><br><em>参考2：<a href="http://fanqianghou.com/" target="_blank" rel="external">翻墙后看什么</a></em></p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<ul>
+<li>求实，求是  </li>
+<li>博学而笃志，切问而近思</li>
+<li>独立之精神，自由之思想</li>
+</ul>
+</blockquote>
+<h2 id="为什么翻墙">为什么翻墙</h2><p>可能吧在2010年做过一个网上民调<a href="https://kenengba.com/post/2920.html">中国翻墙网民状况调查</a>，结果显示，</p>
+<blockquote>
+<p>80%的人翻墙仅仅是为了“正常”地使用Google等互联网基础服务，他们或许只是想正常地搜索“胡萝卜”。75%的人翻墙会上Twitter等 社交网 站，72%的人会看外媒的新闻。60%的人翻墙是为了娱乐，<br>]]>
+    
+    </summary>
+    
+      <category term="GFW" scheme="http://mm.hanbobo.net/tags/GFW/"/>
+    
+      <category term="笔记" scheme="http://mm.hanbobo.net/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="笔记" scheme="http://mm.hanbobo.net/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[我的Hexo Modernist折腾记录]]></title>
+    <link href="http://mm.hanbobo.net/2015/03/19/My-Hexo-Modernist-Theme/"/>
+    <id>http://mm.hanbobo.net/2015/03/19/My-Hexo-Modernist-Theme/</id>
+    <published>2015-03-19T04:44:22.000Z</published>
+    <updated>2015-03-23T05:28:26.000Z</updated>
+    <content type="html"><![CDATA[<p>　　接触Hexo和Markdown，接着顺理成章的是Github和Gitcafe，在网上寻求帮助，找到很多有用的文章作为参考，本文不敢说是教程，只是作为个人学习笔记。我使用的是Modernist主题，<a href="http://github.com/heroicyang/hexo-theme-modernist" target="_blank" rel="external">作者Github主页</a>，这是主题的_config.yml，<br><a id="more"></a><br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">menu</span>:</span><br><span class="line">  <span class="attribute">Home</span>: /</span><br><span class="line">  <span class="attribute">Archives</span>: /archives</span><br><span class="line"><span class="attribute">rss</span>: /atom.xml</span><br><span class="line"><span class="attribute">archive_date_format</span>: MMM DD</span><br><span class="line"><span class="attribute">fancybox</span>: true</span><br><span class="line"><span class="attribute">duoshuo_shortname</span>:</span><br><span class="line"><span class="attribute">google_analytics</span>:</span><br><span class="line"><span class="attribute">favicon</span>: /favicon.ico</span><br></pre></td></tr></table></figure></p>
+<p>作者力求精简，在最新版本中取消了一些功能，比如Widgets选项，我就想把这些加回去。
+　　</p>
+<h2 id="添加Widgets">添加Widgets</h2><p>　　在作者主页的<a href="https://github.com/heroicyang/hexo-theme-modernist/tree/1.x/layout" target="_blank" rel="external">旧版本页面</a>还保存着Widgets的内容，我们要做的就是把它下载下来，放入theme/modernist/layout文件夹，<br>　　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/Modernist-widgets.png" alt="此处输入图片的描述"></p>
+<ul>
+<li>在themes/modernist/layout/layout.ejs里加入Widgets的条目，</li>
+</ul>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&lt;%- <span class="function"><span class="title">partial</span><span class="params">(<span class="string">'_partial/head'</span>)</span></span> %&gt;</span><br><span class="line"></span><br><span class="line">&lt;body&gt;</span><br><span class="line">  &lt;<span class="tag">div</span> class=<span class="string">"wrapper"</span>&gt;</span><br><span class="line">    &lt;<span class="tag">header</span> id=<span class="string">"header"</span>&gt;&lt;%- <span class="function"><span class="title">partial</span><span class="params">(<span class="string">'_partial/header'</span>)</span></span> %&gt;&lt;/header&gt;</span><br><span class="line">    &lt;<span class="tag">div</span> class=<span class="string">"content"</span>&gt;&lt;%- <span class="tag">body</span> %&gt;&lt;/div&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">  &lt;<span class="tag">div</span> class=<span class="string">"widget-wrapper"</span>&gt;</span><br><span class="line">    &lt;%- <span class="function"><span class="title">partial</span><span class="params">(<span class="string">'_partial/sidebar'</span>)</span></span> %&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">  &lt;<span class="tag">footer</span> id=<span class="string">"footer"</span>&gt;&lt;%- <span class="function"><span class="title">partial</span><span class="params">(<span class="string">'_partial/footer'</span>)</span></span> %&gt;&lt;/footer&gt;</span><br><span class="line">  &lt;%- <span class="function"><span class="title">partial</span><span class="params">(<span class="string">'_partial/after-footer'</span>)</span></span> %&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>在themes/modernist/source/css/_partial里面还要创建sidebar.styl,</li>
+</ul>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line"><span class="id">#sidebar</span></span><br><span class="line">  <span class="attribute">max-width</span> <span class="number">750px</span></span><br><span class="line">  <span class="attribute">margin</span> <span class="number">0</span> <span class="attribute">auto</span></span><br><span class="line">  <span class="attribute">padding</span> <span class="number">10px</span> <span class="number">0</span></span><br><span class="line">  <span class="attribute">color</span> <span class="hexcolor">#fff</span></span><br><span class="line">  <span class="attribute">text-shadow</span> <span class="function"><span class="title">rgba</span><span class="params">(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0.25</span>)</span></span> <span class="number">0</span> <span class="number">2px</span> <span class="number">0</span></span><br><span class="line">  <span class="at_rule">@media</span> screen and (<span class="attribute">max-width</span>: <span class="number">600px</span>)</span><br><span class="line">    <span class="attribute">padding</span> <span class="number">5px</span> <span class="number">10px</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">a</span></span><br><span class="line">    <span class="attribute">color</span> <span class="hexcolor">#fff</span></span><br><span class="line"></span><br><span class="line">  <span class="class">.widget</span></span><br><span class="line">    <span class="attribute">float</span> <span class="attribute">left</span></span><br><span class="line">    <span class="attribute">width</span> <span class="number">30%</span></span><br><span class="line">    <span class="attribute">margin-left</span> <span class="number">5%</span></span><br><span class="line">    <span class="attribute">word-wrap</span> break-word</span><br><span class="line">    <span class="at_rule">@media</span> screen and (<span class="attribute">max-width</span>: <span class="number">600px</span>)</span><br><span class="line">      <span class="attribute">float</span> <span class="attribute">none</span></span><br><span class="line">      <span class="attribute">width</span> <span class="number">100%</span></span><br><span class="line">      <span class="attribute">margin-left</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    &amp;<span class="class">.first</span></span><br><span class="line">      <span class="attribute">margin-left</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    &amp;<span class="class">.newline</span></span><br><span class="line">      <span class="attribute">clear</span>: both</span><br><span class="line"></span><br><span class="line">    <span class="tag">ul</span>, <span class="tag">ol</span>, <span class="tag">dl</span></span><br><span class="line">      <span class="attribute">list-style</span> <span class="attribute">none</span></span><br><span class="line"></span><br><span class="line">    <span class="class">.entry</span></span><br><span class="line">      <span class="attribute">padding-left</span> <span class="number">2px</span></span><br><span class="line"></span><br><span class="line">    <span class="class">.title</span></span><br><span class="line">      <span class="attribute">padding</span> <span class="number">4px</span> <span class="number">2px</span></span><br><span class="line">      <span class="attribute">font-size</span> <span class="number">22px</span></span><br><span class="line">      <span class="attribute">font-weight</span> <span class="attribute">normal</span></span><br><span class="line">      <span class="attribute">border-bottom</span> <span class="number">1px</span> solid <span class="hexcolor">#000</span></span><br><span class="line">      <span class="attribute">box-shadow</span> <span class="function"><span class="title">rgba</span><span class="params">(<span class="number">255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.25</span>)</span></span> <span class="number">0</span> <span class="number">1px</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line">  <span class="class">.tag</span></span><br><span class="line">    small</span><br><span class="line">      <span class="attribute">margin-left</span> <span class="number">15px</span></span><br><span class="line">      <span class="attribute">color</span> <span class="hexcolor">#ccc</span></span><br><span class="line">      <span class="pseudo">&amp;:before</span><br><span class="line"></span>        <span class="attribute">content</span> <span class="string">'('</span></span><br><span class="line">      <span class="pseudo">&amp;:after</span><br><span class="line"></span>        <span class="attribute">content</span> <span class="string">')'</span></span><br><span class="line"></span><br><span class="line">  <span class="class">.tagcloud</span></span><br><span class="line">    <span class="tag">a</span></span><br><span class="line">      <span class="attribute">margin-right</span> <span class="number">10px</span></span><br><span class="line">      <span class="attribute">display</span> inline-block</span><br></pre></td></tr></table></figure>
+<ul>
+<li>在themes/modernist/source/css/style.style里引入sidebar</li>
+</ul>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="at_rule">@import</span> <span class="string">'nib'</span></span><br><span class="line"></span><br><span class="line"><span class="variable">@import</span> <span class="string">'_base/variable'</span></span><br><span class="line"><span class="variable">@import</span> <span class="string">'_base/layout'</span></span><br><span class="line"></span><br><span class="line"><span class="variable">@import</span> <span class="string">'_partial/header'</span></span><br><span class="line"><span class="variable">@import</span> <span class="string">'_partial/article'</span></span><br><span class="line"><span class="variable">@import</span> <span class="string">'_partial/comment'</span></span><br><span class="line"><span class="variable">@import</span> <span class="string">'_partial/index'</span></span><br><span class="line"><span class="variable">@import</span> <span class="string">'_partial/archive'</span></span><br><span class="line"><span class="variable">@import</span> <span class="string">'_partial/sidebar'</span></span><br><span class="line"><span class="variable">@import</span> <span class="string">'_partial/footer'</span></span><br><span class="line"><span class="variable">@import</span> <span class="string">'_partial/syntax'</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>最后在themes/_config.yml里把Widgets加进去并注释掉不需要的widgets，</li>
+</ul>
+<figure class="highlight haml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">widgets:</span><br><span class="line">-<span class="ruby"> category</span><br><span class="line"></span># - tag</span><br><span class="line">-<span class="ruby"> tagcloud</span><br><span class="line"></span># - archive</span><br><span class="line"># - recent_posts</span><br><span class="line">-<span class="ruby"> blogroll</span><br><span class="line"></span></span><br><span class="line">blogrolls: #blog link</span><br><span class="line">  -<span class="ruby"> 先锋论坛<span class="symbol">:</span> <span class="symbol">http:</span>/<span class="regexp">/bbs.hanbobo.net</span><br><span class="line"></span></span>  -<span class="ruby"> 先锋加速<span class="symbol">:</span> <span class="symbol">http:</span>/<span class="regexp">/ss.hanbobo.net</span><br><span class="line"></span></span>  -<span class="ruby"> 先锋少年<span class="symbol">:</span> <span class="symbol">http:</span>/<span class="regexp">/www.hanbobo.net</span><br><span class="line"></span></span>  -<span class="ruby"> hexo你的博客<span class="symbol">:</span> <span class="symbol">http:</span>/<span class="regexp">/ibruce.info/</span><span class="number">2013</span>/<span class="number">11</span>/<span class="number">22</span>/hexo-your-blog/</span><br><span class="line"></span>  -<span class="ruby"> hexo系列教程<span class="symbol">:</span> <span class="symbol">http:</span>/<span class="regexp">/http:/</span><span class="regexp">/zipperary.com/categories</span><span class="regexp">/hexo/</span></span></span><br></pre></td></tr></table></figure>
+<p>重新hexo g之后主页底部就有三个小挂件了。</p>
+<h2 id="添加上下篇导航">添加上下篇导航</h2><ul>
+<li><p>在themes/modernist/layout/_partial/post/文件夹中新建navi.ejs文件：</p>
+<figure class="highlight erb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span>&lt;%<span class="ruby"> <span class="keyword">if</span> (page.prev || page.<span class="keyword">next</span>)&#123; </span>%&gt;<span class="xml"></span><br><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"navi clearfix"</span>&gt;</span></span><br><span class="line">  </span>&lt;%<span class="ruby"> <span class="keyword">if</span> (page.prev)&#123; </span>%&gt;<span class="xml"></span><br><span class="line">    <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"</span></span></span>&lt;%-<span class="ruby"> config.root </span>%&gt;<span class="xml"><span class="tag"><span class="value"></span></span></span>&lt;%-<span class="ruby"> page.prev.path </span>%&gt;<span class="xml"><span class="tag"><span class="value">"</span> <span class="attribute">class</span>=<span class="value">"alignleft prev"</span> <span class="attribute">title</span>=<span class="value">"</span></span></span>&lt;%=<span class="ruby"> page.prev.title </span>%&gt;<span class="xml"><span class="tag"><span class="value">"</span>&gt;</span></span>&lt;%=<span class="ruby"> page.prev.title </span>%&gt;<span class="xml"><span class="tag">&lt;/<span class="title">a</span>&gt;</span></span><br><span class="line">  </span>&lt;%<span class="ruby"> &#125; </span>%&gt;<span class="xml"></span><br><span class="line">  </span>&lt;%<span class="ruby"> <span class="keyword">if</span> (page.<span class="keyword">next</span>)&#123; </span>%&gt;<span class="xml"></span><br><span class="line">    <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"</span></span></span>&lt;%-<span class="ruby"> config.root </span>%&gt;<span class="xml"><span class="tag"><span class="value"></span></span></span>&lt;%-<span class="ruby"> page.<span class="keyword">next</span>.path </span>%&gt;<span class="xml"><span class="tag"><span class="value">"</span> <span class="attribute">class</span>=<span class="value">"alignright next"</span> <span class="attribute">title</span>=<span class="value">"</span></span></span>&lt;%=<span class="ruby"> page.<span class="keyword">next</span>.title </span>%&gt;<span class="xml"><span class="tag"><span class="value">"</span>&gt;</span></span>&lt;%=<span class="ruby"> page.<span class="keyword">next</span>.title </span>%&gt;<span class="xml"><span class="tag">&lt;/<span class="title">a</span>&gt;</span></span><br><span class="line">  </span>&lt;%<span class="ruby"> &#125; </span>%&gt;<span class="xml"></span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line"></span>&lt;%<span class="ruby"> &#125; </span>%&gt;<span class="xml"></span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在themes/modernist/layout/_partial/article.ejs中把刚创建的navi加进去</p>
+<figure class="highlight gcode"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="preprocessor">%</span> &#125; else &#123; <span class="preprocessor">%</span>&gt;</span><br><span class="line">      &lt;<span class="preprocessor">%</span>- partial<span class="comment">('post/category')</span> <span class="preprocessor">%</span>&gt;</span><br><span class="line">      &lt;<span class="preprocessor">%</span>- partial<span class="comment">('post/tag')</span> <span class="preprocessor">%</span>&gt;</span><br><span class="line">	  &lt;<span class="preprocessor">%</span>- partial<span class="comment">('post/navi')</span> <span class="preprocessor">%</span>&gt;</span><br><span class="line">	  &lt;<span class="preprocessor">%</span>- partial<span class="comment">('post/share')</span> <span class="preprocessor">%</span>&gt;</span><br><span class="line">	&lt;<span class="preprocessor">%</span> &#125; <span class="preprocessor">%</span>&gt;</span><br><span class="line">    &lt;div class=<span class="string">"clearfix"</span>&gt;&lt;/div&gt;</span><br><span class="line">  &lt;/footer&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在themes/modernist/source/css/_partial/article.styl中添加一段CSS，结果如下,</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*navi*/</span>  </span><br><span class="line"></span><br><span class="line">    <span class="class">.navi</span></span><br><span class="line">      <span class="attribute">margin</span> <span class="number">1em</span> <span class="number">0</span></span><br><span class="line">      <span class="attribute">clear</span> both</span><br><span class="line">      <span class="attribute">overflow</span> hidden</span><br><span class="line">      <span class="tag">a</span></span><br><span class="line">        <span class="attribute">display</span> block</span><br><span class="line">        <span class="attribute">float</span> <span class="attribute">left</span></span><br><span class="line">        <span class="attribute">width</span> <span class="number">50%</span></span><br><span class="line">        <span class="attribute">background</span> <span class="hexcolor">#DEDEDE</span></span><br><span class="line">        <span class="attribute">text-align</span> center</span><br><span class="line">        <span class="attribute">padding</span> <span class="number">0.4em</span> <span class="number">0</span></span><br><span class="line">        <span class="attribute">color</span> <span class="hexcolor">#595959</span></span><br><span class="line">        <span class="attribute">transition</span> <span class="attribute">background</span> .<span class="number">45s</span> <span class="attribute">color</span> .<span class="number">45s</span></span><br><span class="line">        <span class="pseudo">&amp;:hover</span><br><span class="line"></span>          <span class="attribute">color</span> <span class="hexcolor">#fafafa</span></span><br><span class="line">          <span class="attribute">background</span> <span class="hexcolor">#717171</span></span><br><span class="line">        &amp;<span class="class">.prev</span><span class="pseudo">::before</span><br><span class="line"></span>          <span class="attribute">content</span> <span class="string">"上一篇："</span></span><br><span class="line">          <span class="attribute">padding-right</span> <span class="number">0.5em</span></span><br><span class="line">        &amp;<span class="class">.next</span><span class="pseudo">::before</span><br><span class="line"></span>          <span class="attribute">content</span> <span class="string">"下一篇："</span></span><br><span class="line">          <span class="attribute">padding-right</span> <span class="number">0.5em</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>重新hexo g之后导航键就出来了，效果如下<br>　　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/cap1.gif" alt="导航效果"></p>
+<h2 id="添加评论系统">添加评论系统</h2><p>　　Modernist原生集成了多说（不解释为什么不选择Disqus），注册多说之后将duoshuo_shortname填入hexo/themes/modernist/_config.yml。也可以在多说后台自定义一下多说评论框的格式，比如评论框的位置，对于css设置，可以<a href="http://dev.duoshuo.com/docs/4ff1cfd0397309552c000017" target="_blank" rel="external">参考这里</a>，我是直接用的<a href="https://gist.github.com/heroicyang/5644407" target="_blank" rel="external">Modernist作者</a>的配置,就是copy过来粘贴到多说—&gt;设置—&gt;基本设置—&gt;自定义CSS里面。而这样之后其他About页面等都会出现评论框，将theme/modernist/layout/_partial/article.ejs最后一行&lt;%-partial(‘comment’)%&gt;删掉，添加如下if判断：<br><figure class="highlight gcode"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="preprocessor">%</span> <span class="keyword">if</span> <span class="comment">(post.layout != ‘page’)</span> &#123; <span class="preprocessor">%</span>&gt;</span><br><span class="line"> &lt;<span class="preprocessor">%</span>- partial<span class="comment">(‘comment’)</span> <span class="preprocessor">%</span>&gt;</span><br><span class="line">&lt;<span class="preprocessor">%</span> &#125; <span class="preprocessor">%</span>&gt;</span><br></pre></td></tr></table></figure></p>
+<p>这样就只会在Post文章页面出现评论框了。</p>
+<h2 id="替换字体和Ajax服务源">替换字体和Ajax服务源</h2><p>　　Hexo的主题都使用了Google Font和Google Ajax,而天朝的网络环境造成的结果不言而喻!</p>
+<blockquote>
+<ul>
+<li>首页加载奇慢无比,下载字体时阻塞了页面!</li>
+<li>下载jquery.min.js困难,评论模块迟迟不能加载出来!  </li>
+</ul>
+</blockquote>
+<p>我们可以用grep来找到hexo用难道的字体和jquery，<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$grep</span> <span class="string">'jquery'</span> -r themes/modernist</span><br><span class="line">themes/modernist/layout/_partial/after-<span class="tag">footer</span><span class="class">.ejs</span></span><br><span class="line">&lt;script src=<span class="string">"//ajax.google.com/ajax/libs/jquery/1.8/jquery.min.js"</span>&gt;&lt;/script&gt;</span><br><span class="line"><span class="variable">$grep</span> <span class="string">'fonts'</span> -r themes/modernist</span><br><span class="line">themes/modernist/source/css/_base/variable<span class="class">.styl</span></span><br><span class="line"><span class="at_rule">@import</span> <span class="function"><span class="title">url</span><span class="params">(<span class="string">"https://fonts.google.com/css?family=Droid+Serif:400italic,700italic,400,700"</span>)</span></span></span><br></pre></td></tr></table></figure></p>
+<p>我们可以用百度或者360的前端公共服务来替代Google的服务，就是把上面2条替换成，<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=<span class="string">"//ajax.useso.com/ajax/libs/jquery/1.8/jquery.min.js"</span>&gt;&lt;/script&gt;</span><br><span class="line"><span class="at_rule">@import</span> <span class="function"><span class="title">url</span><span class="params">(<span class="string">"http://fonts.useso.com/css?family=Droid+Serif:400italic,700italic,400,700"</span>)</span></span></span><br></pre></td></tr></table></figure></p>
+<p>但是这样的话从国外访问就有点慢，所以我采取了另外的方法，就是把资源下载到本地。</p>
+<ul>
+<li>把Ajaz资源juery.min.js下载放入themes/modernist/source/js,然后将/themes/modernist/layout/_partial/after-footer.ejs中的:<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"//ajax.google.com/ajax/libs/jquery/1.8/jquery.min.js"</span>&gt;</span><span class="javascript"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>　　替换为本地获取：<br><figure class="highlight erb"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"</span></span></span>&lt;%-<span class="ruby"> config.root </span>%&gt;<span class="xml"><span class="tag"><span class="value">js/jquery.min.js"</span>&gt;</span><span class="javascript"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>把这些字体资源下载放到themes/modernist/source/css/fonts<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">https:</span>/<span class="regexp">/themes.googleusercontent.com/static</span><span class="regexp">/fonts/droidserif</span><span class="regexp">/v3/</span>0AKsP294HTD-nvJgucYTaGfQcKutQXcIrRfyR5jdjY8.eot</span><br><span class="line"><span class="symbol">https:</span>/<span class="regexp">/themes.googleusercontent.com/static</span><span class="regexp">/fonts/droidserif</span><span class="regexp">/v3/</span><span class="constant">QQt14e8dY39u-</span>eYBZmppwbFt29aCHKT7otDW9l62Aag.eot</span><br><span class="line"><span class="symbol">https:</span>/<span class="regexp">/themes.googleusercontent.com/static</span><span class="regexp">/fonts/droidserif</span><span class="regexp">/v3/cj</span>2hUnSRBhwmSPr9kS5896SxSvC1lIsK_unZDHWqTBg.eot</span><br><span class="line"><span class="symbol">https:</span>/<span class="regexp">/themes.googleusercontent.com/static</span><span class="regexp">/fonts/droidserif</span><span class="regexp">/v3/c</span>92rD_x0V1LslSFt3-<span class="constant">QEptmkQI_kos-</span>lIOeNt19QAas.eot</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>　　并且将/themes/modernist/source/css/_base/variable.styl里面的<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="at_rule">@import</span> <span class="function"><span class="title">url</span><span class="params">(<span class="string">"https://fonts.google.com/css?family=Droid+Serif:400italic,700italic,400,700"</span>)</span></span></span><br></pre></td></tr></table></figure></p>
+<p>　　替换为本地获取：<br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="at_rule">@import</span> <span class="function">url</span>(<span class="string">"/css/fonts/0AKsP294HTD-nvJgucYTaGfQcKutQXcIrRfyR5jdjY8.eot"</span>)</span><br><span class="line"><span class="variable">@import</span> <span class="function">url</span>(<span class="string">"/css/fonts/QQt14e8dY39u-eYBZmppwbFt29aCHKT7otDW9l62Aag.eot"</span>)</span><br><span class="line"><span class="variable">@import</span> <span class="function">url</span>(<span class="string">"/css/fonts/cj2hUnSRBhwmSPr9kS5896SxSvC1lIsK_unZDHWqTBg.eot"</span>)</span><br><span class="line"><span class="variable">@import</span> <span class="function">url</span>(<span class="string">"/css/fonts/c92rD_x0V1LslSFt3-QEptmkQI_kos-lIOeNt19QAas.eot"</span>)</span><br></pre></td></tr></table></figure></p>
+<p>这样hexo d之后这些资源会传到Github或者Gitcafe。</p>
+<h2 id="图标美化">图标美化</h2><ul>
+<li>网站图标<br>看一下themes/modernist/layout/_partial/head.ejs，找到这句： <figure class="highlight nix"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;link <span class="variable">rel=</span><span class="string">"icon"</span> <span class="variable">type=</span><span class="string">"image/x-icon"</span> <span class="variable">href=</span><span class="string">"&lt;%- config.root %&gt;favicon.ico"</span>&gt;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>将自己的favicon.ico放到工程根目录下即可，也就是hexo\source目录。可以在<a href="http://www.faviconer.com/" target="_blank" rel="external">Faviconer</a>制作你的ico图标，国内有<a href="http://www.bitbug.net/" target="_blank" rel="external">比特虫</a>。</p>
+<ul>
+<li>Blog图标<br>原主题使用了这个很酷的图标<br>　　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/2015-03-19_153528.png" alt="Modernist icon"></li>
+</ul>
+<p>修改也很简单，打开themes/modernist/layout/_partial/article.ejs,看到第三行开始的，<br><figure class="highlight erb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span>&lt;%<span class="ruby"> <span class="keyword">if</span> (post.layout != <span class="string">'page'</span>)&#123; </span>%&gt;<span class="xml"></span><br><span class="line">     <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"icon"</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;/<span class="title">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure></p>
+<p>修改成一下代码<br><figure class="highlight erb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span>&lt;%<span class="ruby"> <span class="keyword">if</span> (post.layout != <span class="string">'page'</span>)&#123; </span>%&gt;<span class="xml"></span><br><span class="line">     <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"myicon"</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="title">img</span> <span class="attribute">src</span>=<span class="value">"</span></span></span>&lt;%-<span class="ruby"> config.root </span>%&gt;<span class="xml"><span class="tag"><span class="value">imgs/myicon.png"</span> <span class="attribute">width</span>=<span class="value">"32"</span> <span class="attribute">height</span>=<span class="value">"32"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="title">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure></p>
+<p>然后在把myicon.png文件放到themes/modernist/source文件目录下新建的imgs文件夹。但是这样的效果是图标会显示在文章标题的上面，不好看，需要在CSS做一些调整。在themes/modernist/source/css里新建一个private_style.css<br>写入以下内容<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.myicon</span><span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">position</span>:<span class="value">  relative</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">right</span>:<span class="value"> <span class="number">40px</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">top</span>:<span class="value"> <span class="number">40px</span></span></span>;</span><br><span class="line"><span class="rule">&#125;</span></span></span><br></pre></td></tr></table></figure></p>
+<p>然后在themes/modernist/layout/_partial/head.ejs最末尾的&lt;%- partial(‘google_analytics’) %&gt;前面加上<br><figure class="highlight nix"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;link <span class="variable">rel=</span><span class="string">"stylesheet"</span> <span class="variable">href=</span><span class="string">"&lt;%- config.root %&gt;css/private_style.css"</span> <span class="variable">media=</span><span class="string">"screen"</span> <span class="variable">type=</span><span class="string">"text/css"</span>&gt;</span><br></pre></td></tr></table></figure></p>
+<p>结果为<br><figure class="highlight erb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span>&lt;%-<span class="ruby"> css(<span class="string">'css/style.css'</span>) </span>%&gt;<span class="xml"></span><br><span class="line">  <span class="tag">&lt;<span class="title">link</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span> <span class="attribute">href</span>=<span class="value">"</span></span></span>&lt;%-<span class="ruby"> config.root </span>%&gt;<span class="xml"><span class="tag"><span class="value">css/private_style.css"</span> <span class="attribute">media</span>=<span class="value">"screen"</span> <span class="attribute">type</span>=<span class="value">"text/css"</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!--[if lt IE 9]&gt;&lt;script src="//html5shiv.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;&lt;![endif]--&gt;</span></span><br><span class="line">  </span>&lt;%-<span class="ruby"> partial(<span class="string">'google-analytics'</span>) </span>%&gt;<span class="xml"></span></span><br></pre></td></tr></table></figure></p>
+<p>再次hexo g之后效果如下<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/2015-03-19_165927.png" alt="新图标效果"></p>
+<h2 id="添加返回顶部功能">添加返回顶部功能</h2><ul>
+<li><p>首先把下面的jquery代码加进themes/modernist/layout/_partial/after-footer.ejs</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">script</span>&gt;</span><span class="javascript"></span><br><span class="line"><span class="keyword">var</span> bigfa_scroll = &#123;</span><br><span class="line">    drawCircle: <span class="function"><span class="keyword">function</span><span class="params">(id, percentage, color)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">var</span> width = jQuery(id).width();</span><br><span class="line">        <span class="keyword">var</span> height = jQuery(id).height();</span><br><span class="line">        <span class="keyword">var</span> radius = <span class="built_in">parseInt</span>(width / <span class="number">2.20</span>);</span><br><span class="line">        <span class="keyword">var</span> position = width;</span><br><span class="line">        <span class="keyword">var</span> positionBy2 = position / <span class="number">2</span>;</span><br><span class="line">        <span class="keyword">var</span> bg = jQuery(id)[<span class="number">0</span>];</span><br><span class="line">        id = id.split(<span class="string">"#"</span>);</span><br><span class="line">        <span class="keyword">var</span> ctx = bg.getContext(<span class="string">"2d"</span>);</span><br><span class="line">        <span class="keyword">var</span> imd = <span class="literal">null</span>;</span><br><span class="line">        <span class="keyword">var</span> circ = <span class="built_in">Math</span>.PI * <span class="number">2</span>;</span><br><span class="line">        <span class="keyword">var</span> quart = <span class="built_in">Math</span>.PI / <span class="number">2</span>;</span><br><span class="line">        ctx.clearRect(<span class="number">0</span>, <span class="number">0</span>, width, height);</span><br><span class="line">        ctx.beginPath();</span><br><span class="line">        ctx.strokeStyle = color;</span><br><span class="line">        ctx.lineCap = <span class="string">"square"</span>;</span><br><span class="line">        ctx.closePath();</span><br><span class="line">        ctx.fill();</span><br><span class="line">        ctx.lineWidth = <span class="number">3</span>;</span><br><span class="line">        imd = ctx.getImageData(<span class="number">0</span>, <span class="number">0</span>, position, position);</span><br><span class="line">        <span class="keyword">var</span> draw = <span class="function"><span class="keyword">function</span><span class="params">(current, ctxPass)</span> </span>&#123;</span><br><span class="line">            ctxPass.putImageData(imd, <span class="number">0</span>, <span class="number">0</span>);</span><br><span class="line">            ctxPass.beginPath();</span><br><span class="line">            ctxPass.arc(positionBy2, positionBy2, radius, -(quart), ((circ) * current) - quart, <span class="literal">false</span>);</span><br><span class="line">            ctxPass.stroke();</span><br><span class="line">        &#125;</span><br><span class="line">        draw(percentage / <span class="number">100</span>, ctx);</span><br><span class="line">    &#125;,</span><br><span class="line">    backToTop: <span class="function"><span class="keyword">function</span><span class="params">($this)</span> </span>&#123;</span><br><span class="line">        $<span class="keyword">this</span>.click(<span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">            jQuery(<span class="string">"body,html"</span>).animate(&#123;</span><br><span class="line">                scrollTop: <span class="number">0</span></span><br><span class="line">            &#125;,</span><br><span class="line">            <span class="number">800</span>);</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;,</span><br><span class="line">    scrollHook: <span class="function"><span class="keyword">function</span><span class="params">($this, color)</span> </span>&#123;</span><br><span class="line">        color = color ? color: <span class="string">"#000000"</span>;</span><br><span class="line">        $<span class="keyword">this</span>.scroll(<span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">            <span class="keyword">var</span> docHeight = (jQuery(<span class="built_in">document</span>).height() - jQuery(<span class="built_in">window</span>).height()),</span><br><span class="line">            $windowObj = $<span class="keyword">this</span>,</span><br><span class="line">            $per = jQuery(<span class="string">".per"</span>),</span><br><span class="line">            percentage = <span class="number">0</span>;</span><br><span class="line">            defaultScroll = $windowObj.scrollTop();</span><br><span class="line">            percentage = <span class="built_in">parseInt</span>((defaultScroll / docHeight) * <span class="number">100</span>);</span><br><span class="line">            <span class="keyword">var</span> backToTop = jQuery(<span class="string">"#backtoTop"</span>);</span><br><span class="line">            <span class="keyword">if</span> (backToTop.length &gt; <span class="number">0</span>) &#123;</span><br><span class="line">                <span class="keyword">if</span> ($windowObj.scrollTop() &gt; <span class="number">200</span>) &#123;</span><br><span class="line">                    backToTop.addClass(<span class="string">"button--show"</span>);</span><br><span class="line">                &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                    backToTop.removeClass(<span class="string">"button--show"</span>);</span><br><span class="line">                &#125;</span><br><span class="line">                $per.attr(<span class="string">"data-percent"</span>, percentage);</span><br><span class="line">                bigfa_scroll.drawCircle(<span class="string">"#backtoTopCanvas"</span>, percentage, color);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">jQuery(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    jQuery(<span class="string">"body"</span>).append(<span class="string">'&lt;div id="backtoTop" data-action="gototop"&gt;&lt;canvas id="backtoTopCanvas" width="48" height="48"&gt;&lt;/canvas&gt;&lt;div class="per"&gt;&lt;/div&gt;&lt;/div&gt;'</span>);</span><br><span class="line">    <span class="keyword">var</span> T = bigfa_scroll;</span><br><span class="line">    T.backToTop(jQuery(<span class="string">"#backtoTop"</span>));</span><br><span class="line">    T.scrollHook(jQuery(<span class="built_in">window</span>), <span class="string">"#cc0000"</span>);</span><br><span class="line">&#125;);</span><br><span class="line"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在themes/modernist/layout/_partial/head.ejs底部加入</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">style</span> <span class="attribute">id</span>=<span class="value">'inline-css'</span> <span class="attribute">type</span>=<span class="value">'text/css'</span>&gt;</span><span class="css"></span><br><span class="line"><span class="id">#backtoTop</span><span class="rules">&#123;<span class="rule"><span class="attribute">background-color</span>:<span class="value"><span class="hexcolor">#eee</span></span></span>;<span class="rule"><span class="attribute">border-radius</span>:<span class="value"><span class="number">100%</span></span></span>;<span class="rule"><span class="attribute">bottom</span>:<span class="value"><span class="number">10%</span></span></span>;<span class="rule"><span class="attribute">height</span>:<span class="value"><span class="number">48px</span></span></span>;<span class="rule"><span class="attribute">position</span>:<span class="value">fixed</span></span>;<span class="rule"><span class="attribute">right</span>:<span class="value">-<span class="number">100px</span></span></span>;<span class="rule"><span class="attribute">width</span>:<span class="value"><span class="number">48px</span></span></span>;<span class="rule"><span class="attribute">transition</span>:<span class="value"><span class="number">0.5s</span></span></span>;<span class="rule"><span class="attribute">-webkit-transition</span>:<span class="value"><span class="number">0.5s</span></span></span></span>&#125;</span><br><span class="line"><span class="id">#backtoTop</span><span class="class">.button--show</span><span class="rules">&#123;<span class="rule"><span class="attribute">right</span>:<span class="value"><span class="number">10px</span></span></span></span>&#125;</span><br><span class="line"><span class="class">.per</span><span class="rules">&#123;<span class="rule"><span class="attribute">font-size</span>:<span class="value"><span class="number">16px</span></span></span>;<span class="rule"><span class="attribute">height</span>:<span class="value"><span class="number">48px</span></span></span>;<span class="rule"><span class="attribute">line-height</span>:<span class="value"><span class="number">48px</span></span></span>;<span class="rule"><span class="attribute">position</span>:<span class="value">absolute</span></span>;<span class="rule"><span class="attribute">text-align</span>:<span class="value">center</span></span>;<span class="rule"><span class="attribute">top</span>:<span class="value"><span class="number">0</span></span></span>;<span class="rule"><span class="attribute">width</span>:<span class="value"><span class="number">48px</span></span></span>;<span class="rule"><span class="attribute">color</span>:<span class="value"><span class="hexcolor">#555</span></span></span>;<span class="rule"><span class="attribute">cursor</span>:<span class="value">pointer</span></span></span>&#125;</span><br><span class="line"><span class="class">.per</span><span class="pseudo">:before</span><span class="rules">&#123;<span class="rule"><span class="attribute">content</span>:<span class="value"><span class="function">attr</span>(data-percent)</span></span></span>&#125;</span><br><span class="line"><span class="class">.per</span><span class="pseudo">:hover</span><span class="pseudo">:before</span><span class="rules">&#123;<span class="rule"><span class="attribute">content</span>:<span class="value"><span class="string">"↑"</span></span></span>;<span class="rule"><span class="attribute">font-size</span>:<span class="value"><span class="number">20px</span></span></span></span>&#125;</span><br><span class="line"></span><span class="tag">&lt;/<span class="title">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>重新hexo g之后的效果，本页面可以看到<br>　　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/totop.png" alt="totop"> </p>
+</li>
+<li><p>修改圆环的颜色, 这里的#cc0000就是对应的颜色代码.</p>
+<figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">T.scrollHook(jQuery(<span class="built_in">window</span>), <span class="string">"<span class="subst">#cc0000</span>"</span>);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>还可以修改 hover 时的图标, 修改如下代码中的 ↑ 即可</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.per</span><span class="pseudo">:hover</span><span class="pseudo">:before</span><span class="rules">&#123;<span class="rule"><span class="attribute">content</span>:<span class="value"><span class="string">"↑"</span></span></span>;<span class="rule"><span class="attribute">font-size</span>:<span class="value"><span class="number">20px</span></span></span></span>&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>改为<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.per</span><span class="pseudo">:hover</span><span class="pseudo">:before</span><span class="rules">&#123;<span class="rule"><span class="attribute">content</span>:<span class="value"><span class="string">"\f1d8"</span></span></span>;<span class="rule"><span class="attribute">font-family</span>:<span class="value">FontAwesome</span></span>;<span class="rule"><span class="attribute">font-size</span>:<span class="value"><span class="number">20px</span></span></span></span>&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="404页面">404页面</h2><p>　　做一个404页面可以提高逼格，做一个公益404页面就更加是碉堡了。目前有如下几个公益404接入地址，我选择了腾讯的。</p>
+<blockquote>
+<ul>
+<li><a href="http://www.qq.com/404" target="_blank" rel="external">腾讯公益404</a> </li>
+<li><a href="http://yibo.iyiyun.com/Index/web404" target="_blank" rel="external">404公益_益云(公益互联网)社会创新中心</a> </li>
+<li><a href="http://404page.missingkids.org.tw/" target="_blank" rel="external">失蹤兒童少年資料管理中心404</a></li>
+</ul>
+</blockquote>
+<p>　　在hexo根目录/source下面建一个404.html放入404代码即可。效果如下<br>　　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/404.png" alt="404"></p>
+<h2 id="图床">图床</h2><p>　　我本来使用的是<a href="http://imgur.com" target="_blank" rel="external">imgur</a>的免费服务，可惜被墙了，<a href="https://www.dropbox.com" target="_blank" rel="external">Dropbox</a>也早被墙了，看到很多人推荐国内的<a href="http://www.qiniu.com/" target="_blank" rel="external">七牛云服务</a>，访问速度极快，支持日志、防盗链和水印。免费用户有每月10GB流量+总空间10GB+PUT/DELETE 10万次请求+GET 100万次请求，这对个人博客来说足够，用下来感觉很好。也可通过邀请好友获得奖励，我也求一下<a href="https://portal.qiniu.com/signup?code=3lpwndd654lea" target="_blank" rel="external">七牛邀请</a>。由于是墙内服务，七牛不能绑定未备案的自由域名，这是目前唯一感觉不好的地方。</p>
+<h2 id="实时访问统计">实时访问统计</h2><p>　　尽管我的blog的访问人数少的可怜，但是我还是希望知道有多少访问量的。搜索发现网上的教程一般都是通过在<a href="http://sae.sina.com.cn/" target="_blank" rel="external">SAE</a>或者<a href="http://developer.baidu.com/bae" target="_blank" rel="external">BAE</a>架设服务来实现的，而最新的做法是通过使用Firebase这个神奇的服务。</p>
+<blockquote>
+<ul>
+<li>A Firebase itself is your realtime database, hosted in the cloud. Since Firebase is a NoSQL database you can easily store data as simple JSON documents.</li>
+<li>它是一个制作实时应用的框架，能够快速实现app client和Firebase server之间的实时同步。</li>
+</ul>
+</blockquote>
+<p><strong>首先在<a href="https://www.firebase.com" target="_blank" rel="external">firebase</a>官网注册帐号</strong><br>免费用户可以有1GB储存和100GB流量，足够了。</p>
+<p>　　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/firebase01.png" alt="Firebase registration"></p>
+<p><strong>注册成功后登入创建应用</strong><br>　　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/firebase02.png" alt="Firebase App"></p>
+<p><strong>在Hexo引入Firebase</strong><br>在themes/modernist/layout/_partial/footer.ejs底部加入Firebase的js，成为<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"clearfix"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">'&lt;script src='</span><span class="value">https:</span>//<span class="attribute">cdn.firebase.com</span>/<span class="attribute">js</span>/<span class="attribute">client</span>/<span class="attribute">2.2.1</span>/<span class="attribute">firebase.js</span>'&gt;</span><span class="javascript"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span>'&gt;<span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="title">head</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>当然这个js也可以上传到七牛以便加速。</p>
+<p><strong>增加代码调用Firebase来实现记录访问数</strong></p>
+<blockquote>
+<p>思路：<br>1.总共记录两类访问记录，一个总数，一个该页面数<br>2.该页面数使用该页面的url作为key值<br>3.每次访问一个页面时，总数+1，本页面数+1<br>4.同时增加记录最后更新时间，和最后更新的那个页面的url</p>
+</blockquote>
+<h5 id="先在页面fotter增加记录条目，就像这样">先在页面fotter增加记录条目，就像这样</h5><figure class="highlight vbscript-html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"copyright"</span>&gt;</span></span><br><span class="line">  </span><span class="vbscript">&lt;% <span class="keyword">if</span> (config.author)&#123; %&gt;</span><span class="xml"></span><br><span class="line">  &amp;copy; </span><span class="vbscript">&lt;%= <span class="keyword">new</span> <span class="built_in">Date</span>().getFullYear() %&gt;</span><span class="xml"> <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"</span></span></span><span class="vbscript">&lt;%- config.root %&gt;</span><span class="xml"><span class="tag"><span class="value">"</span>&gt;</span></span><span class="vbscript">&lt;%= config.author %&gt;</span><span class="xml"><span class="tag">&lt;/<span class="title">a</span>&gt;</span></span><br><span class="line">  </span><span class="vbscript">&lt;% &#125; <span class="keyword">else</span> &#123; %&gt;</span><span class="xml"></span><br><span class="line">  &amp;copy; </span><span class="vbscript">&lt;%= <span class="keyword">new</span> <span class="built_in">Date</span>().getFullYear() %&gt;</span><span class="xml"> <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"</span></span></span><span class="vbscript">&lt;%- config.root %&gt;</span><span class="xml"><span class="tag"><span class="value">"</span>&gt;</span></span><span class="vbscript">&lt;%= config.title %&gt;</span><span class="xml"><span class="tag">&lt;/<span class="title">a</span>&gt;</span></span><br><span class="line">  </span><span class="vbscript">&lt;% &#125; %&gt;</span><span class="xml"></span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"theme-copyright"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"http://www.hanbobo.net/"</span> <span class="attribute">target</span>=<span class="value">"_blank"</span>&gt;</span>先锋少年<span class="tag">&lt;/<span class="title">a</span>&gt;</span></span><br><span class="line">   | </span><br><span class="line">  <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"http://bbs.hanbobo.net/"</span> <span class="attribute">target</span>=<span class="value">"_blank"</span>&gt;</span>先锋论坛<span class="tag">&lt;/<span class="title">a</span>&gt;</span></span><br><span class="line">   |</span><br><span class="line">  <span class="tag">&lt;<span class="title">font</span> <span class="attribute">id</span>=<span class="value">"sum_counter"</span>&gt;</span><span class="tag">&lt;/<span class="title">font</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">font</span> <span class="attribute">id</span>=<span class="value">"detail_counter"</span>&gt;</span><span class="tag">&lt;/<span class="title">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"clearfix"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+<h4 id="然后加入自己的Firebase_App">然后加入自己的Firebase App</h4><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">var</span> myDataRef = new <span class="function"><span class="title">Firebase</span><span class="params">(<span class="string">'https://seramat.firebaseio.com/'</span>)</span></span></span><br></pre></td></tr></table></figure>
+<h4 id="获取访问总量以及明细">获取访问总量以及明细</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 明细由当前页面的url表示，将反斜线替换成下划线，并将中文decode出来</span></span><br><span class="line"><span class="keyword">var</span> current_url = <span class="built_in">decodeURI</span>(<span class="built_in">window</span>.location.pathname.replace(<span class="keyword">new</span> <span class="built_in">RegExp</span>(<span class="string">'\\/|\\.'</span>, <span class="string">'g'</span>),<span class="string">"_"</span>));</span><br><span class="line"><span class="comment">// 获取总数，并将总访问量展示在页面上</span></span><br><span class="line">myDataRef.child(<span class="string">"sum"</span>).on(<span class="string">"value"</span>, <span class="function"><span class="keyword">function</span><span class="params">(data)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> current_counter = data.val();</span><br><span class="line">  <span class="keyword">if</span>( $(<span class="string">"#sum_counter"</span>).length &gt; <span class="number">0</span>  &amp;&amp; current_counter &gt;<span class="number">1</span> )&#123;</span><br><span class="line">      $(<span class="string">"#sum_counter"</span>).html(</span><br><span class="line">        <span class="string">" | 总访问量 &lt;font style='color:white'&gt;"</span>+ current_counter +<span class="string">"&lt;/font&gt; 次"</span></span><br><span class="line">       );</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">// 获取明细，并将明细也展示在页面上</span></span><br><span class="line">myDataRef.child(<span class="string">"detail/"</span>+current_url).on(<span class="string">"value"</span>, <span class="function"><span class="keyword">function</span><span class="params">(data)</span></span>&#123;</span><br><span class="line">  <span class="keyword">var</span> detail_counter = data.val();</span><br><span class="line">  <span class="keyword">if</span>($(<span class="string">"#detail_counter"</span>).length &gt; <span class="number">0</span> &amp;&amp; detail_counter &gt; <span class="number">1</span>)&#123;</span><br><span class="line">    $(<span class="string">"#detail_counter"</span>).html(</span><br><span class="line">      <span class="string">" 本页访问量 &lt;font style='color:white'&gt;"</span>+ detail_counter +<span class="string">"&lt;/font&gt; 次"</span></span><br><span class="line">    );</span><br><span class="line">  &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<h4 id="将访问数+1，包括总数和明细">将访问数+1，包括总数和明细</h4><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 总数+1</span></span><br><span class="line">myDataRef.child(<span class="string">"sum"</span>).transaction(<span class="function"><span class="keyword">function</span> <span class="params">(current_counter)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> (current_counter || <span class="number">0</span>) + <span class="number">1</span>;</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">// 明细+1</span></span><br><span class="line">myDataRef.child(<span class="string">"detail/"</span>+current_url).transaction(<span class="function"><span class="keyword">function</span> <span class="params">(current_counter)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> (current_counter || <span class="number">0</span>) + <span class="number">1</span>;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<p>最终我的footer.ejs文件在<a href="http://7xi4vv.com1.z0.glb.clouddn.com/footer.ejs" target="_blank" rel="external">这里</a>。<br><strong>效果</strong><br>在本博客底部可以看到效果如下，<br>　　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/2015-03-20_234655.png" alt="Firebase result"><br>而你现在打开自己的Firebase App页面，同时在另外自己的博客页面刷新，神奇的一幕出现了 —- Firebase App里面的统计会实时更新！</p>
+<p>　　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/firebase03.png" alt="Firebase update"></p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>　　接触Hexo和Markdown，接着顺理成章的是Github和Gitcafe，在网上寻求帮助，找到很多有用的文章作为参考，本文不敢说是教程，只是作为个人学习笔记。我使用的是Modernist主题，<a href="http://github.com/heroicyang/hexo-theme-modernist">作者Github主页</a>，这是主题的_config.yml，<br>]]>
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://mm.hanbobo.net/tags/Hexo/"/>
+    
+      <category term="学习" scheme="http://mm.hanbobo.net/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="笔记" scheme="http://mm.hanbobo.net/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[用supervisor守护多个SS进程]]></title>
+    <link href="http://mm.hanbobo.net/2015/03/16/supervisorctl-with-multiple-process/"/>
+    <id>http://mm.hanbobo.net/2015/03/16/supervisorctl-with-multiple-process/</id>
+    <published>2015-03-16T04:42:05.000Z</published>
+    <updated>2015-03-19T02:43:03.000Z</updated>
+    <content type="html"><![CDATA[<p>　　按照<a href="https://github.com/shadowsocks/shadowsocks/wiki/%E7%94%A8-supervisor-%E8%BF%90%E8%A1%8C-shadowsocks" target="_blank" rel="external">SS作者的教程</a>使用supervisor来守护SS进程，后来又看到mengskysama的<a href="https://github.com/mengskysama/shadowsocks/tree/manyuser" target="_blank" rel="external">manyuser多用户配置</a>，就使用前端<a href="https://github.com/orvice/ss-panel/wiki/Install-Shadowsocks-manyuser-on-Debian" target="_blank" rel="external">管理程序ss-panel</a>来分享给朋友使用，同时在VPS里跑多个SS程序，现在可以使用supervisor来守护这些进程。<br><a id="more"></a></p>
+<h3 id="supervisor是什么？">supervisor是什么？</h3><p>　　Supervisor是一个Python开发的client/server系统，可以管理和监控*nix上面的进程。</p>
+<h4 id="安装和配置">安装和配置</h4><p>具体请参照<a href="https://github.com/shadowsocks/shadowsocks/wiki/%E7%94%A8-supervisor-%E8%BF%90%E8%A1%8C-shadowsocks" target="_blank" rel="external">SS作者的教程</a>。<br><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo pip <span class="keyword">install</span> supervisor</span><br><span class="line">sudo nano /etc/supervisor/supervisor.conf</span><br></pre></td></tr></table></figure></p>
+<p>注意conf会查看/etc/supervisor/conf.d/*.conf,而我的shadowsocks守护conf就是/etc/supervisor/conf.d/shadowsocks.conf。<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nano /etc/supervisor/<span class="keyword">conf</span>.<span class="keyword">d</span>/shadowsocks.<span class="keyword">conf</span></span><br></pre></td></tr></table></figure></p>
+<p>加入<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">program:</span>shadowsocks]</span><br><span class="line">#SS manyuser进程</span><br><span class="line"><span class="string">command:</span>=python <span class="regexp">/root/</span>shadowsocks<span class="regexp">/shadowsocks/</span>server.py -c <span class="regexp">/root/</span>shadowsocks<span class="regexp">/shadowsocks/</span>config.json</span><br><span class="line">autostart=<span class="literal">true</span></span><br><span class="line">user=root</span><br><span class="line"></span><br><span class="line">[<span class="string">program:</span>shadowsocks8388]</span><br><span class="line">#SS 在端口<span class="number">8388</span>的进程</span><br><span class="line">command=ssserver -c <span class="regexp">/etc/</span>shadowsocks.json</span><br><span class="line">autostart=<span class="literal">true</span></span><br><span class="line">user=nobody</span><br><span class="line">stdout_logfile=<span class="regexp">/var/</span>log/shadowsocks8388.log</span><br><span class="line">stderr_logfile=<span class="regexp">/var/</span>log/shadowsocks8388.err</span><br></pre></td></tr></table></figure></p>
+<p>再用supervisor倒入配置文件刷新<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">supoervisorctl</span> update</span><br><span class="line">supoervisorctl reload</span><br></pre></td></tr></table></figure></p>
+<p>现在检查就可以看到2个SS进程都在运行了。<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#ps -ef | grep sha</span><br><span class="line">root     <span class="number">24295</span>  <span class="number">1200</span>  <span class="number">0</span> Mar16 ?        00:<span class="number">01</span>:<span class="number">40</span> python <span class="regexp">/root/</span>shadowsocks<span class="regexp">/shadowsocks/</span>server.py -c <span class="regexp">/root/</span>shadowsocks<span class="regexp">/shadowsocks/</span>config.json</span><br><span class="line">nobody   <span class="number">25553</span>  <span class="number">1200</span>  <span class="number">0</span> Mar16 ?        00:<span class="number">02</span>:<span class="number">51</span> <span class="regexp">/usr/</span>bin<span class="regexp">/python /</span>usr<span class="regexp">/local/</span>bin<span class="regexp">/ssserver -c /</span>etc/shadowsocks.json</span><br></pre></td></tr></table></figure></p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>　　按照<a href="https://github.com/shadowsocks/shadowsocks/wiki/%E7%94%A8-supervisor-%E8%BF%90%E8%A1%8C-shadowsocks">SS作者的教程</a>使用supervisor来守护SS进程，后来又看到mengskysama的<a href="https://github.com/mengskysama/shadowsocks/tree/manyuser">manyuser多用户配置</a>，就使用前端<a href="https://github.com/orvice/ss-panel/wiki/Install-Shadowsocks-manyuser-on-Debian">管理程序ss-panel</a>来分享给朋友使用，同时在VPS里跑多个SS程序，现在可以使用supervisor来守护这些进程。<br>]]>
+    
+    </summary>
+    
+      <category term="科学上网" scheme="http://mm.hanbobo.net/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+      <category term="笔记" scheme="http://mm.hanbobo.net/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Shadowsocks" scheme="http://mm.hanbobo.net/categories/Shadowsocks/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Android手机端SS的使用]]></title>
+    <link href="http://mm.hanbobo.net/2015/03/14/SS-for-Android/"/>
+    <id>http://mm.hanbobo.net/2015/03/14/SS-for-Android/</id>
+    <published>2015-03-14T14:34:18.000Z</published>
+    <updated>2015-03-23T07:17:52.000Z</updated>
+    <content type="html"><![CDATA[<p>　　Shadowsocks （简称SS，中文名称是影梳)是一个轻量级的代理服务器，小巧省电容易部署，近年来已成为android设备科学上网的首选，被广大网友喜爱，并且很容易在网上找到很多帮助，其中就有网友Anonymous V发表的<a href="http://shadowsocks.blogspot.jp/2015/01/shadowsocks.html" target="_blank" rel="external">“SS史上最详尽教程”</a> （需科学上网查看）。并且SS在手机电脑都有客户端，方便安装使用：<br><a id="more"></a></p>
+<blockquote>
+<p>Shadowsocks特点<br>1.省电，在电量查看里几乎看不到它的身影；<br>2.支持开机自启动，且断网无影响，无需手动重连，方便网络不稳定或者3G&amp;Wi-Fi频繁切换的小伙伴；<br>3.可使用自己的服务器，安全和速度的保证；<br>4.支持区分国内外流量，传统VPN在翻出墙外后访问国内站点会变慢；<br>5.可对应用设置单独代理，5.0之后的系统无需root。[/quote]</p>
+</blockquote>
+<p>　我自己部署了几个SS服务器给身边朋友分享使用，发现好些朋友还是不知道怎么用，就写下这篇初级教程，请记住：不要被Shadowsocks这个名称吓住，这个是很容易使用的。</p>
+<p>1, 下载安装Shadowsocks Android客户端，由于众所周知的原因，国内各大App市场可能找不到了，这里有我自己使用的客户端apk，<a href="http://www.hanbobo.net/wp-content/uploads/2015/03/Shadowsocks_2.6.4.apk" target="_blank" rel="external">强击下载</a>。</p>
+<p>2, 打开SS，添加服务器</p>
+<p><img src="http://www.hanbobo.net/wp-content/uploads/2015/03/ss01.png" alt=""></p>
+<p>3, 如果有QR code，直接扫描即可，这里选择Manual</p>
+<p><img src="http://www.hanbobo.net/wp-content/uploads/2015/03/ss02.png" alt=""></p>
+<p>4, 在出来的界面，依次填写，这里highlight了必须填写的几项</p>
+<p>　　<img src="http://www.hanbobo.net/wp-content/uploads/2015/03/ss03.png" alt=""></p>
+<p>5, SS最厉害的功能选项是这个Route；”All/Bypass Lan/Bypass LAN &amp; China”, 分别对应 a)所有的流量都走代理b)局域网地址不走代理c)天朝和局域网地址步骤代理，很明显，我们选择第三项，这样SS就实现了天朝内外网络分流。</p>
+<p>　　<img src="http://www.hanbobo.net/wp-content/uploads/2015/03/ss04.png" alt=""><br>如果在外面不安全的WIFI（如餐馆和其他公共WIFI服务）下上网，建议选择All全局代理，那么你就可以不怕监听安全上网了。</p>
+<p>6, 存好设置，按SS右上角键开启，如果手机有Root（如果不知道Root是什么，那就没有），赋予SS权限即可，这样就是一般所说的SS NAT模式。如果手机没有Root，会弹出来这个窗口，</p>
+<p>　　<img src="http://www.hanbobo.net/wp-content/uploads/2015/03/ss04.png" alt=""></p>
+<p>选择接收，这就是所谓的VPN模式。<br>7, 开启成功后，在Status Bar左上角，会出现连接成功标志，<br>VPN模式</p>
+<p>　　<img src="http://www.hanbobo.net/wp-content/uploads/2015/03/ss06.png" alt=""></p>
+<p>NAT模式</p>
+<p>　　<img src="http://www.hanbobo.net/wp-content/uploads/2015/03/ss07.png" alt=""></p>
+<p>That’s it! 现在你的手机可以科学上网了。 请点击本页底部的<strong>先锋加速</strong>获取免费SS账号。<br><strong>Thank you!</strong><br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>　　Shadowsocks （简称SS，中文名称是影梳)是一个轻量级的代理服务器，小巧省电容易部署，近年来已成为android设备科学上网的首选，被广大网友喜爱，并且很容易在网上找到很多帮助，其中就有网友Anonymous V发表的<a href="http://shadowsocks.blogspot.jp/2015/01/shadowsocks.html">“SS史上最详尽教程”</a> （需科学上网查看）。并且SS在手机电脑都有客户端，方便安装使用：<br>]]>
+    
+    </summary>
+    
+      <category term="科学上网" scheme="http://mm.hanbobo.net/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+      <category term="笔记" scheme="http://mm.hanbobo.net/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Shadowsocks" scheme="http://mm.hanbobo.net/categories/Shadowsocks/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Cisco AnyConnect 让iOS设备(iPadiPhone)科学上网]]></title>
+    <link href="http://mm.hanbobo.net/2015/03/13/Cisco-AnyConnect-iOS/"/>
+    <id>http://mm.hanbobo.net/2015/03/13/Cisco-AnyConnect-iOS/</id>
+    <published>2015-03-13T15:02:06.000Z</published>
+    <updated>2015-03-27T06:49:38.000Z</updated>
+    <content type="html"><![CDATA[<p>　　通常使用的L2TP/PPTP等VPN服务在iOS上不稳定，而Cisco提供的AnyConnect VPN解决方案，被商业公司广泛应用，在iOS设备上也能提供稳定不掉线的VPN服务（按不同的iOS版本，即使休眠也不断线或自动重新连接），同时还可以给客户端下发自定义的路由表，这样就能够实现本地/国内网站走本地，而只在去必要的网站时才走VPN。我部署了几个AnyConnect服务供测试。<br><a id="more"></a><br>1，在App Store搜索安装 AnyConnect, 打开<br><img src="http://7xi4p3.com1.z0.glb.clouddn.com/MA7kAp7.png" alt=""></p>
+<p>2，添加VPN</p>
+<p><img src="http://7xi4p3.com1.z0.glb.clouddn.com/gJCVpUZ.png" alt=""></p>
+<p>3, 说明可以自己填，服务器地址按图中所示填写</p>
+<p><img src="http://7xi4p3.com1.z0.glb.clouddn.com/Ad6vKYW.png" alt=""></p>
+<p>4, 在高级选项，把“网络漫游”打开，这样设备在不同网络之间切换时AnyConnect会保持连接状态，填好后保存</p>
+<p><img src="http://7xi4p3.com1.z0.glb.clouddn.com/p58FA2u.png" alt=""></p>
+<p>5，在“诊断” —&gt; “证书”，选择导入证书，证书地址请微信获取，之后会显示证书导入成功</p>
+<p><img src="http://7xi4p3.com1.z0.glb.clouddn.com/XOKvrjT.png" alt=""></p>
+<p><img src="http://7xi4p3.com1.z0.glb.clouddn.com/rmJdbnY.png" alt=""></p>
+<p><img src="http://7xi4p3.com1.z0.glb.clouddn.com/832R9DF.png" alt=""></p>
+<p>6，到此设置完成，连接VPN，会显示这个Warning信息，这是因为证书是自己创建的，没有经过机构认证，点击”确认“</p>
+<p><img src="http://7xi4p3.com1.z0.glb.clouddn.com/98HNHOW.png" alt=""></p>
+<p>7，5-10秒后，在设备左上角，出现VPN图标，表明VPN连上了</p>
+<p><img src="http://7xi4p3.com1.z0.glb.clouddn.com/Bz1r5SC.png" alt=""></p>
+<p>现在我们可以检查VPN是不是能实现科学上网，浏览器打开 <a href="http://www.whatismyip.com" target="_blank" rel="external">http://www.whatismyip.com</a> ，注意显示的IP地址<br><img src="http://7xi4p3.com1.z0.glb.clouddn.com/XzdBSHp.png" alt=""><br>而同时打开百度查询关键字”我的IP地址”，显示的还是上海地址<br><img src="http://7xi4p3.com1.z0.glb.clouddn.com/dogrkMZ.png" alt=""></p>
+<p>经过在iOS6和iOS8设备上测试，这个VPN能实现不掉线，本地网络无影响，而Google/Twitter/Facebook/Apple Store等都能正常浏览，但是YouTube的速度不高，很少能流畅观看，这是由于上海电信浦东的国际出口带宽受限，当然也和VPN的地址有关。</p>
+<p><strong>需要测试帐号，请在评论框留言！</strong></p>
+<p>补充1：<br>　　安卓系统科学上网方法很多，也可以使用这个VPN服务,下载安装<a href="http://www.hanbobo.net/OpenConnect_1.02.apk" target="_blank" rel="external">OpenConnect</a>，添加VPN,在浏览器输入证书地址（微信获取），然后点击选取证书（一般在Download文件夹）<br><img src="http://7xi4p3.com1.z0.glb.clouddn.com/SRrfOBI.png" alt=""></p>
+<p><img src="http://7xi4p3.com1.z0.glb.clouddn.com/r3cTIRp.png" alt=""></p>
+<p><img src="http://7xi4p3.com1.z0.glb.clouddn.com/dJxdQk8.png" alt=""></p>
+<p>上面的OpenConnect下载速度可能较慢，附上<a href="http://pan.baidu.com/share/link?shareid=2810820015&amp;uk=1796140616" target="_blank" rel="external">百度云</a>链接。</p>
+<p>补充２：<br>　　在有的iOS设备，引入证书的时候，可能会看到这样很吓人的警告图片，</p>
+<p><img src="http://7vzq27.com1.z0.glb.clouddn.com/2015/03/2015-03-05_092454.png" alt=""></p>
+<p>这是因为我制作的证书没有经过机构认证，不要担心，选择右边的”change setting”键，在出来的setting界面，选择关闭”阻止不信任的服务器“就可以了。</p>
+<p><img src="http://7vzq27.com1.z0.glb.clouddn.com/2015/03/2015-03-05_092206.png" alt=""></p>
+<p><strong>Thank you!</strong><br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>　　通常使用的L2TP/PPTP等VPN服务在iOS上不稳定，而Cisco提供的AnyConnect VPN解决方案，被商业公司广泛应用，在iOS设备上也能提供稳定不掉线的VPN服务（按不同的iOS版本，即使休眠也不断线或自动重新连接），同时还可以给客户端下发自定义的路由表，这样就能够实现本地/国内网站走本地，而只在去必要的网站时才走VPN。我部署了几个AnyConnect服务供测试。<br>]]>
+    
+    </summary>
+    
+      <category term="科学上网" scheme="http://mm.hanbobo.net/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+      <category term="笔记" scheme="http://mm.hanbobo.net/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="VPN" scheme="http://mm.hanbobo.net/categories/VPN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[名校书单之一]]></title>
+    <link href="http://mm.hanbobo.net/2015/03/12/Reading%20list01/"/>
+    <id>http://mm.hanbobo.net/2015/03/12/Reading list01/</id>
+    <published>2015-03-12T05:47:51.000Z</published>
+    <updated>2015-03-18T15:23:25.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p><em>读书无嗜好，就能尽其多。不先泛览群书，则会无所适从或失之偏好，广然后深，博然后专。　—-鲁迅<br>不积跬步，无以至千里；不积小流，无以成江海。　—-荀况<br>“A reader lives a thousand lives before he dies, said Jojen. The man who never reads lives only one.”<br>― George R.R. Martin, A Dance with Dragons<br>“The more that you read, the more things you will know. The more that you learn, the more places you’ll go.”<br>― Dr. Seuss, I Can Read With My Eyes Shut!</em><br><a id="more"></a> </p>
+<h2 id="上海中学国际部小学五年级（母语班）2015年第二学期的中文阅读书单">上海中学国际部小学五年级（母语班）2015年第二学期的中文阅读书单</h2></blockquote>
+<h3 id="1-《同桌冤家》_作者：伍美珍">1.《同桌冤家》 作者：伍美珍</h3><p>类别：小说<br>  伍美珍，网名美美，又被称为“阳光姐姐”，是当代著名儿童文学作家，自2000年起，她在内地和港台三地共出版了70余部少儿题材的小说和报告文学作品，曾获文化部“蒲公英少儿读物奖”及新闻出版总署“全国优秀少儿图书奖”“冰心儿童图书奖”等。《同桌冤家》是伍美珍创作的一个<a href="http://search.dangdang.com/?key=%CD%AC%D7%C0%D4%A9%BC%D2&amp;SearchFromTop=1&amp;catalog=" target="_blank" rel="external">儿童读物系列书籍</a>，而老师推荐的应该是最早由福建少年儿童出版社于2003年3月出版的一本，<br><img src="http://img5.douban.com/lpic/s1837057.jpg" alt=""></p>
+<blockquote>
+<p>乖乖女生罗洁和坏坏男生惜城似乎天生一对同桌冤家，他们笨笨、他们闹闹，他闪冒失、他们骄傲，他闪时时心血来潮地异想天开，容易兴高采烈也容易垂头丧气……他们和同学咪咪、阿呆、肥仔都是单细胞的一群，个个清澈见底，超级乐观，呈现出十几岁人群感情的健康状态。明亮的无厘幽默、憨态可掬的人物、原汁原味的校园友谊，让你陷入青春色彩的爆笑.</p>
+</blockquote>
+<p>可惜当当缺货（<a href="http://product.dangdang.com/721608.html" target="_blank" rel="external">链接</a>），大家可以在<a href="http://s.taobao.com/search?q=%CD%AC%D7%C0%D4%A9%BC%D2&amp;commend=all&amp;ssid=s5-e&amp;search_type=item&amp;sourceId=tb.index&amp;spm=1.7274553.1997520841.1&amp;initiative_id=tbindexz_20150305" target="_blank" rel="external">淘宝</a>碰碰运气。</p>
+<h3 id="2-《蓝鲸的眼睛》_作者：冰波，湖南少儿出版社2012年8月出版，51页">2.《蓝鲸的眼睛》 作者：冰波，湖南少儿出版社2012年8月出版，51页</h3><p>类别：童话<br><img src="http://img3.douban.com/lpic/s24409840.jpg" alt=""></p>
+<p>  作家冰波以童话作品著称，他小时候比较内向，有点儿自卑，也许正是因为这样，他的内心世界才那么活跃。他活在想象中，从写童话中发现了自己。所以，他的童话在现当代纷纭的童话中是那么特别，独树一帜。他用舒缓、柔情的文字写欢快、美丽的童话故事，清丽，幽雅、充满了诗意，让人的心能够静下来。他用情感、爱感染了无数的读者，而《蓝鲸的眼睛》是冰波的成名之作。</p>
+<blockquote>
+<p>天真可爱的渔家女孩双眼患病_无法医治。爷爷是村里最有威望的老渔民，在他看来，当一切从眼里消失的时候，唯有海是要永远记住的。爷爷对她说：“到海边去吧，听着浪声看看海，以后，你听到浪声，就会和看见海一样了。”于是，这个脆弱无助的女孩，她终日坐在海边高高的礁石上，仰头望着夜空，暗自流泪……</p>
+</blockquote>
+<p><a href="http://product.dangdang.com/22891339.html" target="_blank" rel="external">当当购买链接</a></p>
+<h3 id="3-《外国来的小女生》_作者:_韩静慧_二十一世纪出版社2009年8月出版，140页">3.《外国来的小女生》 作者: 韩静慧  二十一世纪出版社2009年8月出版，140页</h3><p>类别：小说<br><img src="http://img3.douban.com/lpic/s6074183.jpg" alt=""></p>
+<p>韩静慧  也是卓有成就的当代作家。本书描写了一个外国来的小女孩在中国上学说发生的有趣故事。</p>
+<blockquote>
+<p>桑琪来自斯里兰卡，为了争取成为她的汉语小伙伴，班长麦娜和女生蓝梦明争暗斗。蓝梦求助于米来，却被米来拒绝了，这引起了蓝梦的嫉恨。蓝梦的妈妈也加入到竞争的行列，给女儿出谋划策。但桑琪已经依赖米来，不愿意和蓝梦在一起……米来意外得知桑琪恐惧的原因，一直寻找机会帮助她。蓝梦和桑琪一桌后，才发现了桑琪不同寻常的乖戾行为，于是在桑琪和她的朋友们之间发生了很多有趣的故事。五一期间，洋外教斯马丁老师要带米来去草原玩，米来坚持带上了桑琪。在游玩中，米来和桑琪意外钻进了一个山洞，发现了一个惊人的秘密…… </p>
+</blockquote>
+<p><a href="http://product.dangdang.com/20684747.html" target="_blank" rel="external">当当购买链接</a></p>
+<h3 id="4-《调皮的日子》_作者：秦文君_春风文艺出版社2012年8月出版，324页">4.《调皮的日子》 作者：秦文君 春风文艺出版社2012年8月出版，324页</h3><p>类别：小说<br><img src="http://img5.douban.com/lpic/s24408616.jpg" alt=""></p>
+<p>秦文君是当代最出色的儿童文学作家之一，多次获得国际文学大奖，她的作品是真正可以进入世界文学之林的。其作品往往从儿童视角出发，展现儿童的所思所行，语言风趣幽默，且不乏感人之外，非常富于感染力。她的另一部作品《男生贾里全传》可以说是家喻户晓，而《调皮的日子》也是她的代表作之一。本书有1、2两集，在此推荐的第一本讲述的是：</p>
+<blockquote>
+<p>一个调皮捣里的智多星，被寄养在姑妈家，与另一个调皮捣蛋的小傻一起生活。姑妈是个超级胖子，心地非常好；姑夫是个牙医，超级瘦子，心地也不坏，就是不懂孩子的心思。另外，同学中还有总拿倒数第一的林第一，胆小如鼠的张潇洒，名字听起来像小妖的蕾小娇……班主任是一个喜欢穿绿裙子、戴绿发夹\穿绿鞋子却不长绿手指的老师……</p>
+</blockquote>
+<p><a href="http://product.dangdang.com/22877925.html" target="_blank" rel="external">当当购买链接</a><br><a href="http://www.amazon.cn/%E5%B0%8F%E5%B8%83%E8%80%81%E8%99%8E%E4%B8%9B%E4%B9%A6-%E8%B0%83%E7%9A%AE%E7%9A%84%E6%97%A5%E5%AD%901-%E7%A7%A6%E6%96%87%E5%90%9B/dp/B009LBRLCY/ref=sr_1_1?ie=UTF8&amp;qid=1425523750&amp;sr=8-1&amp;keywords=%E8%B0%83%E7%9A%AE%E7%9A%84%E6%97%A5%E5%AD%90+%E7%A7%A6%E6%96%87%E5%90%9B+%E6%98%A5%E9%A3%8E%E6%96%87%E8%89%BA%E5%87%BA%E7%89%88%E7%A4%BE" target="_blank" rel="external">中亚购买链接</a></p>
+<h3 id="5-《超能神探帅小天1》_作者：杨鹏_大连出版社2012年6月出版，130页">5.《超能神探帅小天1》 作者：杨鹏 大连出版社2012年6月出版，130页</h3><p>类别：探险小说<br><img src="http://img5.douban.com/lpic/s10318287.jpg" alt=""></p>
+<p>杨鹏，笔名雪孩，中国首位迪士尼签约作家，作品以科幻探险类为主。《超能神探帅小天》系列一共7本，讲述的是以少年帅小天一系列探险经历，在此推荐的第一本主要内容，</p>
+<blockquote>
+<p>帅小天受到一封神秘邮件，邮件里说东欧L国S城有很多人离奇死亡，并且尸体的颈部动脉都被咬断。当帅小天和杨光闯过层层阻挠，找到离奇案件的疑点时却意外发现了一个可怕的秘密：一股神秘的力量正在威胁着人类的生命，人类对此却毫无还击之力。而更让他们惊恐的是，在这股神秘力量的背后还有一个邪恶的操控着，他正筹划着一个巨大的阴谋……</p>
+</blockquote>
+<p>《超能神探帅小天①神秘古堡》《超能神探帅小天②激战巨蚊岛》《超能神探帅小天③复活军团》《超能神探帅小天④超时空少女》《超能神探帅小天 非常插班生》 《超能神探帅小天 史前巨岛》 《超能神探帅小天 未来小王子》</p>
+<p><a href="http://product.dangdang.com/22772518.html" target="_blank" rel="external">当当购买链接</a><br><a href="http://product.dangdang.com/23464264.html" target="_blank" rel="external">套装购买链接</a></p>
+<h3 id="6-《丁丁当当_黑痴白痴》_作者：曹文轩_中国少年儿童出版社2012年1月出版，149页">6.《丁丁当当 黑痴白痴》 作者：曹文轩 中国少年儿童出版社2012年1月出版，149页</h3><p>类别：小说<br><img src="http://img5.douban.com/lpic/s9038839.jpg" alt=""></p>
+<p>本文作者曹文轩教授说当代首屈一指的儿童文学作家，他很多作品都广受读者喜爱。《丁丁当当 黑痴白痴》是曹文轩比较新的作品，本书讲述：</p>
+<blockquote>
+<p>一户人家生下一个可爱的男孩，全家人从此沉浸在无边无际的幸福之中，但后来他们发现这个男孩却是一个傻子。几年之后，这户人家又生下一个可爱的男孩。全家人满怀希望，日夜注视着这个孩子的长大。然而，一个残酷的事实几乎毁灭了这户人家：这个男孩也是个傻子。<br>傻子兄弟却无忧无虑地长大，两个肉体，好似一个灵魂。<br>这一天，他们偶然走散，从此天各一方。漫长的互相寻找，由此拉开序幕，也由此在这天地之间演绎了一段又一段大善大美、使人灵魂澄澈的故事。</p>
+</blockquote>
+<p>读者评论：”很纯粹的儿童读物，语言朴实美丽，感情真挚动人。傻孩子的世界并不是那么不可理喻的，只要用心发现，同样可以看见可贵的人性之光。“<br><strong>强力推荐！</strong><br><a href="http://product.dangdang.com/22595804.html" target="_blank" rel="external">当当购买链接</a></p>
+<h3 id="7-《白天鹅红珊瑚》《双面猎犬》_作者：沈石溪">7.《白天鹅红珊瑚》《双面猎犬》 作者：沈石溪</h3><p>类别：动物小说<br><img src="http://img5.douban.com/lpic/s4619079.jpg" alt="">  <img src="http://img3.douban.com/lpic/s7021610.jpg" alt=""> </p>
+<p>沈石溪被誉为”动物小说大王“，他的作品多以动物为主，这2部书选自沈石溪创作的众多动物小说。动物小说之所以比其他类型的小说更有吸引力，是因为这个题材最容易刺破人类文化的外壳和文明社会种种虚伪的表象，可以毫无遮掩地直接表现丑陋与美丽融于一体的原生态的生命。人类文化和社会文明会随着时代的变迁而不断更新，但生命中残酷竞争、顽强生存和追求辉煌的精神内核是永远不会改变的。因此，动物小说更有理由赢得读者，也更有理由追求不朽。</p>
+<blockquote>
+<p>《白天鹅红珊瑚》以小说的笔法记录了白天鹅世界渐行消逝的神秘和传奇，而《双面猎犬》讲述的是，在滇北高原的日曲卡雪山，一只名叫洛戛的公猎狗，在怒江边追逐一只名叫达维娅的母豺，由此引发的精彩故事.</p>
+</blockquote>
+<p><a href="http://product.dangdang.com/20874983.html" target="_blank" rel="external">当当购买链接1</a><br><a href="http://product.dangdang.com/22590437.html" target="_blank" rel="external">当当购买链接2</a></p>
+<h3 id="8-《美丽眼睛看世界》_作者：桂文亚_少年儿童出版社2005年5月出版">8.《美丽眼睛看世界》 作者：桂文亚　少年儿童出版社2005年5月出版</h3><p>类别：散文<br><img src="http://img5.douban.com/lpic/s10010338.jpg" alt=""></p>
+<p>本书作者桂文亚出生于台湾，为写作儿童散文的领军人物。本书是专为小学中高年级定做的名家散文范本，作者每篇文章的后面都附有”提示与思考”，切实有效地指导对该文的阅读以及应从中吸取的写作方法和经验。每一小辑结束处还配有”作家的话”，对该小辑一些主要的写作特点进行进一步总结和提炼。当当中亚缺货，大家可以试试<a href="http://s.taobao.com/search?q=%E7%BE%8E%E4%B8%BD%E7%9C%BC%E7%9D%9B%E7%9C%8B%E4%B8%96%E7%95%8C&amp;commend=all&amp;ssid=s5-e&amp;search_type=mall&amp;sourceId=tb.index&amp;spm=a215z.7106357.5803581.d4908513" target="_blank" rel="external">淘宝</a>或<a href="http://www.amazon.cn/%E7%BE%8E%E4%B8%BD%E7%9C%BC%E7%9D%9B%E7%9C%8B%E4%B8%96%E7%95%8C-%E6%A1%82%E6%96%87%E4%BA%9A/dp/B008H0HC4W/ref=sr_1_1?ie=UTF8&amp;qid=1425526565&amp;sr=8-1&amp;keywords=%E7%BE%8E%E4%B8%BD%E7%9C%BC%E7%9D%9B%E7%9C%8B%E4%B8%96%E7%95%8C" target="_blank" rel="external">中亚的电子书</a>。</p>
+<h3 id="9-《吴姐姐讲历史》_作者：吴涵碧_新世界出版社2011年9月出版，200页左右/本">9.《吴姐姐讲历史》 作者：吴涵碧　新世界出版社2011年9月出版，200页左右/本</h3><p>类别：人文历史<br><img src="http://img32.ddimg.cn/96/5/22540812-1_u_1.jpg" alt=""></p>
+<p>作者吴涵碧女士，台湾著名学者、作家，自上世纪八十年代起，以“吴姐姐讲历史故事”为题，在台湾《中华日报》、《国语日报》开辟专栏，连载历史故事，每周一篇，21年未有间断，本书即这些专栏文章结集而成，是台湾畅销时间最长，获奖最多的历史读物。</p>
+<blockquote>
+<p>本套丛书一共15本，内容上起远古，下终明代中叶，作者选取这段漫长历史中富于教益和人和事，写成一系列轻松而富于情致的短篇故事。全书凡1075篇，200万言，故事之间相互勾连，前后贯通，连缀起来，即成一部规模颇大的中国通史。所采史实，皆出自信史，对流传甚广的野史及民间传说，偶有采择，皆指明其非为史实，并以信史与相对照；所选史材避开艰深的历史问题，选取其中意义浅白易懂、富于情趣的故事，务使读者轻松明了其中要义；故事标题皆富于意趣、亲切可观，内容富于情致、浅易畅晓，不以森然面目以待读者；故事皆两千字以内，读者略有空闲即可进入，开卷即有收获。行文之中，一叙一议，非惟多趣，亦极富见地，风流蕴藉，埋伏于轻松的历史故事当中，抹平成人与孩子阅读兴致的沟壑。</p>
+</blockquote>
+<p>本书可以购买整套，大人孩子都可以阅读。<strong>强力推荐</strong>第一册（远古至先秦）和第四册（隋唐）。</p>
+<p><a href="http://product.dangdang.com/22540812.html" target="_blank" rel="external">当当购买链接</a></p>
+<h3 id="10-《贪玩的人类_-那些把我们带进科学的人》_作者：老多_科学出版社2010年6月出版，240页">10.《贪玩的人类 -那些把我们带进科学的人》 作者：老多 科学出版社2010年6月出版，240页</h3><p>类别：科普<br><img src="http://img3.douban.com/lpic/s4362633.jpg" alt=""></p>
+<blockquote>
+<p>本书以生动独特的语言、跌宕起伏的故事和批判反思的视角讲述了科学从无到有进而彻底改变人类生存状态的过程，并以时间为线、人物为索，以情景再现的形式还原了几千年来科学大师们探求真理过程中的奇闻异事。此外，作者还亲手绘制了数十幅精彩插图，直触心底地传达了科学的乐趣、玩的乐趣。<br>口语化的叙述语言，生动活泼的漫画插图，跌宕起伏的故事情节，批判性的思维方法，以时间、人物为轴的编排方式，传递科学创新精神，让科学“玩”起来。</p>
+</blockquote>
+<p><a href="http://product.dangdang.com/20830938.html" target="_blank" rel="external">当当购买链接</a></p>
+<h3 id="11-《万物简史——为万物写史_为宇宙立传》_作者：布莱森，译者：严维明，陈邕_接力出版社2005年2月出版_438页">11.《万物简史——为万物写史 为宇宙立传》 作者：布莱森，译者：严维明，陈邕  接力出版社2005年2月出版 438页</h3><p>类别：科普<br><img src="http://img3.douban.com/lpic/s1171582.jpg" alt=""></p>
+<p>本书译自A Short History of Nearly Everything by Bill Bryson，2004年出版后就占据Amazon科学类图书排行榜首位，原版图书US$9.99，而中文版才22元，<strong>强力推荐</strong>，英文原版是必读！</p>
+<blockquote>
+<p>这是一部有关现代科学发展史的既通俗易懂又引人入胜的书，作者用清晰明了、幽默风趣的笔法，将宇宙大爆炸到人类文明发展进程中所发生的繁多妙趣横生的故事一一收入笔下。惊奇和感叹组成了本书，历历在目的天下万物组成了本书，益于人们了解大千世界的无穷奥妙，掌握万事万物的发展脉络。<br>书中回溯了科学史上那些伟大与奇妙的时刻，引用了近年来发现的最新科学史料，几乎每一个被作者描述的事件都奇特而且惊人：宇宙起源于一个要用显微镜才能看得见的奇点；全球气候变暖可能会使北美洲和欧洲北部地区变得更加寒冷；1815年印度尼西亚松巴哇岛坦博士拉火山喷发，喷涌而出的熔岩以及相伴而来的海啸夺走了10万人的生命；美国黄石国家公园是“世界上最大的活火山”……而那些沉迷于科学的科学家们也是千奇百怪：达尔文居然为蚯蚓弹起了钢琴；牛顿将一根大针眼缝针插进眼窝，为的只是看看会有什么事情发生；富兰克林不顾生命危险在大雷雨里放风筝；卡文迪许在自己身上做电击强度实验，竟然到了失去知觉的地步……<br>本书在讲述科学的奇迹与成就的同时，还浸润着浓郁的悲天悯人的人文关怀。全书从科学发展史的角度对“我们从哪里来？我们是谁？我们到哪里去？”这一千古命题作了极为精当的阐释，每一个人在阅读此书之后，都会对生命、对人生、对我们所生活的世界产生全新的感悟。一位美国小读者的父亲说，读过《万物简史》之后，他对死亡不再感到恐惧……作者认为，这是一本书所能获得的最高评价。</p>
+</blockquote>
+<p><a href="http://product.dangdang.com/8968657.html" target="_blank" rel="external">当当购买链接</a><br><a href="http://www.amazon.com/A-Short-History-Nearly-Everything/dp/076790818X" target="_blank" rel="external">Amazon link</a></p>
+<h4 id="12-《小王子》_作者：安东尼·德·圣埃克苏佩里_译者：吴睿_214页">12.《小王子》 作者：安东尼·德·圣埃克苏佩里 译者：吴睿 214页</h4><p>类别：童话<br><img src="http://img5.douban.com/lpic/s11329528.jpg" alt=""></p>
+<p>本书流传之广是人皆知，可能是中国最有名的外国文学作品了，不需要过多介绍了。作者用通俗易懂的语言写出了引人深思的哲理和令人感动的韵味。整个童话，文字纯净朴素，形式简洁干净，但是却蕴藏着智慧的光芒，充满着诗意的忧郁、淡淡的哀愁，读起来让人回味无穷。</p>
+<p>本书中文译本众多，在此选取中英文对照版。</p>
+<p><a href="http://product.dangdang.com/22846670.html" target="_blank" rel="external">当当购买链接</a></p>
+<h4 id="13-《长腿叔叔》_作者：韦伯斯特_译者：田伟华_中国妇女出版社2012年2月出版，_251页">13.《长腿叔叔》 作者：韦伯斯特  译者：田伟华　中国妇女出版社2012年2月出版， 251页</h4><p>类别：童话<br><img src="http://img3.douban.com/lpic/s26094904.jpg" alt=""></p>
+<p>《长腿叔叔》被誉为最温馨、最浪漫、最诙谐有趣的成人童话经典之作！这是一部洋溢着温馨、怀旧、惊喜、明朗和热情的爱与奇迹的成人童话，它用纯真而诚挚的情感提醒生活在幸福和爱中的人们，在享受温馨和美好生活的同时，耍珍惜所拥有的一切，无论是得到还是施与，都要心怀感激。</p>
+<p>Daddy-Long-Legs  by Jean Webster，A Delightful, Sparkling Novel for Children and Adults, 顺便说一下，作者有一个大名鼎鼎的亲戚，马克吐温！</p>
+<p>本书同样流传甚广，版本繁多，在此选取中英文对照版本。</p>
+<p><a href="http://product.dangdang.com/22590352.html" target="_blank" rel="external">当当购买链接</a></p>
+<h4 id="14-《柳林风声》_作者：肯尼斯·格雷厄姆_222页">14.《柳林风声》 作者：肯尼斯·格雷厄姆  222页</h4><p>类别：童话<br><img src="http://img3.douban.com/lpic/s10585083.jpg" alt=""></p>
+<p>本书是英国作家肯尼斯·格雷厄姆创作的童话故事，是英国儿童文学黄金时代的巅峰之作，英国儿童枕边的“宝贝书”。</p>
+<blockquote>
+<p>这是一个爸爸写给儿子的童话，是一个适合围坐在暖暖的火炉边，大家一起听的故事。书中以细腻典雅的笔调描绘了大自然风光的诗意变化，被誉为“英文散文体作品的典范”，而萦绕在柳林间的那一份友谊与温情，更是让人如沐春风。</p>
+<p>The Wind in the Willows by Kenneth Grahame, Generations of children have roamed the English countryside in the company of Rat, Mole, Toad, and Badger, the immortal animal friends of The Wind in the Willows. From their genesis nearly a century ago as bedtime stories for the author’s young son, these timeless tales of friendship amid the natural world have captivated readers of all ages.</p>
+</blockquote>
+<p>本书同样大名鼎鼎，在此选取2个中文译本，其中一个附有精美插图。当然，同时推荐英文原版。</p>
+<p><a href="http://product.dangdang.com/22784907.html" target="_blank" rel="external">当当购买链接1</a><br><a href="http://product.dangdang.com/21009389.html" target="_blank" rel="external">当当购买链接2</a><br><a href="http://www.amazon.com/Willows-Dover-Childrens-Evergreen-Classics/dp/0486407853/ref=sr_1_3?s=books&amp;ie=UTF8&amp;qid=1425530461&amp;sr=1-3&amp;keywords=Kenneth+Grahame" target="_blank" rel="external">Amazon Link</a></p>
+<h4 id="15-《同学都说我丑》_作者：涅斯特林格，译者：赖静雅_安徽少年儿童出版社2013年1月出版，192页">15.《同学都说我丑》 作者：涅斯特林格，译者：赖静雅  安徽少年儿童出版社2013年1月出版，192页</h4><p>类别：外国小说<br><img src="http://img5.douban.com/lpic/s24430316.jpg" alt=""></p>
+<p>本书作者涅斯特林格（Christine Nöstlinger），出生于1936年，当代奥地利及德语区最受欢迎的儿童文学作家。而《同学都说我丑》发表于1986年，屡次获得欧洲德语文学大奖。</p>
+<blockquote>
+<p>泰西有一双老鼠眼、一个超大的鼻子和短得几乎看不见的下巴。乍看之下，就像一只“食蚁兽”，这让泰西常常被同学们取笑。泰西很想和同学们打成一片，但是当大家叫她一起捉弄讲课喷口水的菲雪儿老师时，她犹豫了，她不想伤害自己喜欢的菲雪儿老师。泰西决定什么也不做，却无故遭到同学们的怀疑……另一方面，为了交到朋友，泰西冒用姐姐的漂亮照片，认识了一个叫阿克瑟的男孩笔友。现在，阿克瑟要来看泰西了，她不知道该怎么办……<br>　　涅斯特林格贴切地描写了孩子的内心世界，引导孩子思索自信心从何而来和生命的意义。</p>
+</blockquote>
+<p><a href="http://product.dangdang.com/22920633.html" target="_blank" rel="external">当当购买链接1</a></p>
+<h4 id="16-《听见颜色的女孩》_作者：莎朗·德蕾珀_译者：卢宁_接力出版社2012年8月出版，288页">16.《听见颜色的女孩》   作者：莎朗·德蕾珀   译者：卢宁  接力出版社2012年8月出版，288页</h4><p>类别：外国小说</p>
+<p><img src="http://img3.douban.com/lpic/s11193722.jpg" alt="">   <img src="https://d3myrwj42s63no.cloudfront.net/180/978/141/697/170/2/9781416971702.jpg" alt=""> </p>
+<p>本书原名Out of My Mind，作者 Sharon M. Draper 女士曾经是一位高中英语教师，，描述了一个令人难以置信和难以忘怀的故事。</p>
+<blockquote>
+<p>女孩儿美乐笛有着惊人的记忆力。她的大脑就像一台摄像机，一直不停地记录着她的日思夜想，她的耳闻目睹，她的爱，她的愁，她经历的一切。女孩儿美乐笛是整个校园里最聪明的学生——但没人知道这一点。女孩儿美乐笛的老师、同学、医生都认为她全无学习能力。于是，女孩儿美乐笛只能每天做同样的习题，抄同样的字词，一遍又一遍。假使女孩儿美乐笛真能表达：表达爱、表达愁、表达日思夜想，该有多好！<br>可是，女孩儿美乐笛不能说话、不能行走、甚至不能写字…… </p>
+</blockquote>
+<p><a href="http://product.dangdang.com/22853006.html" target="_blank" rel="external">当当购买链接</a><br><a href="http://www.amazon.com/Out-My-Mind-Sharon-Draper/dp/1416971718" target="_blank" rel="external">Amazon Link</a></p>
+<h4 id="17-《假如给我三天光明》_作者：海伦凯勒">17.《假如给我三天光明》 作者：海伦凯勒</h4><p>本书人尽皆知，不再赘述。</p>
+<h4 id="18-《佐贺的超级阿姨》_作者：岛田洋七_译者：陈宝莲，_由南海出版社2013年11月出版，256页">18.《佐贺的超级阿姨》 作者：岛田洋七  译者：陈宝莲， 由南海出版社2013年11月出版，256页</h4><p>类别：散文</p>
+<p><img src="http://img3.douban.com/lpic/s3922462.jpg" alt=""></p>
+<p>日本在各种题材都有很多杰出的作家，本书作者岛田洋七本身是有名的漫才（相声）演员，2001年，他将童年与外婆相依为命的故事写成《佐贺的超级阿嬷》，真挚感人的内容引起极大反响。岛原子弹爆炸后，岛田洋七（本名本名德永昭广）的父亲只身回广岛看看，却受核辐射死去。因无力抚养，母亲只好将年仅八岁的昭广寄养在佐贺乡下的外婆家。虽然极度艰苦，乐观的外婆却总有神奇的办法让日子过下去，让生活充满创意、发现和欢笑！<strong>强力推荐</strong>。</p>
+<p><a href="http://product.dangdang.com/23368941.html" target="_blank" rel="external">当当购买链接</a></p>
+<h4 id="19-《淘气的阿柑》_作者：潘尼培克_译者：邹嘉容，由贵州人民出版社2009年1月出版，112页">19.《淘气的阿柑》   作者：潘尼培克   译者：邹嘉容，由贵州人民出版社2009年1月出版，112页</h4><p>类别：外国小说<br><img src="http://img5.douban.com/lpic/s3795819.jpg" alt=""></p>
+<p>Clementine by Sara Pennypacker, “淘气的阿柑系列”一共有6本，本书是第一本，用幽默风趣的笔法讲述了小女孩阿柑的各种趣事。”幽默的情节一个接一个，加上只有阿柑才有的新鲜观点、独特对话……弗雷齐的插画精确把握住了阿柑压抑不住的活力和稚气的表情动作……一本令人愉悦的小说。“</p>
+<p><a href="http://product.dangdang.com/20565012.html" target="_blank" rel="external">当当</a>缺货，请找<a href="http://item.taobao.com/item.htm?spm=a230r.1.14.114.hKlcyq&amp;id=43546624279&amp;ns=1&amp;abbucket=6#detail" target="_blank" rel="external">淘宝</a><br><a href="http://www.amazon.com/Clementine-Sara-Pennypacker/dp/0786838833/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1425535983&amp;sr=1-1&amp;keywords=Clementine+by+Sara+Pennypacker" target="_blank" rel="external">Amazon Link</a></p>
+<h4 id="20-《活了100万次的猫》_作者：佐野洋子_译者：唐亚明_由接力出版社2004年10月出版，30页">20.《活了100万次的猫》   作者：佐野洋子  译者：唐亚明    由接力出版社2004年10月出版，30页</h4><p>类别：绘本<br><img src="http://img5.douban.com/lpic/s1989598.jpg" alt=""></p>
+<p>本书作者佐野洋子女士为日本著名绘本作家，本书是一部有关生命意义的伟大寓言，在日本被赞誉为“被大人和孩子爱戴，超越了世代的图画书，是读了100万次也不会厌倦的永远的名作”。</p>
+<p><a href="http://product.dangdang.com/20416433.html" target="_blank" rel="external">当当购买链接</a></p>
+<h4 id="21-《我不是完美小孩》_作者：几米_由海豚出版社2011年4月出版，128页">21.《我不是完美小孩》 作者：几米   由海豚出版社2011年4月出版，128页</h4><p>类别：绘本<br><img src="http://img3.douban.com/lpic/s4661660.jpg" alt=""></p>
+<p>几米是台湾著名绘本作家，近十几年来已出版了30多本作品，广受青少年读者的喜爱。本书述了一个三年级小女生郝完美在学习、生活，尤其是与大人相处中的困惑与烦恼。</p>
+<p><a href="http://product.dangdang.com/21048350.html" target="_blank" rel="external">当当购买链接</a><br><a href="http://www.amazon.cn/%E9%87%91%E9%BA%A6%E7%94%B0%E5%B0%91%E5%84%BF%E5%9B%BD%E9%99%85%E8%8E%B7%E5%A5%96%E4%B8%9B%E4%B9%A6-%E5%90%8C%E5%AD%A6%E9%83%BD%E8%AF%B4%E6%88%91%E4%B8%91-%E5%85%8B%E9%87%8C%E6%96%AF%E8%92%82%E5%A8%9C%E2%80%A2%E6%B6%85%E6%96%AF%E7%89%B9%E6%9E%97%E6%A0%BC/dp/B00AWLOA4Y/ref=sr_1_1?ie=UTF8&amp;qid=1425533168&amp;sr=8-1&amp;keywords=%E5%90%8C%E5%AD%A6%E9%83%BD%E8%AF%B4%E6%88%91%E4%B8%91" target="_blank" rel="external">中亚购买链接</a></p>
+<p><strong>Thank you!</strong><br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p><em>读书无嗜好，就能尽其多。不先泛览群书，则会无所适从或失之偏好，广然后深，博然后专。　—-鲁迅<br>不积跬步，无以至千里；不积小流，无以成江海。　—-荀况<br>“A reader lives a thousand lives before he dies, said Jojen. The man who never reads lives only one.”<br>― George R.R. Martin, A Dance with Dragons<br>“The more that you read, the more things you will know. The more that you learn, the more places you’ll go.”<br>― Dr. Seuss, I Can Read With My Eyes Shut!</em><br>]]>
+    
+    </summary>
+    
+      <category term="reading" scheme="http://mm.hanbobo.net/tags/reading/"/>
+    
+      <category term="先锋读书" scheme="http://mm.hanbobo.net/tags/%E5%85%88%E9%94%8B%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="先锋读书" scheme="http://mm.hanbobo.net/categories/%E5%85%88%E9%94%8B%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[检查ocserv的连接]]></title>
+    <link href="http://mm.hanbobo.net/2015/03/12/Check%20ocserv/"/>
+    <id>http://mm.hanbobo.net/2015/03/12/Check ocserv/</id>
+    <published>2015-03-12T03:11:11.000Z</published>
+    <updated>2015-03-18T09:11:49.000Z</updated>
+    <content type="html"><![CDATA[<p>　　部署了Cisco　AnyConnect的服务，分享给朋友，想知道有没有人用，可以使用netstat命令。netstat 命令用于显示各种网络相关信息，如网络连接，路由表，接口状态等。netstat的具体详细用法可以参考<a href="http://www.binarytides.com/linux-netstat-command-examples/" target="_blank" rel="external">文一</a>、<a href="http://www.cnblogs.com/ggjucheng/archive/2012/01/08/2316661.html" target="_blank" rel="external">文二</a>。<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">netstat</span> -ant <span class="comment">#显示所有TCP连接</span></span><br></pre></td></tr></table></figure></p>
+<a id="more"></a>
+<p>而我设置的ocserv是在9000端口，就可以只看这个端口<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">netstat</span> -ant <span class="comment">#显示9000端口</span></span><br></pre></td></tr></table></figure></p>
+<p>从中就可以看出有没有人连接了。我们也可以做一个脚本，<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">cd</span> /root</span><br><span class="line"><span class="built_in">mkdir</span> port-monitor</span><br><span class="line"><span class="keyword">vi</span> port-monitor/port9000-ipmonitor.<span class="keyword">sh</span></span><br></pre></td></tr></table></figure></p>
+<p>放入以下内容<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="shebang">#!/bin/bash</span></span><br><span class="line"><span class="comment"># File: port-ip-monitor.sh</span></span><br><span class="line"><span class="comment"># Created: Wednesday, August 27 2014 by Hua Liang[Stupid ET] &lt;et@everet.org&gt;</span></span><br><span class="line"><span class="comment"># Adapted: Friday, MArch 6 2015 by Gang &lt;exodus.bo@gmail.com&gt;</span></span><br><span class="line">filename=<span class="string">"port9000-ip-monitor.log"</span></span><br><span class="line">regex=<span class="string">"9000"</span> <span class="comment"># 9000</span></span><br><span class="line">date +<span class="string">"[%Y-%m-%d %H:%M:%S]"</span> &gt;&gt; <span class="variable">$filename</span></span><br><span class="line">netstat -anp | egrep <span class="variable">$regex</span> | grep -E <span class="string">"tcp.*ESTABLISHED"</span> | awk <span class="string">'&#123;print $4, $5&#125;'</span> | cut <span class="operator">-d</span>: <span class="operator">-f</span>2 | sort -u &gt;&gt; <span class="variable">$filename</span></span><br></pre></td></tr></table></figure></p>
+<p>现在可以试着运行这个脚本，</p>
+<figure class="highlight x86asm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/root/port-<span class="keyword">monitor</span>/port9000-<span class="literal">ip</span>-<span class="keyword">monitor</span>.sh</span><br></pre></td></tr></table></figure>
+<p>有时候因为Linux和Win格式不合的原因，会看到这样的错误信息，<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">bash:</span> <span class="regexp">/root/</span>port-monitor<span class="regexp">/port9000-ip-monitor.sh， /</span>bin/sh^<span class="string">M:</span> bad <span class="string">interpreter:</span> No such file or directory</span><br></pre></td></tr></table></figure></p>
+<p>可以用vi去修改格式，也可以运行这个命令自己修改，</p>
+<figure class="highlight puppet"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sed -i -e <span class="string">'s/\r$//'</span> /<span class="literal">root</span>/port-monitor/port900<span class="number">0</span>-<span class="literal">ip</span>-monitor.sh</span><br></pre></td></tr></table></figure>
+<p>运行之后，就可以在/root下面看到log文件了。在Centos crontab里面加入下面一行，可以让脚本每分钟自动运行<br><figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">*</span> <span class="keyword">*</span> <span class="keyword">*</span> <span class="keyword">*</span> <span class="keyword">*</span> /root/port-monitor/port9000-ip-monitor.sh</span><br></pre></td></tr></table></figure></p>
+<p>如果担心每分钟运行产生log太多，可以改为每5分钟运行一次<br><figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">*</span>/5 <span class="keyword">*</span> <span class="keyword">*</span> <span class="keyword">*</span> <span class="keyword">*</span> /root/port-monitor/port9000-ip-monitor.sh</span><br></pre></td></tr></table></figure></p>
+<p>看到连上的IP之后，我们可以用下面的命令来查看这个IP地址来自何方，<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">curl</span> ipinfo.io/<span class="number">116.211.6.248</span></span><br></pre></td></tr></table></figure></p>
+<p><img src="http://www.hanbobo.net/wp-content/uploads/2015/03/2015-03-06_115232.png" alt="">    </p>
+<p>本文作为新手学习笔记，参考了<a href="http://everet.org/shadowsocks.html" target="_blank" rel="external">博文1</a>、<a href="http://tecadmin.net/crontab-in-linux-with-20-examples-of-cron-schedule/" target="_blank" rel="external">博文2</a>、<a href="http://xmodulo.com/geographic-location-ip-address-command-line.html" target="_blank" rel="external">博文3</a>等文章，一并感谢！</p>
+<p>也可以写一个<a href="http://www.hanbobo.net/curli.sh" target="_blank" rel="external">脚本</a>来查看IP的地理位置， </p>
+<p>赋予执行权限，就可以执行了。</p>
+<figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">chmod</span> +<span class="keyword">x</span> curli.sh</span><br><span class="line">./curli.sh <span class="number">114.114</span>.<span class="number">114.114</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="string">"ip"</span>: <span class="string">"114.114.114.114"</span>,</span><br><span class="line"><span class="string">"hostname"</span>: <span class="string">"public1.114dns.com"</span>,</span><br><span class="line"><span class="string">"city"</span>: <span class="string">"Nanjing"</span>,</span><br><span class="line"><span class="string">"region"</span>: <span class="string">"Jiangsu"</span>,</span><br><span class="line"><span class="string">"country"</span>: <span class="string">"CN"</span>,</span><br><span class="line"><span class="string">"loc"</span>: <span class="string">"32.0617,118.7778"</span>,</span><br><span class="line"><span class="string">"org"</span>: <span class="string">"AS6461 Abovenet Communications, Inc"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>　　部署了Cisco　AnyConnect的服务，分享给朋友，想知道有没有人用，可以使用netstat命令。netstat 命令用于显示各种网络相关信息，如网络连接，路由表，接口状态等。netstat的具体详细用法可以参考<a href="http://www.binarytides.com/linux-netstat-command-examples/">文一</a>、<a href="http://www.cnblogs.com/ggjucheng/archive/2012/01/08/2316661.html">文二</a>。<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">netstat</span> -ant <span class="comment">#显示所有TCP连接</span></span><br></pre></td></tr></table></figure></p>]]>
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://mm.hanbobo.net/tags/hexo/"/>
+    
+      <category term="博客" scheme="http://mm.hanbobo.net/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="文章" scheme="http://mm.hanbobo.net/tags/%E6%96%87%E7%AB%A0/"/>
+    
+      <category term="笔记" scheme="http://mm.hanbobo.net/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="VPN" scheme="http://mm.hanbobo.net/categories/VPN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[G5/6 Reading List]]></title>
+    <link href="http://mm.hanbobo.net/2015/01/18/G5-6-Reading-List/"/>
+    <id>http://mm.hanbobo.net/2015/01/18/G5-6-Reading-List/</id>
+    <published>2015-01-18T02:19:07.000Z</published>
+    <updated>2015-03-18T09:07:52.000Z</updated>
+    <content type="html"><![CDATA[<p>　　This list is complied from several sources. Due to the (lack of) availability of English books in China, only those with ebook forms are included here.<br><a id="more"></a></p>
+<h2 id="Novels">Novels</h2><p><strong>Hatchet</strong><br>　　　<img src="http://d.gr-assets.com/books/1385297074l/50.jpg" alt=""><br>by Gary Paulsen (Simon &amp; Schuster, 2007) 192 pages.<br>　　Gary Paulsen is one of the most honored writers of contemporary literature for young readers. He has written more than one hundred book for adults and young readers, and is the author of three Newberry Honor titles: Dogsong, Hatchet, and The Winter Room.</p>
+<blockquote>
+<p>The story is about Brian, 13, and how he manages to survive 54 days in the Canadian wilderness after a plane crash. Brian was flying to visit his father when the pilot dies of a heart attack in mid-flight. Brian crash lands the plane into a small lake and swims out of the wreckage. He has his clothing, a tattered windbreaker and a hatchet (a gift from his mother). The novel takes us through Brian’s days, how he learns patience through his experiences with failures and small successes: building a fire, fishing and hunting, making his shelter a safe one. He endures a porcupine attack, a tornado and being utterly alone for almost two months. This is a tale of adventure but, more importantly, it is a tale of character growth.</p>
+</blockquote>
+<p>　　小汉堡说这个是少年版的鲁滨逊:) 作者一共写了5本同类型的书，分别是Hatchet (Brian’s Saga, #1) ，The River (Brian’s Saga, #2) ，Brian’s Winter (Brian’s Saga, #3) ，Brian’s Return (Brian’s Saga, #4) ，Brian’s Hunt (Brian’s Saga, #5) .<br><a href="http://pan.baidu.com/s/1ntmOt9B" target="_blank" rel="external">百度云链接</a><br><a href="http://www.amazon.com/Hatchet-Gary-Paulsen/dp/1416936475" target="_blank" rel="external">amazon link</a></p>
+<p><strong>The Miraculous Journey of Edward Tulane</strong><br>by Kate Dicamillo (Candlewick, 2009) 224 pages.<br>　　　<img src="http://wpc.556e.edgecastcdn.net/80556E/img.news/NEIIsFzLPx4VMP_1_1.jpg" alt=""></p>
+<blockquote>
+<p>Once, in a house on Egypt Street, there lived a china rabbit named Edward Tulane. The rabbit was very pleased with himself, and for good reason: he was owned by a girl named Abilene, who adored him completely. And then, one day, he was lost. . . .[/i]<br>Kate DiCamillo takes us on an extraordinary journey, from the depths of the ocean to the net of a fisherman, from the bedside of an ailing child to the bustling streets of Memphis. Along the way, we are shown a miracle — that even a heart of the most breakable kind can learn to love, to lose, and to love again.</p>
+</blockquote>
+<p>　　从前，在埃及街旁的一所房子里，住着一只名叫爱德华·图雷恩的瓷兔子。那小兔子很是自鸣得意，而且理由充足，他为一个名叫阿比林的女孩儿所拥有，她对他关怀备至，崇敬有加。 可是后来，有一天，他被丢失了。 《爱德华的奇妙之旅》的作者凯特·迪卡米洛把我们带上了一段异乎寻常的旅程——从海洋深处到渔夫的渔网，从垃圾堆的顶部到流浪汉营地的篝火边，从一个生病的孩子的床前导孟斐斯的街道上……一路上的见闻令我们惊鄂不已——即使是一颗极易破碎的心也可以失去爱、学会爱而又重新得到爱。 《爱德华的奇妙之旅》荣获波士顿全球号角书奖金奖。<br><a href="http://pan.baidu.com/s/1hq3n3la" target="_blank" rel="external">百度云链接</a><br><a href="http://www.amazon.com/Miraculous-Journey-Edward-Tulane/dp/076364367X" target="_blank" rel="external">amazon link</a></p>
+<p><strong>Peak</strong><br>by Roland Smith (Harcourt, 2007). 246 pages.<br><img src="http://d.gr-assets.com/books/1328876929l/721003.jpg" alt=""></p>
+<blockquote>
+<p>When 14-year-old Peak Marcello is caught scaling a skyscraper to place his signature graffiti tag, he is offered a choice: spend three years in juvenile detention or climb Mt. Everest with his long-absent father. Though the choice might be easy, the journey is not. Peak is physically and emotionally challenged by the grueling climb, the weather, and the politics and drama of climbing culture. And the pressure is on, because if Peak can reach the summit before his 15th birthday, he’ll break a world record and gain glory and money. Peak is gripping and surprising, and though it’s written for a middle-grade audience, readers young and old will be sucked in by the sharp writing and memorable characters. </p>
+</blockquote>
+<p>Teacher’s review is <a href="http://bbs.hanbobo.net/attachment/54b74e3f44293_Peak%20--%20teacher%20review.pdf" target="_blank" rel="external">attached</a>.<br><a href="http://pan.baidu.com/s/1c0IoMEc" target="_blank" rel="external">百度云链接</a><br><a href="http://www.amazon.com/Peak-Roland-Smith/dp/0152062688" target="_blank" rel="external">Amazon link</a></p>
+<p><strong>The White Darkness</strong><br>　　　<img src="http://upload.wikimedia.org/wikipedia/en/thumb/2/2d/TheWhiteDarkness.jpg/220px-TheWhiteDarkness.jpg" alt=""><br>by Geraldine McCaughrean (Harper Teen, 2005).  373 pages<br>　　Sym Wates is obsessed with everything Antarctic — especially the doomed explorer Titus Oates, who died in a 1911 expedition to the South Pole. She is thrilled when her uncle Victor arranges to take her to Antarctica, but her delight doesn’t last; it turns out that Uncle Victor has a strange ulterior motive for the trip and that some of Sym’s fellow travelers aren’t who they claim to be — especially Uncle Victor. The White Darkness weaves history, family drama and adventure into a thrilling tale.<br><a href="http://www.amazon.com/The-White-Darkness-Geraldine-McCaughrean/dp/0060890355" target="_blank" rel="external">Amazon Link</a></p>
+<p><strong>I Am the Ice Worm</strong><br>by MaryAnn Easley (Boys Mill Press, 1998). 127 pages.<br>　　　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/i%20am%20the%20iceworm.jpg" alt="Iceworm"></p>
+<blockquote>
+<p>This book is sort of a girls’ version of Gary Paulsen’s classic Hatchet. In both stories, a teenage character is stranded in the wilderness following a plane crash. In I Am the Ice Worm, 14-year-old Allison is rescued from the Alaskan wild by an Inupiat trapper, who takes her to his village to stay until she can be reunited with her mother. Allison’s upbringing in an upper-class family in southern California certainly didn’t prepare her for this icy adventure, but she turns out to have courage and adaptability that she didn’t expect. Though Allison may initially seem too “girly” for boy readers, this novel has a great blend of adventure, wilderness and family matters that will captivate boys and girls alike.</p>
+</blockquote>
+<p>女孩子版本的Hatchet:)<br><a href="http://www.amazon.com/gp/product/1563974126?tag=openlibr-20" target="_blank" rel="external">Amazon Link</a></p>
+<p><strong>The Secret Garden</strong><br>by Frances Hodgson Burnett<br>　　　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/garden.jpg" alt=""></p>
+<blockquote>
+<p>Mistress Mary is quite contrary until she helps her garden grow. Along the way, she manages to cure her sickly cousin Colin, who is every bit as imperious as she. These two are sullen little peas in a pod, closed up in a gloomy old manor on the Yorkshire moors of England, until a locked-up garden captures their imaginations and puts the blush of a wild rose in their cheeks; “It was the sweetest, most mysterious-looking place any one could imagine. The high walls which shut it in were covered with the leafless stems of roses which were so thick, that they matted together…. ‘No wonder it is still,’ Mary whispered. ‘I am the first person who has spoken here for ten years.’” As new life sprouts from the earth, Mary and Colin’s sour natures begin to sweeten. For anyone who has ever felt afraid to live and love, The Secret Garden’s portrayal of reawakening spirits will thrill and rejuvenate. Frances Hodgson Burnett creates characters so strong and distinct, young readers continue to identify with them even 85 years after they were conceived. </p>
+</blockquote>
+<p><a href="http://www.amazon.com/Secret-Garden-Frances-Hodgson-Burnett/dp/0451528832" target="_blank" rel="external">Amazon link</a><br><a href="http://www.gutenberg.org/ebooks/113" target="_blank" rel="external">Gutenberg download</a><br><a href="http://pan.baidu.com/share/link?shareid=1272012249&amp;uk=2837494960" target="_blank" rel="external">百度云链接</a></p>
+<p><strong>My Side of the Mountain</strong> by Jean Craighead George<br>　　　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/mountain.jpg" alt=""></p>
+<p>　　《山居岁月》（My side of the Mountain），文字美妙，关于森林、鸟兽的描写生动迷人；而同时，这也是一本适合儿童看的“野外生存手册”，每一个内心藏着荒野探险梦想的男孩，都会在这本书里找到他们的精神乐园。这本书曾于1960年获得纽伯瑞儿童文学银奖，也是美国中学会反复向学生推荐阅读的一本书。<br>1960年纽伯瑞儿童文学奖银奖作品。美国作家珍·克雷赫德·乔治根据童年经验改写。 每一个男孩都有过离开家，独自闯荡世界的想法，深居森林，与动物作伴。但是只有小主人公纽约男孩山姆把他变成现实。<br>　　五月的一天山姆离开家，一个人在荒原整整生活了一年。在这一年里，他训练了一只猎鹰，做了树屋，为自己在冬天储存了足够的食物，身穿自己制作的鹿皮衣与周围的动物为伍。本书细致的描绘了男孩在森林中生活的场景。好的作品对于人生经验真的是一种考验。</p>
+<p><strong>Goodnight Mister Tom</strong> by Michelle Magorian<br>　　　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/night.jpg" alt=""></p>
+<p>　　《晚安,汤姆先生》(Good Night, Mister Tom),获得了卫报儿童小说奖(Guardian Children’s Fiction Prize)。该小说还被BBC评为有史以来最伟大的100部小说之一。</p>
+<blockquote>
+<p>London is poised on the brink of World War II. Timid, scrawny Willie Beech—the abused child of a single mother—is evacuated to the English countryside. At first, he is terrified of everything, of the country sounds and sights, even of Mr. Tom, the gruff, kindly old man who has taken him in. But gradually Willie forgets the hate and despair of his past. He learns to love a world he never knew existed, a world of friendship and affection in which harsh words and daily beatings have no place. Then a telegram comes. Willie must return to his mother in London. When weeks pass by with no word from Willie, Mr. Tom sets out for London to look for the young boy he has come to love as a son.</p>
+</blockquote>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>　　This list is complied from several sources. Due to the (lack of) availability of English books in China, only those with ebook forms are included here.<br>]]>
+    
+    </summary>
+    
+      <category term="先锋读书" scheme="http://mm.hanbobo.net/tags/%E5%85%88%E9%94%8B%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="Reading" scheme="http://mm.hanbobo.net/categories/Reading/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[读史摘要]]></title>
+    <link href="http://mm.hanbobo.net/2014/10/03/%E8%AF%BB%E5%8F%B2%E6%91%98%E8%A6%8101/"/>
+    <id>http://mm.hanbobo.net/2014/10/03/读史摘要01/</id>
+    <published>2014-10-03T03:35:24.000Z</published>
+    <updated>2015-03-16T02:17:46.000Z</updated>
+    <content type="html"><![CDATA[<p>　　从东汉中平六年（189年）董卓之乱开始，到曹操统一北方（215年），黄河流域战乱持续26年之久，其中最具破坏性的乃是董卓之乱。董卓凶暴残忍，其部率烧毁洛阳宫庙官府和民居，城内扫地殄尽，洛阳城外200里内无复人迹。[3]<br><a id="more"></a>董卓徙洛阳数百万人口去长安时，“步骑驱蹙，更相蹈藉，饥饿寇掠，积尸盈路”[4]。董卓死后，三辅民尚有数万户，卓将李催放兵劫掠，“强者回蔽，羸者相食，二三年间，关中无复人迹”[5]。东汉兴平元年（194年），关中兵乱后，大旱，“是时谷一斛五十万，人相食啖，白骨委积”[6]。关东诸将讨董卓起兵后，“众数十万，皆集荥阳及河内，诸将不能相一，纵兵抄掠，人民死者且半”[7]。曹操为报父仇，讨伐徐州牧陶谦，当时京师（洛阳）遭“董卓之乱，人民流移东出，多依彭城间”。操军“坑杀男女数万口于泗水，水为不流”。曹操又率军“从泗南攻取虑、睢陵、夏丘诸县，皆屠之，鸡犬亦尽，墟邑无复行人”[8]。在战乱中，生产遭到严重破坏，粮食供应极端困难。如袁绍军人“仰食桑椹”；袁术军人“取给蒲蠃”[9]；曹操军粮“颇杂以人脯”[10]。刘备军队“饥饿困败，吏士大小自相啖食”[11]。各军事集团以武力强征和劫掠，粮食供给尚且如此困难，人民群众的饥饿窘状便可想而知了。战乱促使社会危机加深，人民无法生存，必然离乡背井向外流亡。东汉末年仅见于记载的逃亡民户，先后共达300余万口。</p>
+<p>　　永嘉三年（309年），刘渊派刘景进攻洛阳时，与晋将王堪战于延津（今河南汲县东古黄河上），“沉（百姓）男女三万人于河”[22]。羯人石勒发动起义后，攻城略地，杀略官兵。永嘉五年（311年）四月，石勒大败晋王衍兵，杀百官将士10余万人，“相践如山，无一人得免者”[23]。六月，汉将刘曜等破洛阳后，纵兵烧掠，宫殿官府化为灰烬，王公士民3万余人被杀。洛阳“饥甚，人相食，百官流亡者十八九”[24]。同年秋，汉兵围长安，晋南阳王模降汉。史称：“关西饥馑，白骨蔽野，士民存者百无一二。”[25]永嘉六年（312年）夏，晋雍州刺史贾等围刘曜于长安数月，汉兵连败，驱掠长安男女8万余口，奔回平阳（今山西临汾西南）。同年冬，晋并州刺史刘琨为汉兵所败，向代公猗卢请兵，猗卢派部将卫雄等为先锋，同琨反攻晋阳，猗卢亲率大军20万继进。猗卢军与刘曜军大战于汾水，再战于蒙山（今太原市西南），刘曜军大败，伏尸数百里，山为之赤。[26]西晋建兴四年（316年）八月，刘曜军逼长安，内外断绝。长安“饥甚，米斗金二两，人相食，死者大半”[27]。</p>
+<p>　　前秦时苻登（后为秦主）举兵征伐，“是时岁旱众饥，道馑相望，登每战杀贼，名为熟食，谓军人曰：‘汝等朝战，暮便饱肉，何忧于饥!’士众从之，啖死人肉，辄饱健能斗”[48]。</p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>　　从东汉中平六年（189年）董卓之乱开始，到曹操统一北方（215年），黄河流域战乱持续26年之久，其中最具破坏性的乃是董卓之乱。董卓凶暴残忍，其部率烧毁洛阳宫庙官府和民居，城内扫地殄尽，洛阳城外200里内无复人迹。[3]<br>]]>
+    
+    </summary>
+    
+      <category term="读史" scheme="http://mm.hanbobo.net/tags/%E8%AF%BB%E5%8F%B2/"/>
+    
+      <category term="Reading" scheme="http://mm.hanbobo.net/categories/Reading/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[忆吴越古道徒步 by Alex on 20140603 @Shanghai]]></title>
+    <link href="http://mm.hanbobo.net/2014/06/07/%E5%BF%86%E5%90%B4%E8%B6%8A%E5%8F%A4%E9%81%93%E5%BE%92%E6%AD%A5/"/>
+    <id>http://mm.hanbobo.net/2014/06/07/忆吴越古道徒步/</id>
+    <published>2014-06-06T20:55:00.000Z</published>
+    <updated>2015-03-18T15:17:33.000Z</updated>
+    <content type="html"><![CDATA[<p> 　　就着刚刚同吴越古道亲热完的余温，怀着不舍和留恋，娓娓道来徒步印象。画面一幅幅从脑海里闪过，每一幅都回味无穷，真真切切。<br><a id="more"></a><br> 　　一上车，欢快的气氛一下子就占领了整个车厢，刚上车时的陌生感和惴惴然马上被抛到了爪哇国，这一刻，让我们尽兴欢快吧！（音乐呢？响起——！）首先是自我介绍环节，小朋友们或活泼大方，或羞涩忸怩，童言童语，掷地有声，让人时而捧腹，时而喝彩，个个表现可圈可点。接下来是才艺表演，唱歌的妹妹们音色悦耳动听，歌曲紧跟时代，动作憨然可掬，弟弟们声音尖锐洪亮，一付初生牛犊不怕虎的劲头。朗诵的妹妹表情生动，用稚嫩脆生的童音引领大家一起领略春天的美丽。伴随着欢笑，仿佛一眨眼的功夫我们就到达了住宿的小山村。<br> <a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0011.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image001_thumb1.png" alt="clip_image001" title="clip_image001"></a> </p><p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0022.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image002_thumb2.png" alt="clip_image002" title="clip_image002"></a><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0032.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image003_thumb2.png" alt="clip_image003" title="clip_image003"></a><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0042.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image004_thumb2.png" alt="clip_image004" title="clip_image004"></a> </p>
+<p> 　　稍作休整，简单地吃了点午饭，开始为明天的徒步热身。看到爸爸们淡定地分配任务，细心地安排队形，耐心地讲解，我知道这将是一次靠谱的、有意义的共同成长之旅，是孩子们一生中不能忘怀的亲子活动。</p>
+<p> <a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0052.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image005_thumb2.png" alt="clip_image005" title="clip_image005"></a><br>　　刚出发不久，一块巨石跃入眼帘。还没来得及反应，孩子们已经不顾一切地向巨石发起了猛攻，前仆后继，额头上都刻上了“勇”字。爸爸妈妈们站在一旁，拍照的拍照，救助的救助。脚踩征服的巨石，孩子们摆出各种姿势，一脸欣然。在这里只想说：爸爸妈妈们，你们辛苦了！也许你们拍照的水平不专业，但你们做父母的职业精神绝对专业，是你们的爱让孩子们活泼开朗，充满阳光。小朋友们，你们知道吗？只要你们幸福，就是爸爸妈妈们最大的幸福。 </p>
+<p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0061.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image006_thumb1.png" alt="clip_image006" title="clip_image006"></a><br><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0071.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image007_thumb1.png" alt="clip_image007" title="clip_image007"></a><br><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0081.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image008_thumb1.png" alt="clip_image008" title="clip_image008"></a> </p>
+<p>　　前面还有更美的风景，让我们继续前行吧！雾锁山峦，绿盈古道，深吸一口纯净的空气，乘着微风，踽踽而行。在热身归来的路上，被一阵阵孩子们的尖叫声惊到了，赶紧跑上前看个究竟。哇——！二十几个孩子，全部在小石潭里湿身了。有光脚蹚水的，有攀石的，有在石间跃来跳去的，有水里你追我逐的，有怡然半卧于石上的，欢呼雀跃，鸟鹊齐飞，鱼龙潜水，草木动容。多么美好的瞬间，摄影呢？麻利儿的。 </p>
+<p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0091.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image009_thumb1.png" alt="clip_image009" title="clip_image009"></a><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0101.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image010_thumb1.png" alt="clip_image010" title="clip_image010"></a> </p>
+<p>　　开心，开心，还是开心！晚饭之前又有小姑娘过生日，给这次徒步平添了更多的欢乐。再说一遍：祝你生日快乐！有这么多的小伙伴为你祝福，愿幸福伴你终老！兴奋的心情难以平复，期待明天的正餐——徒步！ </p>
+<p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0111.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image011_thumb1.png" alt="clip_image011" title="clip_image011"></a> </p>
+<p>　　老天仿佛是故意考验我们，送我们一个阴雨天气。但这丝毫不能影响我们的士气。和昨天一样，几个爸爸带孩子们打头阵，中间是妈妈队伍，最后是几个爸爸收尾。刚开始队形还很完整，渐渐地距离愈拉愈大，前头的爸爸和几个小姑娘一马当先，甩下大部队几个身段。姑娘们，你们真是群汉子！雨越下越大，冷风吹着，汗水却不停地流，那叫一个“虐”。跟着大部队不紧不慢地走着，不时收编一些体力有些不支的孩子。这天气，这道路，不仅对孩子，对大人也是一种考验。要照顾好自己，还要照顾孩子，更要让孩子们在徒步中得到锻炼，磨砺意志，培养团队精神，向爸爸们学习责任、组织和管理，向妈妈们学习奉献和付出。有段陡坡由于下雨变得非常泥泞，爬坡的人几乎都摔跤了，放眼望去，遍地身体横陈，满头满身泥泞，怎一个“惨”字了得。有想放弃的，但在大家相互鼓励和提携下，终于征服了陡坡。满以为接下来的路会好走，可却事与愿违。山顶上劲风凛冽，几乎把人吹飞，豆大的雨点打在脸上生疼。“坚持，很快就到了”。这是大家对周围人说得最多的一句话。已经无心欣赏云雾缭绕的群山，宛如明镜的天池，只想着快点追上前面的队伍，快点结束这超虐的徒步。咬着牙坚持着，终于又见到小村庄。久违了，无比亲切的小村庄。裤腿全湿了，还粘着泥巴，鞋子沉重了好几斤。 </p>
+<p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0121.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image012_thumb1.png" alt="clip_image012" title="clip_image012"></a> </p>
+<p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0131.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image013_thumb1.png" alt="clip_image013" title="clip_image013"></a> </p>
+<p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0141.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image014_thumb1.png" alt="clip_image014" title="clip_image014"></a> </p>
+<p>　　今晚，我们要好好地欢庆一番。所有人安全归来，没有大伤，活动相当圆满地结束，有什么理由不畅饮？为我们的患难与共，为孩子们出色的表现，为被磨砺得更坚强的意志，为爸爸妈妈们无私的爱，让我们举杯！ </p>
+<p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0151.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image015_thumb1.png" alt="clip_image015" title="clip_image015"></a> </p>
+<p>　　孩子们未来的路还很长，成长中还需要不断地培养和磨砺。但我知道，有爸爸妈妈们陪伴，你们的未来不是梦！ </p>
+<p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0161.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image016_thumb1.png" alt="clip_image016" title="clip_image016"></a> </p>
+<p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0171.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image017_thumb1.png" alt="clip_image017" title="clip_image017"></a></p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p> 　　就着刚刚同吴越古道亲热完的余温，怀着不舍和留恋，娓娓道来徒步印象。画面一幅幅从脑海里闪过，每一幅都回味无穷，真真切切。<br>]]>
+    
+    </summary>
+    
+      <category term="先锋" scheme="http://mm.hanbobo.net/tags/%E5%85%88%E9%94%8B/"/>
+    
+      <category term="远足" scheme="http://mm.hanbobo.net/tags/%E8%BF%9C%E8%B6%B3/"/>
+    
+      <category term="Hiking" scheme="http://mm.hanbobo.net/categories/Hiking/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[斯里兰卡游小结]]></title>
+    <link href="http://mm.hanbobo.net/2014/05/17/%E6%96%AF%E9%87%8C%E5%85%B0%E5%8D%A1%E6%B8%B8%E5%B0%8F%E7%BB%93/"/>
+    <id>http://mm.hanbobo.net/2014/05/17/斯里兰卡游小结/</id>
+    <published>2014-05-17T05:14:19.000Z</published>
+    <updated>2015-03-17T13:00:35.000Z</updated>
+    <content type="html"><![CDATA[<p>　　4晚5天的斯里兰卡行完成了，做一个小结，</p>
+<ol>
+<li>我们是当天早上6:15分抵达科伦坡机场，很顺利见到预定的租车司机，7点左右就开始了行程。这个时间是可以去参观Negombo著名的鱼市，而我们没去，直接去了狮子岩Sigiriya—需要爬台阶。 然后就驱车去住宿地Kandy。<a id="more"></a></li>
+<li>我们在Kandy 住了一晚，这里建议住2晚。可以好好参观佛牙寺、大象孤儿院等景点。</li>
+<li>我们的下一个目的地是Ella，这里也可以住2晚，而我们住的小酒店就在山腰，地势风景服务都是此行最好的。在路上会翻过一个1900米的山，山上有很大的茶园，值得参观和购买茶叶。</li>
+<li>Kandy 到Ella有火车并且被认为是斯里兰卡甚或是全世界最漂亮的火车路线，就是需要提前预定一等车厢。我们没有订到，小汉堡非常遗憾。</li>
+<li>从Ella驾车3小时左右就是Yala National Park, 相当于一个小型的非洲Safari，会近距离看到野水牛大象鳄鱼孔雀豹子等野生动物。这个是早上6点一场，下午2:30一场，就是坐吉普车的时间点。</li>
+<li>从Ella 另外一个方向去Horton Park, 好像是一个草原，这次没去，因为也是要凌晨出发的。</li>
+<li>从Yala 去Mirissa 和Galle 城堡，Mirissa 就是有漂亮的海滩和出海看鲸鱼和海豚，来回5小时左右，7点出发。据说晕船比较厉害。</li>
+<li>在Mirissa 认识一个船老板，在他家做了一顿大餐。</li>
+<li>Galle 离Mirissa 驾车30分钟左右，是一个很美丽的古城，住的地方也是不错的。</li>
+<li>总的来说，斯里兰卡给我们的印象非常好，旅游业是相当成熟的，感觉就是他们给外国游客建立了一个Bubble 和本地人分开，而本地人大都很nice. 我们的酒店是按50USD 的标准来选定的，都是相当整洁干净舒适，而去过的餐馆也是整洁干净，就算是路边摊的当地小吃也是随意购买品尝，没有任何问题。</li>
+<li>我们的司机兼向导Neil 非常专业友善，我相信他的同事也是如此，如果再来，也可以联系他。</li>
+<li>我们这次基本在中南部转了一圈，有更多的时间，可以到北部去。</li>
+</ol>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>　　4晚5天的斯里兰卡行完成了，做一个小结，</p>
+<ol>
+<li>我们是当天早上6:15分抵达科伦坡机场，很顺利见到预定的租车司机，7点左右就开始了行程。这个时间是可以去参观Negombo著名的鱼市，而我们没去，直接去了狮子岩Sigiriya—需要爬台阶。 然后就驱车去住宿地Kandy。]]>
+    
+    </summary>
+    
+      <category term="旅行" scheme="http://mm.hanbobo.net/tags/%E6%97%85%E8%A1%8C/"/>
+    
+      <category term="游记" scheme="http://mm.hanbobo.net/tags/%E6%B8%B8%E8%AE%B0/"/>
+    
+      <category term="Travel" scheme="http://mm.hanbobo.net/categories/Travel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[小精灵]]></title>
+    <link href="http://mm.hanbobo.net/2008/11/10/Little%20darling/"/>
+    <id>http://mm.hanbobo.net/2008/11/10/Little darling/</id>
+    <published>2008-11-10T03:10:00.000Z</published>
+    <updated>2015-03-15T14:33:09.000Z</updated>
+    <content type="html"><![CDATA[<p>喔可爱的小精灵<br>你在我怀里呀呀咿咿<br>有时还发发小脾气<br>可爱的小精灵啊<br>这是不是最动听的话语</p>
+<p>喔可爱的小精灵<br>你在厅里爬来爬去<br>眨眼间你已到了桌底<br>可爱的小精灵啊<br>你是不是要回到妈妈的怀里</p>
+<p>喔可爱的小精灵<br>你在妈妈怀里用力吮吸<br>240ml是我们共同的目的<br>可爱的小精灵啊<br>你是不是也知道爸妈的心意</p>
+<p>喔可爱的小精灵<br>你在睡梦中滚来滚去<br>有时还发出呵呵的笑意<br>可爱的小精灵啊<br>我是不是出现在你的梦里</p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>喔可爱的小精灵<br>你在我怀里呀呀咿咿<br>有时还发发小脾气<br>可爱的小精灵啊<br>这是不是最动听的话语</p>
+<p>喔可爱的小精灵<br>你在厅里爬来爬去<br>眨眼间你已到了桌底<br>可爱的小精灵啊<br>你是不是要回到妈妈的怀里</p>
+<p>喔可爱的小]]>
+    </summary>
+    
+      <category term="mm" scheme="http://mm.hanbobo.net/tags/mm/"/>
+    
+      <category term="写作" scheme="http://mm.hanbobo.net/tags/%E5%86%99%E4%BD%9C/"/>
+    
+      <category term="Family" scheme="http://mm.hanbobo.net/categories/Family/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[东京印象2008]]></title>
+    <link href="http://mm.hanbobo.net/2008/07/06/%E4%B8%9C%E4%BA%AC%E5%8D%B0%E8%B1%A12008/"/>
+    <id>http://mm.hanbobo.net/2008/07/06/东京印象2008/</id>
+    <published>2008-07-05T20:48:00.000Z</published>
+    <updated>2015-03-18T14:23:40.000Z</updated>
+    <content type="html"><![CDATA[<p>　　我第一次来东京是2001年，那时只觉得这就是一个大都市，高楼，人多，感觉和香港这个号称“亚洲之都”的城市区别不大。但是自从01年，去了很多地方，现在再来东京，就深深感到这是一个不平凡的地方。这个3千万人口的城市，有所有那些同等级城市标志性的现象，繁忙的交通，拥挤的人流，永不停息的商业行为。但是在这里几乎感觉不到那些大都市人口剧增后难以避免的side-effect。<a id="more"></a>首先，这里的空气很好。在汉城，香港和上海的市民在抱怨日益恶化的空气质量的同时，东京人似乎没有这方面的担心。再，对于一个高度城市化3千万人口的社会，这里异常的干净。即便是下雨时，也没有那种地面脏兮兮的不便，而这在上海和汉城几乎是难以想象的。事实上，最近东京刚被评选为最适合人居城市第二名。当然，这都和日本人对于效率的执着和对资源的再利用分不开。在这个正规得近乎刻板的社会下面，却有很多有趣的丰富多彩的东西。不信的话，你可以在任何一个星期天的下午到Harajuku原宿站附近的代代木Yoyogi公园走一走。</p>
+<p><a href="http://www.flickr.com/photos/51035553389@N01/2641333875/" title="P060708_16.10" target="_blank" rel="external"><img src="http://static.flickr.com/3265/2641333875_0ca5ae702a_m.jpg" alt="P060708_16.10"></a>&nbsp;&nbsp; <a href="http://www.flickr.com/photos/51035553389@N01/2642161104/" title="P060708_16.10[02]" target="_blank" rel="external"><img src="http://static.flickr.com/3077/2642161104_f42253cb3f_m.jpg" alt="P060708_16.10[02]"></a></p>
+<p>　　这是在原宿站外的神宫桥上每个礼拜天都会有的潮流聚会。就是一些少女打穿着奇装异服在这里聚集，说笑。她们也不干什么，就是聚在一起说闹，让人拍照。我每次来东京，都要到这里看看，也注意到一些变化。首先，这些少女的年龄似乎比以前的大了些，以前有很多看起来不到15岁的，现在几乎没有了。更重要的是，现在有外国人的参与，至少2001年前没见过。还有，现在有很多外国人来这里观赏，拍照，以前却不多，看来这个聚会已成了很多游客的必到之处。</p>
+<p><a href="http://www.flickr.com/photos/51035553389@N01/2642160682/" title="P060708_14.46" target="_blank" rel="external"><img src="http://static.flickr.com/3059/2642160682_5c371a9836_m.jpg" alt="P060708_14.46"></a>&nbsp;&nbsp; <a href="http://www.flickr.com/photos/51035553389@N01/2642245736/" title="P060708_15.57" target="_blank" rel="external"><img src="http://static.flickr.com/3050/2642245736_ed96d0fc90_m.jpg" alt="P060708_15.57"></a></p>
+<p>　　过了桥左拐就是代代木公园的入口，就看到一群人在跳舞，年纪大的只怕有50了，小的也有30吧，发型，着装都给人那种猫王时代的感觉，就着音乐挑一些很激烈的舞蹈，非常60年代的说。另外一边是几个人在跳一对一，也是很激烈，女的好像也有50了。</p>
+<p><a href="http://www.flickr.com/photos/51035553389@N01/2642160816/" title="P060708_14.56[01]" target="_blank" rel="external"><img src="http://static.flickr.com/3144/2642160816_d52c405aac_m.jpg" alt="P060708_14.56[01]"></a>&nbsp;&nbsp; <a href="http://www.flickr.com/photos/51035553389@N01/2642160980/" title="P060708_15.40" target="_blank" rel="external"><img src="http://static.flickr.com/3028/2642160980_0e05d3387f_m.jpg" alt="P060708_15.40"></a></p>
+<p>　　在代代木公园外沿街的一边，非常吵闹，都是一些业余的乐团歌手在表演，每个乐团都有3，5人，键盘，鼓手，乐器齐全，相当摇滚。这些噪音大的活动是不让进公园的。那公园里有什么呢？看右边的一张，这个我也是第一次见到，是一个人垮着小音响就着音乐在作画，画的非常印象派。并且有很多观众给他打拍子加油，作完画，他会送给一个现场观众。</p>
+<p>　　看到这里，是不是同意我先前的结论？可以说，很多日本人有很多机会来表现自己，他们也毫不吝啬地表现出来，不管兴趣爱好外人看来有多奇怪，他们似乎并不在意能否得到认同。从中我看到一种强烈的自信。那么这种自信是如何来的呢？这需要社会学家来回答。但就我来讲，这首先要有物质上的富足，只有在经济基础发展到相当高度，个人才会自发地做一些无意义的事情。</p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>　　我第一次来东京是2001年，那时只觉得这就是一个大都市，高楼，人多，感觉和香港这个号称“亚洲之都”的城市区别不大。但是自从01年，去了很多地方，现在再来东京，就深深感到这是一个不平凡的地方。这个3千万人口的城市，有所有那些同等级城市标志性的现象，繁忙的交通，拥挤的人流，永不停息的商业行为。但是在这里几乎感觉不到那些大都市人口剧增后难以避免的side-effect。]]>
+    
+    </summary>
+    
+      <category term="东京" scheme="http://mm.hanbobo.net/tags/%E4%B8%9C%E4%BA%AC/"/>
+    
+      <category term="旅行" scheme="http://mm.hanbobo.net/tags/%E6%97%85%E8%A1%8C/"/>
+    
+      <category term="Travel" scheme="http://mm.hanbobo.net/categories/Travel/"/>
+    
+  </entry>
+  
+</feed>

@@ -1,0 +1,447 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>在VPS上配置Cisco AnyConnect VPN服务  | mGoAlltWay</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  
+    <meta name="author" content="GangX">
+  
+  
+    <meta name="description" content="什么是Cisco Anyconnect?　　Cisco Anyconnect是思科公司提供的企业集SSL VPN服务解决方案，被思科公司的企业用户广泛使用。其背后的开源技术是OpenConnect，简单来说就是平时使用 UDP 的 DTLS 协议进行加密，掉线时自动使用 TCP 的 TLS 协议进行备份恢复，因此相对其它 VPN">
+  
+  <meta name="description" content="什么是Cisco Anyconnect?　　Cisco Anyconnect是思科公司提供的企业集SSL VPN服务解决方案，被思科公司的企业用户广泛使用。其背后的开源技术是OpenConnect，简单来说就是平时使用 UDP 的 DTLS 协议进行加密，掉线时自动使用 TCP 的 TLS 协议进行备份恢复，因此相对其它 VPN">
+<meta property="og:type" content="article">
+<meta property="og:title" content="在VPS上配置Cisco AnyConnect VPN服务 ">
+<meta property="og:url" content="http://mm.hanbobo.net/2015/03/26/Cisco-AnyConnect-with-ocserv/index.html">
+<meta property="og:site_name" content="mGoAlltWay">
+<meta property="og:description" content="什么是Cisco Anyconnect?　　Cisco Anyconnect是思科公司提供的企业集SSL VPN服务解决方案，被思科公司的企业用户广泛使用。其背后的开源技术是OpenConnect，简单来说就是平时使用 UDP 的 DTLS 协议进行加密，掉线时自动使用 TCP 的 TLS 协议进行备份恢复，因此相对其它 VPN">
+<meta property="og:image" content="http://7xi4vv.com1.z0.glb.clouddn.com/AnyConnectICS_logo.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="在VPS上配置Cisco AnyConnect VPN服务 ">
+<meta name="twitter:description" content="什么是Cisco Anyconnect?　　Cisco Anyconnect是思科公司提供的企业集SSL VPN服务解决方案，被思科公司的企业用户广泛使用。其背后的开源技术是OpenConnect，简单来说就是平时使用 UDP 的 DTLS 协议进行加密，掉线时自动使用 TCP 的 TLS 协议进行备份恢复，因此相对其它 VPN">
+  
+  
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/css/private_style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+
+  <meta property="st:image" content="http://7xi4vv.com1.z0.glb.clouddn.com/AnyConnectICS_logo.jpg">
+
+<style id='inline-css' type='text/css'>
+#backtoTop{background-color:#eee;border-radius:100%;bottom:10%;height:48px;position:fixed;right:-100px;width:48px;transition:0.5s;-webkit-transition:0.5s}
+#backtoTop.button--show{right:10px}
+.per{font-size:16px;height:48px;line-height:48px;position:absolute;text-align:center;top:0;width:48px;color:#555;cursor:pointer}
+.per:before{content:attr(data-percent)}
+.per:hover:before{content:"\f1d8";font-family:FontAwesome;font-size:20px}
+</style>
+
+
+<body>
+  <div class="wrapper">
+    <header id="header"><header id="header">
+  <div class="title">
+    <h1><a href="/">mGoAlltWay</a></h1>
+    <p><a href="/">Step by Step, to Happiness</a></p>
+  </div>
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v1/st.js','_st');
+
+  _st('install','VzEiPsJVm5THVADbn6qo');
+</script>
+</script>
+  <nav class="nav">
+    <ul>
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/archives">Archives</a></li>
+      
+        <li><a href="/about">About</a></li>
+      
+        <li><a href="/atom.xml">rss</a></li>
+      
+      
+    </ul>
+    <div class="clearfix"></div>
+  </nav>
+  <div class="clearfix"></div>
+</header>
+</header>
+    <div class="content"><article class="post">
+  <header>
+    
+      <div class="panda">
+	   <img src="/imgs/panda.png" width="32" height="32">
+	  </div>
+      <a href="/2015/03/26/Cisco-AnyConnect-with-ocserv/">
+  <time datetime="2015-03-26T14:59:22.000Z">
+    2015-03-26
+  </time>
+</a>
+    
+    
+  
+    <h1 class="title">在VPS上配置Cisco AnyConnect VPN服务 </h1>
+  
+
+  </header>
+  
+    <div class="gallery">
+  <div class="photoset">
+    
+      
+        <img src="http://7xi4vv.com1.z0.glb.clouddn.com/AnyConnectICS_logo.jpg">
+      
+    
+  </div>
+  <div class="control">
+    <div class="prev"></div>
+    <div class="next"></div>
+  </div>
+</div>
+  
+  <div class="entry">
+    
+	
+      <h2 id="什么是Cisco_Anyconnect?">什么是Cisco Anyconnect?</h2><p>　　Cisco Anyconnect是思科公司提供的企业集SSL VPN服务解决方案，被思科公司的企业用户广泛使用。其背后的开源技术是OpenConnect，简单来说就是平时使用 UDP 的 DTLS 协议进行加密，掉线时自动使用 TCP 的 TLS 协议进行备份恢复，因此相对其它 VPN<br><a id="more"></a>（L2TP/PPTP等） 比较稳定；相比于思科早前推出（在iOS内置）的IPSec VPN, AnyConnect在用户认证管理和安全协议等方面更加强大，当然对于思科公司意味着更多revenue，貌似成为近年来思科强推产品；并且，AnyConnect对于长latency网络更加容忍度更高。综合以上几点，可以发现Anyconnect服务特别适合天朝的网络现状：不容易被误杀，对于大部分位于美国的廉价VPS比较友好。AnyConnect在各种平台都有客户端，MAC, Win, Android, iOS, Linux, 应有尽有。</p>
+<h2 id="什么是ocserv？">什么是ocserv？</h2><p>　　早前只有思科设备支持AnyConnect，后来有人开发了<a href="http://www.infradead.org/ocserv/index.html" target="_blank" rel="external">CopenConnect VPN Server (ocserv)</a>，其基于OpenConnect SSL  VPN协议，现行版本兼容思科AnyConnect。ocserv支持客户端下发路由表（好像是200条），用以实现国内国外按需分配路由，就是所谓的智能服务。ocserv支持各种通行的Linux/Unix版本。</p>
+<h2 id="在Ubuntu_14-04_LTS中部署ocserv">在Ubuntu 14.04 LTS中部署ocserv</h2><p>　　本人在DO中使用的是Ubuntu 14.04 LTS，而在BW用的是Centos6.5，在2个系统中都顺利部署成功，这里用Ubuntu为例。</p>
+<p><strong>1. 安装依赖项目</strong> (使用root用户)<br><figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt-<span class="built_in">get</span> install build-essential libgnutls28-<span class="built_in">dev</span> libpam0g-<span class="built_in">dev</span> libwrap0-<span class="built_in">dev</span> libreadline-<span class="built_in">dev</span> libnl-nf-<span class="number">3</span>-<span class="built_in">dev</span> libseccomp-<span class="built_in">dev</span> pkg-config[/code]</span><br></pre></td></tr></table></figure></p>
+<p><strong>2. 下载最新的ocserv程序源码</strong><br>当前最新版本是0.9.1，后续或有不同<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd /usr/src</span><br><span class="line">wget ftp:<span class="comment">//ftp.infradead.org/pub/ocserv/ocserv-0.9.1.tar.xz</span></span><br><span class="line">tar xvf ocserv-<span class="number">0.9</span>.<span class="number">1</span><span class="class">.tar</span><span class="class">.xz</span></span><br><span class="line">cd ocserv-<span class="number">0.9</span>.<span class="number">1</span>[/code]</span><br></pre></td></tr></table></figure></p>
+<p><strong>3. 编译和安装ocserv</strong><br><figure class="highlight brainfuck"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">.</span><span class="comment">/configure</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">enable</span><span class="literal">-</span><span class="comment">local</span><span class="literal">-</span><span class="comment">libopts</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">enable</span><span class="literal">-</span><span class="comment">libopts</span><span class="literal">-</span><span class="comment">install</span></span><br><span class="line"><span class="comment">make</span> <span class="comment">&amp;&amp;</span> <span class="comment">make</span> <span class="comment">install</span><span class="title">[</span><span class="comment">/code</span><span class="title">]</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>4. ocserv的配置</strong><br>详细内容请参考<a href="http://www.infradead.org/ocserv/manual.html" target="_blank" rel="external">官方文档</a>。我们需要创建一些证书，先建立放置证书的directory<br><figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /usr/src/ocserv-<span class="number">0</span>.<span class="number">9</span>.<span class="number">2</span></span><br><span class="line"><span class="built_in">mkdir</span> certificates</span><br><span class="line"><span class="built_in">cd</span> certificates[/code]</span><br></pre></td></tr></table></figure></p>
+<h4 id="4-1_建立CA模板和CA证书">4.1 建立CA模板和CA证书</h4><p>建立CA模板并存储，我用的是nano，当然也可以使用vi<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano ca<span class="class">.tmpl</span>[/code]</span><br></pre></td></tr></table></figure></p>
+<p>CA模板的格式是：</p>
+<blockquote>
+<p>cn = “任意填写”<br>organization = “任意填写”<br>serial = 1<br>expiration_days = 365<br>ca<br>signing_key<br>cert_signing_key<br>crl_signing_key</p>
+</blockquote>
+<p>生成CA密钥和CA证书<br><figure class="highlight nimrod"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">certtool --generate-privkey --outfile ca-key.pem</span><br><span class="line">certtool --generate-self-signed --load-privkey ca-key.pem --<span class="keyword">template</span> ca.tmpl --outfile ca-cert.pem</span><br></pre></td></tr></table></figure></p>
+<h4 id="4-2_建立服务器模板和证书">4.2 建立服务器模板和证书</h4><p>建立服务器模板并存储<br><figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano <span class="keyword">server</span>.tmpl</span><br></pre></td></tr></table></figure></p>
+<p>服务器模板的格式是如下，这里的cn必须如实填写，而organization填写自己钟意的名称，</p>
+<blockquote>
+<p>cn = “服务器hostname或者IP地址”<br>organization = “任意填写”<br>serial = 2<br>expiration_days = 3650<br>signing_key<br>encryption_key<br>tls_www_server</p>
+</blockquote>
+<p>生成服务器密钥和证书<br><figure class="highlight nimrod"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">certtool --generate-privkey --outfile server-key.pem</span><br><span class="line">certtool --generate-certificate --load-privkey server-key.pem --load-ca-certificate ca-cert.pem --load-ca-privkey ca-key.pem --<span class="keyword">template</span> server.tmpl --outfile server-cert.pem</span><br></pre></td></tr></table></figure></p>
+<h4 id="4-3_创建用户证书">4.3 创建用户证书</h4><p>先建立用户模板<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano user<span class="class">.tmpl</span>[/code]</span><br></pre></td></tr></table></figure></p>
+<p>客户端模板的格式是</p>
+<blockquote>
+<p>cn = “任意填写”<br>unit = “任意填写”<br>expiration_days = 365<br>signing_key<br>tls_www_client</p>
+</blockquote>
+<p>生成用户密码和证书<br><figure class="highlight nimrod"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">certtool --generate-privkey --outfile user-key.pem</span><br><span class="line">certtool --generate-certificate --load-privkey user-key.pem --load-ca-certificate ca-cert.pem --load-ca-privkey ca-key.pem --<span class="keyword">template</span> user.tmpl --outfile user-cert.pem</span><br></pre></td></tr></table></figure></p>
+<p>然后用openssl将生成的用户证书转成客户端能直接使用的p12格式<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">openssl pkcs12 -export -inkey user-key<span class="class">.pem</span> -<span class="keyword">in</span> user-cert<span class="class">.pem</span> -certfile ca-cert<span class="class">.pem</span> -out user.p12</span><br></pre></td></tr></table></figure></p>
+<p>转换时会要求设置密码，这样用户倒入证书时也需要输入对应的密码；也可以不设。</p>
+<h4 id="4-4_安装证书">4.4 安装证书</h4><p>吧证书导入正确的文件夹<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo cp ca-cert<span class="class">.pem</span> /etc/ssl/certs/my-ca-cert<span class="class">.pem</span></span><br><span class="line">sudo cp server-cert<span class="class">.pem</span> /etc/ssl/certs/my-server-cert<span class="class">.pem</span></span><br><span class="line">sudo cp server-key<span class="class">.pem</span> /etc/ssl/private/my-server-key.pem</span><br></pre></td></tr></table></figure></p>
+<p>将生成的user.p12证书通过ulr或者邮件形式分发给用户就可以了。</p>
+<h4 id="4-5_ocserv的配置文件">4.5 ocserv的配置文件</h4><p>下载的ocserv程序源码里面有配置文件的密码，我们拷贝过来编辑。<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd <span class="regexp">/usr/</span>src/ocserv-<span class="number">0.9</span><span class="number">.2</span></span><br><span class="line">mkdir <span class="regexp">/etc/</span>ocserv</span><br><span class="line">cp doc<span class="regexp">/sample.config /</span>etc<span class="regexp">/ocserv/</span>ocserv.conf</span><br><span class="line">nano <span class="regexp">/etc/</span>ocserv/ocserv.conf</span><br></pre></td></tr></table></figure></p>
+<p>在网上各种搜索参考之后，链接是<a href="http://www.hanbobo.net/ocserv.conf.do" target="_blank" rel="external">我的配置</a>，供参考采用<br>比较重要的有</p>
+<blockquote>
+<p>#ocserv支持各种登入方式，我使用的是证书，后续会提到如何使用用户/密码登入<br>auth = “certificate”<br>#auth = “plain[./sample.passwd]”<br>#auth = “plain[/etc/ocserv/ocpasswd]”<br>#auth = “pam”<br>#证书地址要填写正确<br>server-cert = /etc/ssl/certs/my-server-cert.pem<br>server-key =  /etc/ssl/private/my-server-key.pem<br>ca-cert = /etc/ssl/certs/my-ca-cert.pem<br>#最大客户端数量和单个用户连接数量，按自己需求<br>max-clients = 36<br>max-same-clients = 6<br># MTU discovery  这个要打开<br>try-mtu-discovery = true<br>deny-roaming = false<br># 服务监听的TCP/UDP端口<br>tcp-port = 9000<br>udp-port = 9001<br>#VPN下发虚拟网卡地址，建议不要用本地无线路由器常用192.168地址<br>ipv4-network = 10.168.1.0<br>ipv4-netmask = 255.255.255.0<br>#使用google DNS<br>dns = 8.8.8.8<br>dns = 8.8.4.4<br># 那一大段路由是 添加的自动翻墙路由表，也可以参考这个<a href="https://gist.github.com/bao3/bc717ec2294257209c30" target="_blank" rel="external">路由表</a><br>#route = 192.168.1.0/255.255.255.0<br>#route = 192.168.5.0/255.255.255.0<br>#route = fef4:db8:1000:1001::/64<br>#启用cisco客户端兼容性支持<br>cisco-client-compat = true</p>
+</blockquote>
+<h4 id="4-6_修改firewall的配置">4.6 修改firewall的配置</h4><p>之前我按照<a href="https://www.linode.com/docs/security/securing-your-server" target="_blank" rel="external">Linode的VPS安全设置</a>做过通过iptables做过firewall的配置，现在需要针对ocserv做一些必要的修改。<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano /etc/iptables<span class="class">.firewall</span><span class="class">.rules</span></span><br></pre></td></tr></table></figure></p>
+<p>打开ocserv使用的端口和隔离客户端<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">\<span class="id">#Allow</span> OCserv TCP/UDP</span><br><span class="line">-A INPUT -<span class="tag">p</span> tcp -m state --state NEW --dport <span class="number">9000</span> -j ACCEPT</span><br><span class="line">-A INPUT -<span class="tag">p</span> udp -m state --state NEW --dport <span class="number">9001</span> -j ACCEPT</span><br><span class="line">\<span class="id">#allow</span> traffic from vpn clients</span><br><span class="line">-A FORWARD -s <span class="number">10.168</span>.<span class="number">1.0</span>/<span class="number">24</span> -j ACCEPT</span><br><span class="line">\<span class="id">#block</span> communication between VPN clients</span><br><span class="line">-A FORWARD -s <span class="number">10.168</span>.<span class="number">1.0</span>/<span class="number">24</span> -d <span class="number">10.168</span>.<span class="number">1.0</span>/<span class="number">24</span> -j DROP</span><br><span class="line">\<span class="id">#start</span> NAT</span><br><span class="line">*nat</span><br><span class="line">-A POSTROUTING -j MASQUERADE</span><br><span class="line">COMMIT</span><br></pre></td></tr></table></figure></p>
+<p>完成编辑之后倒入配置并检查配置是否正确<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">iptables-restore &lt; /etc/iptables<span class="class">.firewall</span><span class="class">.rules</span></span><br><span class="line">iptables -L</span><br></pre></td></tr></table></figure></p>
+<p>我们还需要打开IPv4的流量转发。<br><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano <span class="regexp">/etc/</span>sysctl.conf</span><br></pre></td></tr></table></figure></p>
+<p>启用这一项并刷新配置</p>
+<blockquote>
+<p>net.ipv4.ip_forward=1<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sysctl -<span class="tag">p</span> /etc/sysctl.conf</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p><strong>5. 测试ocserv</strong><br>至此ocserv的安装配置已经完成，在服务器启动ocserv服务<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ocserv <span class="operator">-f</span> <span class="operator">-d</span> <span class="number">1</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>6. 自动化ocserv服务</strong><br>为ocserv写一个简单的启动脚本<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">cd</span> /etc/init.<span class="literal">d</span></span><br><span class="line">ln -s /lib/init/upstart-job ocserv</span><br><span class="line"><span class="keyword">cd</span> /etc/init</span><br><span class="line">nano ocserv.<span class="keyword">conf</span></span><br></pre></td></tr></table></figure></p>
+<p>放入以下内容</p>
+<blockquote>
+<p>#!upstart<br>description “OpenConnect Server”<br>start on runlevel [2345]<br>stop on runlevel [06]<br>respawn<br>respawn limit 20 5<br>script<br>    exec start-stop-daemon —start —pidfile /var/run/ocserv.pid —exec /usr/local/sbin/ocserv — -f &gt;&gt; /dev/null 2&gt;&amp;1<br>end script</p>
+</blockquote>
+<p>这样就可以用以下方式启动/暂停服务<br><figure class="highlight puppet"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">]sudo <span class="keyword">service</span> ocserv <span class="literal">start</span></span><br><span class="line">sudo <span class="keyword">service</span> ocserv <span class="literal">stop</span></span><br></pre></td></tr></table></figure></p>
+<p>也可以在/var/log/syslog中查看VPN连接状态。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tail <span class="operator">-f</span> /var/<span class="built_in">log</span>/syslog[/code]</span><br></pre></td></tr></table></figure></p>
+<p>*关于iOS和Android客户端使用Cisco AnyConnect, 请参考<a href="http://mm.hanbobo.net/2015/03/13/Cisco-AnyConnect-iOS/" target="_blank" rel="external">Cisco AnyConnect 让iOS设备(iPadiPhone)科学上网</a>.</p>
+<p>注：本文作为初学者的学习笔记参考了网上各位高人的文章<a href="http://bitinn.net/11084/" target="_blank" rel="external">1</a>， <a href="https://www.stunnel.info/%E5%9C%A8centos-6-5%E4%B8%8A%E9%85%8D%E7%BD%AEcisco-anyconnect-vpn/" target="_blank" rel="external">2</a>， <a href="http://tangbutian.info/2014/12/17/10" target="_blank" rel="external">3</a>等，不一一列举，感谢！</p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+
+    
+  </div>
+  <footer>
+    
+      
+  <div class="categories">
+    <a class="categories-link" href="/categories/VPN/">VPN</a>
+  </div>
+
+      
+  <div class="tags">
+    <a class="tags-link" href="/tags/VPN/">VPN</a>, <a class="tags-link" href="/tags/ocserv/">ocserv</a>, <a class="tags-link" href="/tags/笔记/">笔记</a>
+  </div>
+
+	  
+<div class="navi clearfix">
+  
+    <a href="/2015/03/31/SS-for-Android_E/" class="alignleft prev" title="Shadowsocks for Android devices">Shadowsocks for Android devices</a>
+  
+  
+    <a href="/2015/03/26/Applock/" class="alignright next" title="Applock程序管理">Applock程序管理</a>
+  
+</div>
+
+	  
+<div class="addthis_sharing_toolbox"></div>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-561b212f57df6ced"></script>
+
+	
+    <div class="clearfix"></div>
+  </footer>
+</article>
+
+
+<section id="comment">
+  <h1 class="title">评论</h1>
+<div class="ds-thread" data-thread-key="2015/03/26/Cisco-AnyConnect-with-ocserv/" data-title="在VPS上配置Cisco AnyConnect VPN服务 " data-url="http://mm.hanbobo.net/2015/03/26/Cisco-AnyConnect-with-ocserv/"></div>
+</section>
+
+
+
+</div>
+  </div>
+  <div class="widget-wrapper">
+    <aside id="sidebar">
+  
+  
+    
+      
+      
+
+<div class="widget tag first">
+  <h3 class="title">categories</h3>
+  <ul class="entry">
+  
+    <li><a href="/categories/Family/">Family</a><small>1</small></li>
+  
+    <li><a href="/categories/Family-Outing/">Family Outing</a><small>1</small></li>
+  
+    <li><a href="/categories/Hiking/">Hiking</a><small>1</small></li>
+  
+    <li><a href="/categories/Reading/">Reading</a><small>2</small></li>
+  
+    <li><a href="/categories/Shadowsocks/">Shadowsocks</a><small>3</small></li>
+  
+    <li><a href="/categories/Travel/">Travel</a><small>3</small></li>
+  
+    <li><a href="/categories/VPN/">VPN</a><small>5</small></li>
+  
+    <li><a href="/categories/先锋/">先锋</a><small>1</small></li>
+  
+    <li><a href="/categories/先锋读书/">先锋读书</a><small>1</small></li>
+  
+    <li><a href="/categories/徒步/">徒步</a><small>1</small></li>
+  
+    <li><a href="/categories/笔记/">笔记</a><small>3</small></li>
+  
+  </ul>
+</div>
+
+    
+      
+      
+
+<div class="widget tagcloud">
+  <h3 class="title">tagcloud</h3>
+  <div class="entry">
+    <a href="/tags/AnyConnect/" style="font-size: 13.33px;">AnyConnect</a><a href="/tags/Bali/" style="font-size: 10px;">Bali</a><a href="/tags/GFW/" style="font-size: 10px;">GFW</a><a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a><a href="/tags/Leisure/" style="font-size: 10px;">Leisure</a><a href="/tags/SS/" style="font-size: 10px;">SS</a><a href="/tags/Singapore/" style="font-size: 10px;">Singapore</a><a href="/tags/VPN/" style="font-size: 10px;">VPN</a><a href="/tags/VPS/" style="font-size: 10px;">VPS</a><a href="/tags/hexo/" style="font-size: 10px;">hexo</a><a href="/tags/mm/" style="font-size: 10px;">mm</a><a href="/tags/ocserv/" style="font-size: 16.67px;">ocserv</a><a href="/tags/reading/" style="font-size: 10px;">reading</a><a href="/tags/东京/" style="font-size: 10px;">东京</a><a href="/tags/先锋/" style="font-size: 13.33px;">先锋</a><a href="/tags/先锋读书/" style="font-size: 13.33px;">先锋读书</a><a href="/tags/写作/" style="font-size: 10px;">写作</a><a href="/tags/博客/" style="font-size: 10px;">博客</a><a href="/tags/学习/" style="font-size: 10px;">学习</a><a href="/tags/文章/" style="font-size: 10px;">文章</a><a href="/tags/旅行/" style="font-size: 16.67px;">旅行</a><a href="/tags/游记/" style="font-size: 10px;">游记</a><a href="/tags/福泉/" style="font-size: 10px;">福泉</a><a href="/tags/科学上网/" style="font-size: 16.67px;">科学上网</a><a href="/tags/笔记/" style="font-size: 20px;">笔记</a><a href="/tags/读史/" style="font-size: 10px;">读史</a><a href="/tags/远足/" style="font-size: 10px;">远足</a>
+  </div>
+</div>
+
+    
+      
+      
+
+<div class="widget blogroll">
+  <h3 class="title">blogroll</h3>
+  <ul class="entry">
+  
+    
+    <li><a href="http://bbs.hanbobo.net" target="_blank">先锋论坛</a></li>
+  
+    
+    <li><a href="http://ss.hanbobo.net" target="_blank">先锋加速</a></li>
+  
+    
+    <li><a href="http://www.hanbobo.net" target="_blank">先锋少年</a></li>
+  
+    
+    <li><a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank">hexo你的博客</a></li>
+  
+    
+    <li><a href="http://http://zipperary.com/categories/hexo/" target="_blank">hexo系列教程</a></li>
+  
+  </ul>
+</div>
+
+    
+  
+</aside>
+<div class="clearfix"></div>
+  </div>
+  <footer id="footer"><div class="copyright">
+  
+  &copy; 2015 <a href="/">GangX</a>
+  
+</div>
+<div class="theme-copyright">
+  <a href="http://www.hanbobo.net/" target="_blank">先锋少年</a>
+   | 
+  <a href="http://bbs.hanbobo.net/" target="_blank">先锋论坛</a>
+   |
+  <font id="sum_counter"></font>
+  <font id="detail_counter"></font>
+</div>
+<div class="clearfix"></div>
+<html>
+<head>
+    <script src='http://7xi4vv.com1.z0.glb.clouddn.com/firebase.js'></script>
+    </head>
+<body>	
+<script>
+var myDataRef = new Firebase('https://seramat.firebaseio.com/')
+// 明细由当前页面的url表示，将反斜线替换成下划线，并将中文decode出来
+var current_url = decodeURI(window.location.pathname.replace(new RegExp('\\/|\\.', 'g'),"_"));
+// 获取总数，并将总访问量展示在页面上
+myDataRef.child("sum").on("value", function(data) {
+  var current_counter = data.val();
+  if( $("#sum_counter").length > 0  && current_counter >1 ){
+      $("#sum_counter").html(
+   	   	" | 总访问量 <font style='color:white'>"+ current_counter +"</font> 次"
+       );
+  };
+});
+// 获取明细，并将明细也展示在页面上
+myDataRef.child("detail/"+current_url).on("value", function(data){
+	var detail_counter = data.val();
+	if($("#detail_counter").length > 0 && detail_counter > 1){
+		$("#detail_counter").html(
+			" 本页访问量 <font style='color:white'>"+ detail_counter +"</font> 次"
+		);
+	}
+});
+// 总数+1
+myDataRef.child("sum").transaction(function (current_counter) {
+  return (current_counter || 0) + 1;
+});
+// 明细+1
+myDataRef.child("detail/"+current_url).transaction(function (current_counter) {
+  return (current_counter || 0) + 1;
+});
+</script>
+</body>
+</html>
+</footer>
+  <script src="/js/jquery.min.js"></script>
+<script src="/js/scale.fix.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+<script type="text/javascript">
+  var duoshuoQuery = { short_name: 'seramat' };
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';
+    ds.async = true;
+    ds.src = 'http://static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script>
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+  (function($){
+    $('.fancybox').fancybox();
+  })(jQuery);
+</script>
+
+
+<script>
+var bigfa_scroll = {
+    drawCircle: function(id, percentage, color) {
+        var width = jQuery(id).width();
+        var height = jQuery(id).height();
+        var radius = parseInt(width / 2.20);
+        var position = width;
+        var positionBy2 = position / 2;
+        var bg = jQuery(id)[0];
+        id = id.split("#");
+        var ctx = bg.getContext("2d");
+        var imd = null;
+        var circ = Math.PI * 2;
+        var quart = Math.PI / 2;
+        ctx.clearRect(0, 0, width, height);
+        ctx.beginPath();
+        ctx.strokeStyle = color;
+        ctx.lineCap = "square";
+        ctx.closePath();
+        ctx.fill();
+        ctx.lineWidth = 3;
+        imd = ctx.getImageData(0, 0, position, position);
+        var draw = function(current, ctxPass) {
+            ctxPass.putImageData(imd, 0, 0);
+            ctxPass.beginPath();
+            ctxPass.arc(positionBy2, positionBy2, radius, -(quart), ((circ) * current) - quart, false);
+            ctxPass.stroke();
+        }
+        draw(percentage / 100, ctx);
+    },
+    backToTop: function($this) {
+        $this.click(function() {
+            jQuery("body,html").animate({
+                scrollTop: 0
+            },
+            800);
+            return false;
+        });
+    },
+    scrollHook: function($this, color) {
+        color = color ? color: "#000000";
+        $this.scroll(function() {
+            var docHeight = (jQuery(document).height() - jQuery(window).height()),
+            $windowObj = $this,
+            $per = jQuery(".per"),
+            percentage = 0;
+            defaultScroll = $windowObj.scrollTop();
+            percentage = parseInt((defaultScroll / docHeight) * 100);
+            var backToTop = jQuery("#backtoTop");
+            if (backToTop.length > 0) {
+                if ($windowObj.scrollTop() > 200) {
+                    backToTop.addClass("button--show");
+                } else {
+                    backToTop.removeClass("button--show");
+                }
+                $per.attr("data-percent", percentage);
+                bigfa_scroll.drawCircle("#backtoTopCanvas", percentage, color);
+            }
+        });
+    }
+}
+jQuery(document).ready(function() {
+    jQuery("body").append('<div id="backtoTop" data-action="gototop"><canvas id="backtoTopCanvas" width="48" height="48"></canvas><div class="per"></div></div>');
+    var T = bigfa_scroll;
+    T.backToTop(jQuery("#backtoTop"));
+    T.scrollHook(jQuery(window), "#800080");
+});
+</script>
+
+<script src="/js/instantclick.min.js" data-no-instant></script>
+<script data-no-instant>InstantClick.init();</script>
+</body>
+</html>
