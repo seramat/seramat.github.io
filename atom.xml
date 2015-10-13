@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Step by Step, to Happiness]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://mm.hanbobo.net/"/>
-  <updated>2015-10-13T07:43:26.121Z</updated>
+  <updated>2015-10-13T08:07:18.562Z</updated>
   <id>http://mm.hanbobo.net/</id>
   
   <author>
@@ -15,11 +15,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[AnyConnect VPN测试帐号申请]]></title>
+    <link href="http://mm.hanbobo.net/2015/10/13/Apply-for-free-VPN-account/"/>
+    <id>http://mm.hanbobo.net/2015/10/13/Apply-for-free-VPN-account/</id>
+    <published>2015-10-13T07:54:58.000Z</published>
+    <updated>2015-10-13T08:07:18.562Z</updated>
+    <content type="html"><![CDATA[<p>　　本人在自己的几个VPS上部署了ocserv服务来提供VPN测试帐号，请<a href="https://jinshuju.net/f/dvBOrw" target="_blank" rel="external">点击填写</a>申请。<br>　　你可能想参考以下文章：</p>
+<p><a href="http://ssvpn.win/2015/03/23/Why-climb-GFW/" target="_blank" rel="external">为什么翻墙</a><br><a href="http://ssvpn.win/2015/10/12/Cisco-AnyConnect-guide-for-Windows/" target="_blank" rel="external">Windows平台Cisco AnyConnect VPN的使用</a><br><a href="http://ssvpn.win/2015/10/13/Cisco-Anyconnect-for-Mac-OS-X/" target="_blank" rel="external">Mac OS平台Cisco AnyConnect VPN的使用</a><br><a href="http://ssvpn.win/2015/03/13/Cisco-AnyConnect-iOS/" target="_blank" rel="external">Cisco AnyConnect 让iOS设备(iPadiPhone)科学上网</a></p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>　　本人在自己的几个VPS上部署了ocserv服务来提供VPN测试帐号，请<a href="https://jinshuju.net/f/dvBOrw" target="_blank" rel="external">点击填写</a>申请。<br>　　你可能想参考以下文章：<]]>
+    </summary>
+    
+      <category term="AnyConnect" scheme="http://mm.hanbobo.net/tags/AnyConnect/"/>
+    
+      <category term="ocserv" scheme="http://mm.hanbobo.net/tags/ocserv/"/>
+    
+      <category term="VPN" scheme="http://mm.hanbobo.net/categories/VPN/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Cisco Anyconnect for Mac OS X]]></title>
     <link href="http://mm.hanbobo.net/2015/10/13/Cisco-Anyconnect-for-Mac-OS-X/"/>
     <id>http://mm.hanbobo.net/2015/10/13/Cisco-Anyconnect-for-Mac-OS-X/</id>
     <published>2015-10-13T07:35:22.000Z</published>
-    <updated>2015-10-13T07:43:26.121Z</updated>
+    <updated>2015-10-13T08:06:46.580Z</updated>
     <content type="html"><![CDATA[<p><strong>1. 下载Cisco AnyConnect客户端</strong><br><a href="http://yunpan.cn/cFKnvvE9gBMsq" target="_blank" rel="external">Click to Download</a> (360云盘密码c283)</p>
 <blockquote>
 <p>说明</p>
@@ -54,7 +76,7 @@
     <link href="http://mm.hanbobo.net/2015/10/12/Cisco-AnyConnect-guide-for-Windows/"/>
     <id>http://mm.hanbobo.net/2015/10/12/Cisco-AnyConnect-guide-for-Windows/</id>
     <published>2015-10-12T00:54:22.000Z</published>
-    <updated>2015-10-13T07:33:44.669Z</updated>
+    <updated>2015-10-13T08:07:14.283Z</updated>
     <content type="html"><![CDATA[<p>本文说明Cisco ANyConnect客户端在Windows平台的安装使用。<br><a id="more"></a></p>
 <p><strong>1. 下载Cisco AnyConnect客户端</strong><br><a href="http://yunpan.cn/cFKnvvE9gBMsq" target="_blank" rel="external">Click to Download</a> (360云盘密码c283)</p>
 <blockquote>
@@ -635,7 +657,7 @@
     <link href="http://mm.hanbobo.net/2015/03/13/Cisco-AnyConnect-iOS/"/>
     <id>http://mm.hanbobo.net/2015/03/13/Cisco-AnyConnect-iOS/</id>
     <published>2015-03-13T15:02:06.000Z</published>
-    <updated>2015-03-27T06:49:38.000Z</updated>
+    <updated>2015-10-13T08:07:08.822Z</updated>
     <content type="html"><![CDATA[<p>　　通常使用的L2TP/PPTP等VPN服务在iOS上不稳定，而Cisco提供的AnyConnect VPN解决方案，被商业公司广泛应用，在iOS设备上也能提供稳定不掉线的VPN服务（按不同的iOS版本，即使休眠也不断线或自动重新连接），同时还可以给客户端下发自定义的路由表，这样就能够实现本地/国内网站走本地，而只在去必要的网站时才走VPN。我部署了几个AnyConnect服务供测试。<br><a id="more"></a><br>1，在App Store搜索安装 AnyConnect, 打开<br><img src="http://7xi4p3.com1.z0.glb.clouddn.com/MA7kAp7.png" alt=""></p>
 <p>2，添加VPN</p>
 <p><img src="http://7xi4p3.com1.z0.glb.clouddn.com/gJCVpUZ.png" alt=""></p>
@@ -668,6 +690,8 @@
     <![CDATA[<p>　　通常使用的L2TP/PPTP等VPN服务在iOS上不稳定，而Cisco提供的AnyConnect VPN解决方案，被商业公司广泛应用，在iOS设备上也能提供稳定不掉线的VPN服务（按不同的iOS版本，即使休眠也不断线或自动重新连接），同时还可以给客户端下发自定义的路由表，这样就能够实现本地/国内网站走本地，而只在去必要的网站时才走VPN。我部署了几个AnyConnect服务供测试。<br>]]>
     
     </summary>
+    
+      <category term="AnyConnect" scheme="http://mm.hanbobo.net/tags/AnyConnect/"/>
     
       <category term="科学上网" scheme="http://mm.hanbobo.net/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
@@ -998,32 +1022,6 @@
       <category term="游记" scheme="http://mm.hanbobo.net/tags/%E6%B8%B8%E8%AE%B0/"/>
     
       <category term="Travel" scheme="http://mm.hanbobo.net/categories/Travel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[小精灵]]></title>
-    <link href="http://mm.hanbobo.net/2008/11/10/Little%20darling/"/>
-    <id>http://mm.hanbobo.net/2008/11/10/Little darling/</id>
-    <published>2008-11-10T03:10:00.000Z</published>
-    <updated>2015-03-15T14:33:09.000Z</updated>
-    <content type="html"><![CDATA[<p>喔可爱的小精灵<br>你在我怀里呀呀咿咿<br>有时还发发小脾气<br>可爱的小精灵啊<br>这是不是最动听的话语</p>
-<p>喔可爱的小精灵<br>你在厅里爬来爬去<br>眨眼间你已到了桌底<br>可爱的小精灵啊<br>你是不是要回到妈妈的怀里</p>
-<p>喔可爱的小精灵<br>你在妈妈怀里用力吮吸<br>240ml是我们共同的目的<br>可爱的小精灵啊<br>你是不是也知道爸妈的心意</p>
-<p>喔可爱的小精灵<br>你在睡梦中滚来滚去<br>有时还发出呵呵的笑意<br>可爱的小精灵啊<br>我是不是出现在你的梦里</p>
-<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>喔可爱的小精灵<br>你在我怀里呀呀咿咿<br>有时还发发小脾气<br>可爱的小精灵啊<br>这是不是最动听的话语</p>
-<p>喔可爱的小精灵<br>你在厅里爬来爬去<br>眨眼间你已到了桌底<br>可爱的小精灵啊<br>你是不是要回到妈妈的怀里</p>
-<p>喔可爱的小]]>
-    </summary>
-    
-      <category term="mm" scheme="http://mm.hanbobo.net/tags/mm/"/>
-    
-      <category term="写作" scheme="http://mm.hanbobo.net/tags/%E5%86%99%E4%BD%9C/"/>
-    
-      <category term="Family" scheme="http://mm.hanbobo.net/categories/Family/"/>
     
   </entry>
   
