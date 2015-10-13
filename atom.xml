@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Step by Step, to Happiness]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://mm.hanbobo.net/"/>
-  <updated>2015-10-13T05:45:07.997Z</updated>
+  <updated>2015-10-13T07:37:32.346Z</updated>
   <id>http://mm.hanbobo.net/</id>
   
   <author>
@@ -15,13 +15,48 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Cisco Anyconnect for Mac OS X]]></title>
+    <link href="http://mm.hanbobo.net/2015/10/13/Cisco-Anyconnect-for-Mac-OS-X/"/>
+    <id>http://mm.hanbobo.net/2015/10/13/Cisco-Anyconnect-for-Mac-OS-X/</id>
+    <published>2015-10-13T07:35:22.000Z</published>
+    <updated>2015-10-13T07:37:32.346Z</updated>
+    <content type="html"><![CDATA[<p><strong>1. 下载Cisco AnyConnect客户端</strong><br><a href="http://yunpan.cn/cFKnvvE9gBMsq" target="_blank" rel="external">Click to Download</a> (360云盘密码c283)</p>
+<blockquote>
+<p>说明</p>
+<ol>
+<li>推荐安装版本3.0.3054，最稳定</li>
+<li>由于MAC OSX 10.x 各种版本不同，如果3.0.3054不可用，请试用别的版本。在朋友最新的10.10里面，3.1.05187可正常使用。<a id="more"></a>
+<strong>2. 客户端的安装和使用</strong><br>下载安装的过程和WIndows平台一样，请参考之前的<a href="http://ssvpn.win/2015/10/12/Cisco-AnyConnect-guide-for-Windows/" target="_blank" rel="external">文章</a>。</li>
+</ol>
+</blockquote>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>1. 下载Cisco AnyConnect客户端</strong><br><a href="http://yunpan.cn/cFKnvvE9gBMsq">Click to Download</a> (360云盘密码c283)</p>
+<blockquote>
+<p>说明</p>
+<ol>
+<li>推荐安装版本3.0.3054，最稳定</li>
+<li>由于MAC OSX 10.x 各种版本不同，如果3.0.3054不可用，请试用别的版本。在朋友最新的10.10里面，3.1.05187可正常使用。]]>
+    
+    </summary>
+    
+      <category term="AnyConnect" scheme="http://mm.hanbobo.net/tags/AnyConnect/"/>
+    
+      <category term="ocserv" scheme="http://mm.hanbobo.net/tags/ocserv/"/>
+    
+      <category term="VPN" scheme="http://mm.hanbobo.net/categories/VPN/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[ Windows平台Cisco AnyConnect VPN的使用]]></title>
     <link href="http://mm.hanbobo.net/2015/10/12/Cisco-AnyConnect-guide-for-Windows/"/>
     <id>http://mm.hanbobo.net/2015/10/12/Cisco-AnyConnect-guide-for-Windows/</id>
     <published>2015-10-12T00:54:22.000Z</published>
-    <updated>2015-10-13T05:45:07.997Z</updated>
+    <updated>2015-10-13T07:33:44.669Z</updated>
     <content type="html"><![CDATA[<p>本文说明Cisco ANyConnect客户端在Windows平台的安装使用。<br><a id="more"></a></p>
-<p><strong>1. 下载Cisco AnyConnect客户端</strong></p>
+<p><strong>1. 下载Cisco AnyConnect客户端</strong><br><a href="http://yunpan.cn/cFKnvvE9gBMsq" target="_blank" rel="external">Click to Download</a> (360云盘密码c283)</p>
 <blockquote>
 <p>说明</p>
 <ol>
@@ -989,35 +1024,6 @@
       <category term="写作" scheme="http://mm.hanbobo.net/tags/%E5%86%99%E4%BD%9C/"/>
     
       <category term="Family" scheme="http://mm.hanbobo.net/categories/Family/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[东京印象2008]]></title>
-    <link href="http://mm.hanbobo.net/2008/07/06/%E4%B8%9C%E4%BA%AC%E5%8D%B0%E8%B1%A12008/"/>
-    <id>http://mm.hanbobo.net/2008/07/06/东京印象2008/</id>
-    <published>2008-07-05T20:48:00.000Z</published>
-    <updated>2015-03-18T14:23:40.000Z</updated>
-    <content type="html"><![CDATA[<p>　　我第一次来东京是2001年，那时只觉得这就是一个大都市，高楼，人多，感觉和香港这个号称“亚洲之都”的城市区别不大。但是自从01年，去了很多地方，现在再来东京，就深深感到这是一个不平凡的地方。这个3千万人口的城市，有所有那些同等级城市标志性的现象，繁忙的交通，拥挤的人流，永不停息的商业行为。但是在这里几乎感觉不到那些大都市人口剧增后难以避免的side-effect。<a id="more"></a>首先，这里的空气很好。在汉城，香港和上海的市民在抱怨日益恶化的空气质量的同时，东京人似乎没有这方面的担心。再，对于一个高度城市化3千万人口的社会，这里异常的干净。即便是下雨时，也没有那种地面脏兮兮的不便，而这在上海和汉城几乎是难以想象的。事实上，最近东京刚被评选为最适合人居城市第二名。当然，这都和日本人对于效率的执着和对资源的再利用分不开。在这个正规得近乎刻板的社会下面，却有很多有趣的丰富多彩的东西。不信的话，你可以在任何一个星期天的下午到Harajuku原宿站附近的代代木Yoyogi公园走一走。</p>
-<p><a href="http://www.flickr.com/photos/51035553389@N01/2641333875/" title="P060708_16.10" target="_blank" rel="external"><img src="http://static.flickr.com/3265/2641333875_0ca5ae702a_m.jpg" alt="P060708_16.10"></a>&nbsp;&nbsp; <a href="http://www.flickr.com/photos/51035553389@N01/2642161104/" title="P060708_16.10[02]" target="_blank" rel="external"><img src="http://static.flickr.com/3077/2642161104_f42253cb3f_m.jpg" alt="P060708_16.10[02]"></a></p>
-<p>　　这是在原宿站外的神宫桥上每个礼拜天都会有的潮流聚会。就是一些少女打穿着奇装异服在这里聚集，说笑。她们也不干什么，就是聚在一起说闹，让人拍照。我每次来东京，都要到这里看看，也注意到一些变化。首先，这些少女的年龄似乎比以前的大了些，以前有很多看起来不到15岁的，现在几乎没有了。更重要的是，现在有外国人的参与，至少2001年前没见过。还有，现在有很多外国人来这里观赏，拍照，以前却不多，看来这个聚会已成了很多游客的必到之处。</p>
-<p><a href="http://www.flickr.com/photos/51035553389@N01/2642160682/" title="P060708_14.46" target="_blank" rel="external"><img src="http://static.flickr.com/3059/2642160682_5c371a9836_m.jpg" alt="P060708_14.46"></a>&nbsp;&nbsp; <a href="http://www.flickr.com/photos/51035553389@N01/2642245736/" title="P060708_15.57" target="_blank" rel="external"><img src="http://static.flickr.com/3050/2642245736_ed96d0fc90_m.jpg" alt="P060708_15.57"></a></p>
-<p>　　过了桥左拐就是代代木公园的入口，就看到一群人在跳舞，年纪大的只怕有50了，小的也有30吧，发型，着装都给人那种猫王时代的感觉，就着音乐挑一些很激烈的舞蹈，非常60年代的说。另外一边是几个人在跳一对一，也是很激烈，女的好像也有50了。</p>
-<p><a href="http://www.flickr.com/photos/51035553389@N01/2642160816/" title="P060708_14.56[01]" target="_blank" rel="external"><img src="http://static.flickr.com/3144/2642160816_d52c405aac_m.jpg" alt="P060708_14.56[01]"></a>&nbsp;&nbsp; <a href="http://www.flickr.com/photos/51035553389@N01/2642160980/" title="P060708_15.40" target="_blank" rel="external"><img src="http://static.flickr.com/3028/2642160980_0e05d3387f_m.jpg" alt="P060708_15.40"></a></p>
-<p>　　在代代木公园外沿街的一边，非常吵闹，都是一些业余的乐团歌手在表演，每个乐团都有3，5人，键盘，鼓手，乐器齐全，相当摇滚。这些噪音大的活动是不让进公园的。那公园里有什么呢？看右边的一张，这个我也是第一次见到，是一个人垮着小音响就着音乐在作画，画的非常印象派。并且有很多观众给他打拍子加油，作完画，他会送给一个现场观众。</p>
-<p>　　看到这里，是不是同意我先前的结论？可以说，很多日本人有很多机会来表现自己，他们也毫不吝啬地表现出来，不管兴趣爱好外人看来有多奇怪，他们似乎并不在意能否得到认同。从中我看到一种强烈的自信。那么这种自信是如何来的呢？这需要社会学家来回答。但就我来讲，这首先要有物质上的富足，只有在经济基础发展到相当高度，个人才会自发地做一些无意义的事情。</p>
-<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>　　我第一次来东京是2001年，那时只觉得这就是一个大都市，高楼，人多，感觉和香港这个号称“亚洲之都”的城市区别不大。但是自从01年，去了很多地方，现在再来东京，就深深感到这是一个不平凡的地方。这个3千万人口的城市，有所有那些同等级城市标志性的现象，繁忙的交通，拥挤的人流，永不停息的商业行为。但是在这里几乎感觉不到那些大都市人口剧增后难以避免的side-effect。]]>
-    
-    </summary>
-    
-      <category term="东京" scheme="http://mm.hanbobo.net/tags/%E4%B8%9C%E4%BA%AC/"/>
-    
-      <category term="旅行" scheme="http://mm.hanbobo.net/tags/%E6%97%85%E8%A1%8C/"/>
-    
-      <category term="Travel" scheme="http://mm.hanbobo.net/categories/Travel/"/>
     
   </entry>
   

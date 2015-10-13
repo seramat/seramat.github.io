@@ -4,23 +4,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-  <title>AnyConnect VPN用户配置 | mGoAlltWay</title>
+  <title>mGoAlltWay</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   
     <meta name="author" content="GangX">
   
   
-    <meta name="description" content="在之前的文章”在VPS上配置Cisco AnyConnect VPN服务“已经说明了ocserv配置的Any Connect VPN服务可以下发路由表达到智能上网的功能，有网友问是不是可以做到不同的用">
-  
-  <meta name="description" content="在之前的文章”在VPS上配置Cisco AnyConnect VPN服务“已经说明了ocserv配置的Any Connect VPN服务可以下发路由表达到智能上网的功能，有网友问是不是可以做到不同的用">
-<meta property="og:type" content="article">
-<meta property="og:title" content="AnyConnect VPN用户配置">
-<meta property="og:url" content="http://mm.hanbobo.net/2015/04/24/AnyConnect-VPN-per-User/index.html">
+  <meta name="description" content="Step by Step, to Happiness">
+<meta property="og:type" content="website">
+<meta property="og:title" content="mGoAlltWay">
+<meta property="og:url" content="http://mm.hanbobo.net/archives/2015/page/4/index.html">
 <meta property="og:site_name" content="mGoAlltWay">
-<meta property="og:description" content="在之前的文章”在VPS上配置Cisco AnyConnect VPN服务“已经说明了ocserv配置的Any Connect VPN服务可以下发路由表达到智能上网的功能，有网友问是不是可以做到不同的用">
+<meta property="og:description" content="Step by Step, to Happiness">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="AnyConnect VPN用户配置">
-<meta name="twitter:description" content="在之前的文章”在VPS上配置Cisco AnyConnect VPN服务“已经说明了ocserv配置的Any Connect VPN服务可以下发路由表达到智能上网的功能，有网友问是不是可以做到不同的用">
+<meta name="twitter:title" content="mGoAlltWay">
+<meta name="twitter:description" content="Step by Step, to Happiness">
   
   
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -75,74 +73,43 @@
   <div class="clearfix"></div>
 </header>
 </header>
-    <div class="content"><article class="post">
-  <header>
+    <div class="content">
+
+
+
+
+  
+  
     
-      <div class="panda">
-	   <img src="/imgs/panda.png" width="32" height="32">
-	  </div>
-      <a href="/2015/04/24/AnyConnect-VPN-per-User/">
-  <time datetime="2015-04-24T01:54:43.000Z">
-    2015-04-24
+    
+      
+      
+      <section class="archives-wrapper">
+        
+        <h2 class="archives-title archives-year">
+          <a href="/archives/2015">2015</a>
+        </h2>
+        
+        <div class="archives">
+    
+    <article class="post">
+  <header>
+    <a href="/2015/01/18/G5-6-Reading-List/">
+  <time datetime="2015-01-18T02:19:07.000Z">
+    1月 18
   </time>
 </a>
     
-    
   
-    <h1 class="title">AnyConnect VPN用户配置</h1>
+    <h1 class="title"><a href="/2015/01/18/G5-6-Reading-List/">G5/6 Reading List</a></h1>
   
 
   </header>
-  
-  <div class="entry">
-    
-	
-      <p>　　在之前的文章”<a href="http://gangxiao.ga/2015/03/26/Cisco-AnyConnect-with-ocserv/" target="_blank" rel="external">在VPS上配置Cisco AnyConnect VPN服务</a>“已经说明了ocserv配置的Any Connect VPN服务可以下发路由表达到智能上网的功能，有网友问是不是可以做到不同的用<br><a id="more"></a><br>户使用不同的配置文件，比如，用户A使用全局VPN，而用户B国内网站不走VPN以智能上网。这个很容易做到。<br>　　ocserv的主用配置文件就是/etc/ocserv.conf，我们可以把通用的配置放在这个里面。拿路由表举例，可以把这个文件里面的路由表全部#掉。比如usera需要智能上网，而userb不用，首先创建用户并设置密码<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ocpasswd -c <span class="regexp">/etc/</span>ocserv/ocpasswd usera</span><br><span class="line">ocpasswd -c <span class="regexp">/etc/</span>ocserv/ocpasswd userb</span><br></pre></td></tr></table></figure></p>
-<p>创建usera的配置文件(无后缀）<br><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano etc<span class="regexp">/ocserv/</span>config-per-user<span class="regexp">/usera</span></span><br></pre></td></tr></table></figure></p>
-<p>把路由表放进这个文件。<br>编辑/etc/ocserv.conf使用用户名登入，<br><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#auth = "plain[passwd=./sample.passwd]"</span></span><br><span class="line">auth = <span class="string">"plain[passwd=/etc/ocserv/ocpasswd]"</span></span><br><span class="line"><span class="comment">#auth = "certificate"</span></span><br><span class="line"><span class="keyword">...</span></span><br><span class="line">config-per-user = /etc/ocserv/config-per-user/</span><br><span class="line">config-per-group = /etc/ocserv/config-per-group/</span><br></pre></td></tr></table></figure></p>
-<p>之后重启ocserv服务。现在使用usera登入VPN就是智能上网，而userb就是全局VPN。<br>另外，用户配置支持 route，dns，限速，独立子网网段等参数，可以自行摸索。</p>
-<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
-
-    
-  </div>
-  <footer>
-    
-      
-  <div class="categories">
-    <a class="categories-link" href="/categories/VPN/">VPN</a>
-  </div>
-
-      
-  <div class="tags">
-    <a class="tags-link" href="/tags/AnyConnect/">AnyConnect</a>, <a class="tags-link" href="/tags/ocserv/">ocserv</a>
-  </div>
-
-	  
-<div class="navi clearfix">
-  
-    <a href="/2015/05/06/Yuling-Guan/" class="alignleft prev" title="昱岭关入门">昱岭关入门</a>
-  
-  
-    <a href="/2015/04/08/Upload-YouTube-Video-from-VPS-to-Baiduyun/" class="alignright next" title="Upload YouTube Video from VPS to 百度云">Upload YouTube Video from VPS to 百度云</a>
-  
-</div>
-
-	  
-<div class="addthis_sharing_toolbox"></div>
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-561b212f57df6ced"></script>
-
-	
-    <div class="clearfix"></div>
-  </footer>
 </article>
-
-
-<section id="comment">
-  <h1 class="title">评论</h1>
-<div class="ds-thread" data-thread-key="2015/04/24/AnyConnect-VPN-per-User/" data-title="AnyConnect VPN用户配置" data-url="http://mm.hanbobo.net/2015/04/24/AnyConnect-VPN-per-User/"></div>
-</section>
-
-
+  
+  
+    </div></section>
+  
 
 </div>
   </div>
