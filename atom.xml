@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Step by Step, to Happiness]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://mm.hanbobo.net/"/>
-  <updated>2015-10-13T08:08:45.608Z</updated>
+  <updated>2015-10-13T08:13:17.316Z</updated>
   <id>http://mm.hanbobo.net/</id>
   
   <author>
@@ -19,12 +19,12 @@
     <link href="http://mm.hanbobo.net/2015/10/13/Apply-for-free-VPN-account/"/>
     <id>http://mm.hanbobo.net/2015/10/13/Apply-for-free-VPN-account/</id>
     <published>2015-10-13T07:54:58.000Z</published>
-    <updated>2015-10-13T08:08:45.608Z</updated>
-    <content type="html"><![CDATA[<p>　　本人在自己的几个VPS上部署了ocserv服务来提供VPN测试帐号，请<a href="https://jinshuju.net/f/dvBOrw" target="_blank" rel="external">点击填写</a>申请。<br>　　你可能想参考以下文章：<br><a id="more"></a><br><a href="http://ssvpn.win/2015/03/23/Why-climb-GFW/" target="_blank" rel="external">为什么翻墙</a><br><a href="http://ssvpn.win/2015/10/12/Cisco-AnyConnect-guide-for-Windows/" target="_blank" rel="external">Windows平台Cisco AnyConnect VPN的使用</a><br><a href="http://ssvpn.win/2015/10/13/Cisco-Anyconnect-for-Mac-OS-X/" target="_blank" rel="external">Mac OS平台Cisco AnyConnect VPN的使用</a><br><a href="http://ssvpn.win/2015/03/13/Cisco-AnyConnect-iOS/" target="_blank" rel="external">Cisco AnyConnect 让iOS设备(iPadiPhone)科学上网</a></p>
+    <updated>2015-10-13T08:13:17.316Z</updated>
+    <content type="html"><![CDATA[<p>　　在电脑(PC/Mac)端首选科学上网模式是Shadowsocks，但是由于各种各样的原因可能有人喜欢用VPN。<br>当前最稳定的VPN服务的Cisco公司提供的AnyConnect。<br>　　本人在自己的几个VPS上部署了ocserv服务来提供VPN测试帐号，请<a href="https://jinshuju.net/f/dvBOrw" target="_blank" rel="external">点击填写</a>申请。<br>　　你可能想参考以下文章：<br><a id="more"></a><br><a href="http://ssvpn.win/2015/03/23/Why-climb-GFW/" target="_blank" rel="external">为什么翻墙</a><br><a href="http://ssvpn.win/2015/10/12/Cisco-AnyConnect-guide-for-Windows/" target="_blank" rel="external">Windows平台Cisco AnyConnect VPN的使用</a><br><a href="http://ssvpn.win/2015/10/13/Cisco-Anyconnect-for-Mac-OS-X/" target="_blank" rel="external">Mac OS平台Cisco AnyConnect VPN的使用</a><br><a href="http://ssvpn.win/2015/03/13/Cisco-AnyConnect-iOS/" target="_blank" rel="external">Cisco AnyConnect 让iOS设备(iPadiPhone)科学上网</a></p>
 <p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>　　本人在自己的几个VPS上部署了ocserv服务来提供VPN测试帐号，请<a href="https://jinshuju.net/f/dvBOrw">点击填写</a>申请。<br>　　你可能想参考以下文章：<br>]]>
+    <![CDATA[<p>　　在电脑(PC/Mac)端首选科学上网模式是Shadowsocks，但是由于各种各样的原因可能有人喜欢用VPN。<br>当前最稳定的VPN服务的Cisco公司提供的AnyConnect。<br>　　本人在自己的几个VPS上部署了ocserv服务来提供VPN测试帐号，请<a href="https://jinshuju.net/f/dvBOrw">点击填写</a>申请。<br>　　你可能想参考以下文章：<br>]]>
     
     </summary>
     
