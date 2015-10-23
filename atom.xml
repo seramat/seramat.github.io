@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Step by Step, to Happiness]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://mm.hanbobo.net/"/>
-  <updated>2015-10-23T09:00:08.614Z</updated>
+  <updated>2015-10-23T09:20:07.443Z</updated>
   <id>http://mm.hanbobo.net/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <link href="http://mm.hanbobo.net/2015/10/23/Achieve-Top-SSL-Grade/"/>
     <id>http://mm.hanbobo.net/2015/10/23/Achieve-Top-SSL-Grade/</id>
     <published>2015-10-23T01:15:11.000Z</published>
-    <updated>2015-10-23T09:00:08.614Z</updated>
-    <content type="html"><![CDATA[<p>　　测试地址: <a href="https://www.ssllabs.com/ssltest/" title="https://www.ssllabs.com/ssltest/" target="_blank" rel="external">SSL Labs</a></p>
+    <updated>2015-10-23T09:20:07.443Z</updated>
+    <content type="html"><![CDATA[<p>　　测试地址: <a href="https://www.ssllabs.com/ssltest/" title="https://www.ssllabs.com/ssltest/" target="_blank" rel="external">SSL Labs</a><br><a id="more"></a></p>
 <h2 id="Disabling_SSLv3">Disabling SSLv3</h2><p>　　If you’re running an Apache web server that currently allows SSLv3, you will need to edit the Apache configuration. On Debian and Ubuntu systems the file is /etc/apache2/mods-available/ssl.conf. On CentOS and Fedora the file is /etc/httpd/conf.d/ssl.conf. You will need to add the following line to your Apache configuration with other SSL directives.<br><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SSLProtocol</span> <span class="literal">All</span> -SSLv2 -SSLv3</span><br></pre></td></tr></table></figure></p>
 <p>  Then restart apache2 with<br><figure class="highlight puppet"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="keyword">service</span> apache2 <span class="literal">restart</span></span><br></pre></td></tr></table></figure></p>
 <h2 id="Disabling_RC4_cipher_and_enable_Perfect_Forward_Secrecy">Disabling RC4 cipher and enable Perfect Forward Secrecy</h2><p>　　Find the revelent section of the SSL config file and make the change as<br><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">SSLHonorCipherOrder <span class="function_start"><span class="keyword">on</span></span></span><br><span class="line">SSLCipherSuite <span class="string">"EECDH+ECDSA+AESGCM EECDH+aRSA+AESGCM EECDH+ECDSA+SHA384 EECDH+ECDSA+SHA256 EECDH+aRSA+SHA384 EECDH+aRSA+SHA256 EECDH+aRSA+RC4 EECDH EDH+aRSA RC4 !aNULL !eNULL !LOW !3DES !MD5 !EXP !PSK !SRP !DSS !RC4"</span></span><br></pre></td></tr></table></figure></p>
@@ -29,7 +29,8 @@
 <p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>　　测试地址: <a href="https://www.ssllabs.com/ssltest/" title="https://www.ssllabs.com/ssltest/" target="_blank" rel="external">SSL Labs</a></]]>
+    <![CDATA[<p>　　测试地址: <a href="https://www.ssllabs.com/ssltest/" title="https://www.ssllabs.com/ssltest/">SSL Labs</a><br>]]>
+    
     </summary>
     
       <category term="SSL" scheme="http://mm.hanbobo.net/tags/SSL/"/>

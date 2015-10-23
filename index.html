@@ -114,19 +114,15 @@
   
   <div class="entry">
     
-	
-      <p>　　测试地址: <a href="https://www.ssllabs.com/ssltest/" title="https://www.ssllabs.com/ssltest/" target="_blank" rel="external">SSL Labs</a></p>
-<h2 id="Disabling_SSLv3">Disabling SSLv3</h2><p>　　If you’re running an Apache web server that currently allows SSLv3, you will need to edit the Apache configuration. On Debian and Ubuntu systems the file is /etc/apache2/mods-available/ssl.conf. On CentOS and Fedora the file is /etc/httpd/conf.d/ssl.conf. You will need to add the following line to your Apache configuration with other SSL directives.<br><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SSLProtocol</span> <span class="literal">All</span> -SSLv2 -SSLv3</span><br></pre></td></tr></table></figure></p>
-<p>  Then restart apache2 with<br><figure class="highlight puppet"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="keyword">service</span> apache2 <span class="literal">restart</span></span><br></pre></td></tr></table></figure></p>
-<h2 id="Disabling_RC4_cipher_and_enable_Perfect_Forward_Secrecy">Disabling RC4 cipher and enable Perfect Forward Secrecy</h2><p>　　Find the revelent section of the SSL config file and make the change as<br><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">SSLHonorCipherOrder <span class="function_start"><span class="keyword">on</span></span></span><br><span class="line">SSLCipherSuite <span class="string">"EECDH+ECDSA+AESGCM EECDH+aRSA+AESGCM EECDH+ECDSA+SHA384 EECDH+ECDSA+SHA256 EECDH+aRSA+SHA384 EECDH+aRSA+SHA256 EECDH+aRSA+RC4 EECDH EDH+aRSA RC4 !aNULL !eNULL !LOW !3DES !MD5 !EXP !PSK !SRP !DSS !RC4"</span></span><br></pre></td></tr></table></figure></p>
-<p>Then restart apache2.</p>
-<p>　　Now you can go to the <a href="https://www.ssllabs.com/ssltest/" target="_blank" rel="external">SSL Labs</a> to test your site’s SSL grade again to see the difference.</p>
-<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
-
+      <p>　　测试地址: <a href="https://www.ssllabs.com/ssltest/" title="https://www.ssllabs.com/ssltest/">SSL Labs</a><br>
     
   </div>
   <footer class="end-sep">
     
+      
+        <div class="alignleft">
+          <a href="/2015/10/23/Achieve-Top-SSL-Grade/#more" class="more-link">阅读全文</a>
+        </div>
       
       
     
