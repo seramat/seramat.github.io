@@ -4,21 +4,28 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-  <title>mGoAlltWay</title>
+  <title>Achieve Top SSL Grade | mGoAlltWay</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   
     <meta name="author" content="GangX">
   
   
-  <meta name="description" content="Step by Step, to Happiness">
-<meta property="og:type" content="website">
-<meta property="og:title" content="mGoAlltWay">
-<meta property="og:url" content="http://mm.hanbobo.net/archives/2015/03/index.html">
+    <meta name="description" content="测试地址: SSL Labs
+Disabling SSLv3　　If you’re running an Apache web server that currently allows SSLv3, you will need to edit the Apache configuration. On Debian and Ubuntu systems the file is /etc/apache">
+  
+  <meta name="description" content="测试地址: SSL Labs
+Disabling SSLv3　　If you’re running an Apache web server that currently allows SSLv3, you will need to edit the Apache configuration. On Debian and Ubuntu systems the file is /etc/apache">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Achieve Top SSL Grade">
+<meta property="og:url" content="http://mm.hanbobo.net/2015/10/23/Achieve-Top-SSL-Grade/index.html">
 <meta property="og:site_name" content="mGoAlltWay">
-<meta property="og:description" content="Step by Step, to Happiness">
+<meta property="og:description" content="测试地址: SSL Labs
+Disabling SSLv3　　If you’re running an Apache web server that currently allows SSLv3, you will need to edit the Apache configuration. On Debian and Ubuntu systems the file is /etc/apache">
+<meta property="og:image" content="http://7xi4vv.com1.z0.glb.clouddn.com/ssl_a+.png">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="mGoAlltWay">
-<meta name="twitter:description" content="Step by Step, to Happiness">
+<meta name="twitter:title" content="Achieve Top SSL Grade">
+<meta name="twitter:description" content="测试地址: SSL Labs
+Disabling SSLv3　　If you’re running an Apache web server that currently allows SSLv3, you will need to edit the Apache configuration. On Debian and Ubuntu systems the file is /etc/apache">
   
   
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -28,6 +35,8 @@
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   
 </head>
+
+  <meta property="st:image" content="http://7xi4vv.com1.z0.glb.clouddn.com/ssl_a+.png">
 
 <style id='inline-css' type='text/css'>
 #backtoTop{background-color:#eee;border-radius:100%;bottom:10%;height:48px;position:fixed;right:-100px;width:48px;transition:0.5s;-webkit-transition:0.5s}
@@ -73,111 +82,87 @@
   <div class="clearfix"></div>
 </header>
 </header>
-    <div class="content">
-
-
-
-
-  
-  
+    <div class="content"><article class="post">
+  <header>
     
+      <div class="panda">
+	   <img src="/imgs/panda.png" width="32" height="32">
+	  </div>
+      <a href="/2015/10/23/Achieve-Top-SSL-Grade/">
+  <time datetime="2015-10-23T01:15:11.000Z">
+    2015-10-23
+  </time>
+</a>
+    
+    
+  
+    <h1 class="title">Achieve Top SSL Grade</h1>
+  
+
+  </header>
+  
+    <div class="gallery">
+  <div class="photoset">
     
       
+        <img src="http://7xi4vv.com1.z0.glb.clouddn.com/ssl_a+.png">
       
-      <section class="archives-wrapper">
-        
-        <h2 class="archives-title archives-year">
-          <a href="/archives/2015">2015</a>
-        </h2>
-        
-        <div class="archives">
     
-    <article class="post">
-  <header>
-    <a href="/2015/03/31/SS-for-Android_E/">
-  <time datetime="2015-03-31T09:34:18.000Z">
-    3月 31
-  </time>
-</a>
+  </div>
+  <div class="control">
+    <div class="prev"></div>
+    <div class="next"></div>
+  </div>
+</div>
+  
+  <div class="entry">
     
-  
-    <h1 class="title"><a href="/2015/03/31/SS-for-Android_E/">Shadowsocks for Android devices</a></h1>
-  
+	
+      <p>　　测试地址: <a href="https://www.ssllabs.com/ssltest/" title="https://www.ssllabs.com/ssltest/" target="_blank" rel="external">SSL Labs</a></p>
+<h2 id="Disabling_SSLv3">Disabling SSLv3</h2><p>　　If you’re running an Apache web server that currently allows SSLv3, you will need to edit the Apache configuration. On Debian and Ubuntu systems the file is /etc/apache2/mods-available/ssl.conf. On CentOS and Fedora the file is /etc/httpd/conf.d/ssl.conf. You will need to add the following line to your Apache configuration with other SSL directives.<br><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SSLProtocol</span> <span class="literal">All</span> -SSLv2 -SSLv3</span><br></pre></td></tr></table></figure></p>
+<p>  Then restart apache2 with<br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sudo service apache2 restart</span><br><span class="line">```    </span><br><span class="line">  </span><br><span class="line"><span class="comment">## Disabling RC4 cipher and enable Perfect Forward Secrecy </span></span><br><span class="line">　　Find <span class="operator">the</span> revelent section <span class="operator">of</span> <span class="operator">the</span> SSL config <span class="built_in">file</span> <span class="operator">and</span> make <span class="operator">the</span> change <span class="keyword">as</span></span><br></pre></td></tr></table></figure></p>
+<p>SSLHonorCipherOrder on<br>SSLCipherSuite “EECDH+ECDSA+AESGCM EECDH+aRSA+AESGCM EECDH+ECDSA+SHA384 EECDH+ECDSA+SHA256 EECDH+aRSA+SHA384 EECDH+aRSA+SHA256 EECDH+aRSA+RC4 EECDH EDH+aRSA RC4 !aNULL !eNULL !LOW !3DES !MD5 !EXP !PSK !SRP !DSS !RC4”<br>```<br>Then restart apache2.</p>
+<p>　　Now you can go to the <a href="https://www.ssllabs.com/ssltest/" target="_blank" rel="external">SSL Labs</a> to test your site’s SSL grade again to see the difference.</p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
 
-  </header>
-</article>
-  
     
+  </div>
+  <footer>
     
-    <article class="post">
-  <header>
-    <a href="/2015/03/26/Cisco-AnyConnect-with-ocserv/">
-  <time datetime="2015-03-26T09:59:22.000Z">
-    3月 26
-  </time>
-</a>
-    
-  
-    <h1 class="title"><a href="/2015/03/26/Cisco-AnyConnect-with-ocserv/">在VPS上配置Cisco AnyConnect VPN服务 </a></h1>
-  
+      
+  <div class="categories">
+    <a class="categories-link" href="/categories/笔记/">笔记</a>
+  </div>
 
-  </header>
-</article>
-  
-    
-    
-    <article class="post">
-  <header>
-    <a href="/2015/03/26/Applock/">
-  <time datetime="2015-03-25T22:56:20.000Z">
-    3月 26
-  </time>
-</a>
-    
-  
-    <h1 class="title"><a href="/2015/03/26/Applock/">Applock程序管理</a></h1>
-  
+      
+  <div class="tags">
+    <a class="tags-link" href="/tags/SSL/">SSL</a>
+  </div>
 
-  </header>
-</article>
+	  
+<div class="navi clearfix">
   
-    
-    
-    <article class="post">
-  <header>
-    <a href="/2015/03/23/Why-climb-GFW/">
-  <time datetime="2015-03-23T00:32:53.000Z">
-    3月 23
-  </time>
-</a>
-    
   
-    <h1 class="title"><a href="/2015/03/23/Why-climb-GFW/">Why climb GFW?</a></h1>
+    <a href="/2015/10/22/zhada1508/" class="alignright next" title="浙大95级赴新同学廿十周年聚会">浙大95级赴新同学廿十周年聚会</a>
   
+</div>
 
-  </header>
-</article>
-  
-    
-    
-    <article class="post">
-  <header>
-    <a href="/2015/03/19/My-Hexo-Modernist-Theme/">
-  <time datetime="2015-03-18T23:44:22.000Z">
-    3月 19
-  </time>
-</a>
-    
-  
-    <h1 class="title"><a href="/2015/03/19/My-Hexo-Modernist-Theme/">我的Hexo Modernist折腾记录</a></h1>
-  
+	  
+<div class="addthis_sharing_toolbox"></div>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-561b212f57df6ced"></script>
 
-  </header>
+	
+    <div class="clearfix"></div>
+  </footer>
 </article>
-  
-  
-    </div></section>
-  
+
+
+<section id="comment">
+  <h1 class="title">评论</h1>
+<div class="ds-thread" data-thread-key="2015/10/23/Achieve-Top-SSL-Grade/" data-title="Achieve Top SSL Grade" data-url="http://mm.hanbobo.net/2015/10/23/Achieve-Top-SSL-Grade/"></div>
+</section>
+
+
 
 </div>
   </div>

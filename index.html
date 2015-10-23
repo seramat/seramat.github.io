@@ -85,6 +85,65 @@
       <div class="panda">
 	   <img src="/imgs/panda.png" width="32" height="32">
 	  </div>
+      <a href="/2015/10/23/Achieve-Top-SSL-Grade/">
+  <time datetime="2015-10-23T01:15:11.000Z">
+    2015-10-23
+  </time>
+</a>
+    
+    
+  
+    <h1 class="title"><a href="/2015/10/23/Achieve-Top-SSL-Grade/">Achieve Top SSL Grade</a></h1>
+  
+
+  </header>
+  
+    <div class="gallery">
+  <div class="photoset">
+    
+      
+        <img src="http://7xi4vv.com1.z0.glb.clouddn.com/ssl_a+.png">
+      
+    
+  </div>
+  <div class="control">
+    <div class="prev"></div>
+    <div class="next"></div>
+  </div>
+</div>
+  
+  <div class="entry">
+    
+	
+      <p>　　测试地址: <a href="https://www.ssllabs.com/ssltest/" title="https://www.ssllabs.com/ssltest/" target="_blank" rel="external">SSL Labs</a></p>
+<h2 id="Disabling_SSLv3">Disabling SSLv3</h2><p>　　If you’re running an Apache web server that currently allows SSLv3, you will need to edit the Apache configuration. On Debian and Ubuntu systems the file is /etc/apache2/mods-available/ssl.conf. On CentOS and Fedora the file is /etc/httpd/conf.d/ssl.conf. You will need to add the following line to your Apache configuration with other SSL directives.<br><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SSLProtocol</span> <span class="literal">All</span> -SSLv2 -SSLv3</span><br></pre></td></tr></table></figure></p>
+<p>  Then restart apache2 with<br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sudo service apache2 restart</span><br><span class="line">```    </span><br><span class="line">  </span><br><span class="line"><span class="comment">## Disabling RC4 cipher and enable Perfect Forward Secrecy </span></span><br><span class="line">　　Find <span class="operator">the</span> revelent section <span class="operator">of</span> <span class="operator">the</span> SSL config <span class="built_in">file</span> <span class="operator">and</span> make <span class="operator">the</span> change <span class="keyword">as</span></span><br></pre></td></tr></table></figure></p>
+<p>SSLHonorCipherOrder on<br>SSLCipherSuite “EECDH+ECDSA+AESGCM EECDH+aRSA+AESGCM EECDH+ECDSA+SHA384 EECDH+ECDSA+SHA256 EECDH+aRSA+SHA384 EECDH+aRSA+SHA256 EECDH+aRSA+RC4 EECDH EDH+aRSA RC4 !aNULL !eNULL !LOW !3DES !MD5 !EXP !PSK !SRP !DSS !RC4”<br>```<br>Then restart apache2.</p>
+<p>　　Now you can go to the <a href="https://www.ssllabs.com/ssltest/" target="_blank" rel="external">SSL Labs</a> to test your site’s SSL grade again to see the difference.</p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+
+    
+  </div>
+  <footer class="end-sep">
+    
+      
+      
+    
+    <div class="clearfix"></div>
+  </footer>
+</article>
+
+
+
+
+
+  
+    <article class="post">
+  <header>
+    
+      <div class="panda">
+	   <img src="/imgs/panda.png" width="32" height="32">
+	  </div>
       <a href="/2015/10/22/zhada1508/">
   <time datetime="2015-10-22T08:26:30.000Z">
     2015-10-22
@@ -416,62 +475,6 @@
 
 
   
-    <article class="post">
-  <header>
-    
-      <div class="panda">
-	   <img src="/imgs/panda.png" width="32" height="32">
-	  </div>
-      <a href="/2015/05/06/Yuling-Guan/">
-  <time datetime="2015-05-05T23:22:06.000Z">
-    2015-05-06
-  </time>
-</a>
-    
-    
-  
-    <h1 class="title"><a href="/2015/05/06/Yuling-Guan/">昱岭关入门</a></h1>
-  
-
-  </header>
-  
-    <div class="gallery">
-  <div class="photoset">
-    
-      
-        <img src="http://7xi4vv.com1.z0.glb.clouddn.com/DSCN5854.jpg">
-      
-    
-  </div>
-  <div class="control">
-    <div class="prev"></div>
-    <div class="next"></div>
-  </div>
-</div>
-  
-  <div class="entry">
-    
-      <p>　　春光灿烂的季节，在风景优美的小山村，度过一个难忘的周末…<br>
-    
-  </div>
-  <footer class="end-sep">
-    
-      
-        <div class="alignleft">
-          <a href="/2015/05/06/Yuling-Guan/#more" class="more-link">阅读全文</a>
-        </div>
-      
-      
-    
-    <div class="clearfix"></div>
-  </footer>
-</article>
-
-
-
-
-
-  
 
   <nav id="pagination">
   
@@ -515,7 +518,7 @@
   
     <li><a href="/categories/徒步/">徒步</a><small>1</small></li>
   
-    <li><a href="/categories/笔记/">笔记</a><small>4</small></li>
+    <li><a href="/categories/笔记/">笔记</a><small>5</small></li>
   
   </ul>
 </div>
@@ -527,7 +530,7 @@
 <div class="widget tagcloud">
   <h3 class="title">tagcloud</h3>
   <div class="entry">
-    <a href="/tags/AnyConnect/" style="font-size: 17.5px;">AnyConnect</a><a href="/tags/Bali/" style="font-size: 10px;">Bali</a><a href="/tags/GFW/" style="font-size: 10px;">GFW</a><a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a><a href="/tags/Leisure/" style="font-size: 10px;">Leisure</a><a href="/tags/SS/" style="font-size: 10px;">SS</a><a href="/tags/Singapore/" style="font-size: 10px;">Singapore</a><a href="/tags/VPN/" style="font-size: 10px;">VPN</a><a href="/tags/VPS/" style="font-size: 10px;">VPS</a><a href="/tags/Zheda/" style="font-size: 10px;">Zheda</a><a href="/tags/hexo/" style="font-size: 10px;">hexo</a><a href="/tags/mm/" style="font-size: 10px;">mm</a><a href="/tags/ocserv/" style="font-size: 17.5px;">ocserv</a><a href="/tags/reading/" style="font-size: 10px;">reading</a><a href="/tags/东京/" style="font-size: 10px;">东京</a><a href="/tags/先锋/" style="font-size: 12.5px;">先锋</a><a href="/tags/先锋读书/" style="font-size: 12.5px;">先锋读书</a><a href="/tags/写作/" style="font-size: 10px;">写作</a><a href="/tags/博客/" style="font-size: 10px;">博客</a><a href="/tags/学习/" style="font-size: 10px;">学习</a><a href="/tags/文章/" style="font-size: 10px;">文章</a><a href="/tags/旅行/" style="font-size: 15px;">旅行</a><a href="/tags/游记/" style="font-size: 10px;">游记</a><a href="/tags/福泉/" style="font-size: 10px;">福泉</a><a href="/tags/科学上网/" style="font-size: 15px;">科学上网</a><a href="/tags/笔记/" style="font-size: 20px;">笔记</a><a href="/tags/聚会/" style="font-size: 10px;">聚会</a><a href="/tags/读史/" style="font-size: 10px;">读史</a><a href="/tags/远足/" style="font-size: 10px;">远足</a>
+    <a href="/tags/AnyConnect/" style="font-size: 17.5px;">AnyConnect</a><a href="/tags/Bali/" style="font-size: 10px;">Bali</a><a href="/tags/GFW/" style="font-size: 10px;">GFW</a><a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a><a href="/tags/Leisure/" style="font-size: 10px;">Leisure</a><a href="/tags/SS/" style="font-size: 10px;">SS</a><a href="/tags/SSL/" style="font-size: 10px;">SSL</a><a href="/tags/Singapore/" style="font-size: 10px;">Singapore</a><a href="/tags/VPN/" style="font-size: 10px;">VPN</a><a href="/tags/VPS/" style="font-size: 10px;">VPS</a><a href="/tags/Zheda/" style="font-size: 10px;">Zheda</a><a href="/tags/hexo/" style="font-size: 10px;">hexo</a><a href="/tags/mm/" style="font-size: 10px;">mm</a><a href="/tags/ocserv/" style="font-size: 17.5px;">ocserv</a><a href="/tags/reading/" style="font-size: 10px;">reading</a><a href="/tags/东京/" style="font-size: 10px;">东京</a><a href="/tags/先锋/" style="font-size: 12.5px;">先锋</a><a href="/tags/先锋读书/" style="font-size: 12.5px;">先锋读书</a><a href="/tags/写作/" style="font-size: 10px;">写作</a><a href="/tags/博客/" style="font-size: 10px;">博客</a><a href="/tags/学习/" style="font-size: 10px;">学习</a><a href="/tags/文章/" style="font-size: 10px;">文章</a><a href="/tags/旅行/" style="font-size: 15px;">旅行</a><a href="/tags/游记/" style="font-size: 10px;">游记</a><a href="/tags/福泉/" style="font-size: 10px;">福泉</a><a href="/tags/科学上网/" style="font-size: 15px;">科学上网</a><a href="/tags/笔记/" style="font-size: 20px;">笔记</a><a href="/tags/聚会/" style="font-size: 10px;">聚会</a><a href="/tags/读史/" style="font-size: 10px;">读史</a><a href="/tags/远足/" style="font-size: 10px;">远足</a>
   </div>
 </div>
 

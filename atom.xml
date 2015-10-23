@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Step by Step, to Happiness]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://mm.hanbobo.net/"/>
-  <updated>2015-10-22T10:33:54.736Z</updated>
+  <updated>2015-10-23T01:47:28.692Z</updated>
   <id>http://mm.hanbobo.net/</id>
   
   <author>
@@ -13,6 +13,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Achieve Top SSL Grade]]></title>
+    <link href="http://mm.hanbobo.net/2015/10/23/Achieve-Top-SSL-Grade/"/>
+    <id>http://mm.hanbobo.net/2015/10/23/Achieve-Top-SSL-Grade/</id>
+    <published>2015-10-23T01:15:11.000Z</published>
+    <updated>2015-10-23T01:47:28.692Z</updated>
+    <content type="html"><![CDATA[<p>　　测试地址: <a href="https://www.ssllabs.com/ssltest/" title="https://www.ssllabs.com/ssltest/" target="_blank" rel="external">SSL Labs</a></p>
+<h2 id="Disabling_SSLv3">Disabling SSLv3</h2><p>　　If you’re running an Apache web server that currently allows SSLv3, you will need to edit the Apache configuration. On Debian and Ubuntu systems the file is /etc/apache2/mods-available/ssl.conf. On CentOS and Fedora the file is /etc/httpd/conf.d/ssl.conf. You will need to add the following line to your Apache configuration with other SSL directives.<br><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SSLProtocol</span> <span class="literal">All</span> -SSLv2 -SSLv3</span><br></pre></td></tr></table></figure></p>
+<p>  Then restart apache2 with<br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sudo service apache2 restart</span><br><span class="line">```    </span><br><span class="line">  </span><br><span class="line"><span class="comment">## Disabling RC4 cipher and enable Perfect Forward Secrecy </span></span><br><span class="line">　　Find <span class="operator">the</span> revelent section <span class="operator">of</span> <span class="operator">the</span> SSL config <span class="built_in">file</span> <span class="operator">and</span> make <span class="operator">the</span> change <span class="keyword">as</span></span><br></pre></td></tr></table></figure></p>
+<p>SSLHonorCipherOrder on<br>SSLCipherSuite “EECDH+ECDSA+AESGCM EECDH+aRSA+AESGCM EECDH+ECDSA+SHA384 EECDH+ECDSA+SHA256 EECDH+aRSA+SHA384 EECDH+aRSA+SHA256 EECDH+aRSA+RC4 EECDH EDH+aRSA RC4 !aNULL !eNULL !LOW !3DES !MD5 !EXP !PSK !SRP !DSS !RC4”<br>```<br>Then restart apache2.</p>
+<p>　　Now you can go to the <a href="https://www.ssllabs.com/ssltest/" target="_blank" rel="external">SSL Labs</a> to test your site’s SSL grade again to see the difference.</p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>　　测试地址: <a href="https://www.ssllabs.com/ssltest/" title="https://www.ssllabs.com/ssltest/" target="_blank" rel="external">SSL Labs</a></]]>
+    </summary>
+    
+      <category term="SSL" scheme="http://mm.hanbobo.net/tags/SSL/"/>
+    
+      <category term="笔记" scheme="http://mm.hanbobo.net/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[浙大95级赴新同学廿十周年聚会]]></title>
@@ -983,44 +1006,6 @@
       <category term="读史" scheme="http://mm.hanbobo.net/tags/%E8%AF%BB%E5%8F%B2/"/>
     
       <category term="Reading" scheme="http://mm.hanbobo.net/categories/Reading/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[忆吴越古道徒步 by Alex on 20140603 @Shanghai]]></title>
-    <link href="http://mm.hanbobo.net/2014/06/07/%E5%BF%86%E5%90%B4%E8%B6%8A%E5%8F%A4%E9%81%93%E5%BE%92%E6%AD%A5/"/>
-    <id>http://mm.hanbobo.net/2014/06/07/忆吴越古道徒步/</id>
-    <published>2014-06-06T16:55:00.000Z</published>
-    <updated>2015-03-18T15:17:33.000Z</updated>
-    <content type="html"><![CDATA[<p> 　　就着刚刚同吴越古道亲热完的余温，怀着不舍和留恋，娓娓道来徒步印象。画面一幅幅从脑海里闪过，每一幅都回味无穷，真真切切。<br><a id="more"></a><br> 　　一上车，欢快的气氛一下子就占领了整个车厢，刚上车时的陌生感和惴惴然马上被抛到了爪哇国，这一刻，让我们尽兴欢快吧！（音乐呢？响起——！）首先是自我介绍环节，小朋友们或活泼大方，或羞涩忸怩，童言童语，掷地有声，让人时而捧腹，时而喝彩，个个表现可圈可点。接下来是才艺表演，唱歌的妹妹们音色悦耳动听，歌曲紧跟时代，动作憨然可掬，弟弟们声音尖锐洪亮，一付初生牛犊不怕虎的劲头。朗诵的妹妹表情生动，用稚嫩脆生的童音引领大家一起领略春天的美丽。伴随着欢笑，仿佛一眨眼的功夫我们就到达了住宿的小山村。<br> <a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0011.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image001_thumb1.png" alt="clip_image001" title="clip_image001"></a> </p><p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0022.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image002_thumb2.png" alt="clip_image002" title="clip_image002"></a><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0032.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image003_thumb2.png" alt="clip_image003" title="clip_image003"></a><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0042.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image004_thumb2.png" alt="clip_image004" title="clip_image004"></a> </p>
-<p> 　　稍作休整，简单地吃了点午饭，开始为明天的徒步热身。看到爸爸们淡定地分配任务，细心地安排队形，耐心地讲解，我知道这将是一次靠谱的、有意义的共同成长之旅，是孩子们一生中不能忘怀的亲子活动。</p>
-<p> <a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0052.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image005_thumb2.png" alt="clip_image005" title="clip_image005"></a><br>　　刚出发不久，一块巨石跃入眼帘。还没来得及反应，孩子们已经不顾一切地向巨石发起了猛攻，前仆后继，额头上都刻上了“勇”字。爸爸妈妈们站在一旁，拍照的拍照，救助的救助。脚踩征服的巨石，孩子们摆出各种姿势，一脸欣然。在这里只想说：爸爸妈妈们，你们辛苦了！也许你们拍照的水平不专业，但你们做父母的职业精神绝对专业，是你们的爱让孩子们活泼开朗，充满阳光。小朋友们，你们知道吗？只要你们幸福，就是爸爸妈妈们最大的幸福。 </p>
-<p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0061.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image006_thumb1.png" alt="clip_image006" title="clip_image006"></a><br><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0071.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image007_thumb1.png" alt="clip_image007" title="clip_image007"></a><br><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0081.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image008_thumb1.png" alt="clip_image008" title="clip_image008"></a> </p>
-<p>　　前面还有更美的风景，让我们继续前行吧！雾锁山峦，绿盈古道，深吸一口纯净的空气，乘着微风，踽踽而行。在热身归来的路上，被一阵阵孩子们的尖叫声惊到了，赶紧跑上前看个究竟。哇——！二十几个孩子，全部在小石潭里湿身了。有光脚蹚水的，有攀石的，有在石间跃来跳去的，有水里你追我逐的，有怡然半卧于石上的，欢呼雀跃，鸟鹊齐飞，鱼龙潜水，草木动容。多么美好的瞬间，摄影呢？麻利儿的。 </p>
-<p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0091.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image009_thumb1.png" alt="clip_image009" title="clip_image009"></a><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0101.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image010_thumb1.png" alt="clip_image010" title="clip_image010"></a> </p>
-<p>　　开心，开心，还是开心！晚饭之前又有小姑娘过生日，给这次徒步平添了更多的欢乐。再说一遍：祝你生日快乐！有这么多的小伙伴为你祝福，愿幸福伴你终老！兴奋的心情难以平复，期待明天的正餐——徒步！ </p>
-<p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0111.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image011_thumb1.png" alt="clip_image011" title="clip_image011"></a> </p>
-<p>　　老天仿佛是故意考验我们，送我们一个阴雨天气。但这丝毫不能影响我们的士气。和昨天一样，几个爸爸带孩子们打头阵，中间是妈妈队伍，最后是几个爸爸收尾。刚开始队形还很完整，渐渐地距离愈拉愈大，前头的爸爸和几个小姑娘一马当先，甩下大部队几个身段。姑娘们，你们真是群汉子！雨越下越大，冷风吹着，汗水却不停地流，那叫一个“虐”。跟着大部队不紧不慢地走着，不时收编一些体力有些不支的孩子。这天气，这道路，不仅对孩子，对大人也是一种考验。要照顾好自己，还要照顾孩子，更要让孩子们在徒步中得到锻炼，磨砺意志，培养团队精神，向爸爸们学习责任、组织和管理，向妈妈们学习奉献和付出。有段陡坡由于下雨变得非常泥泞，爬坡的人几乎都摔跤了，放眼望去，遍地身体横陈，满头满身泥泞，怎一个“惨”字了得。有想放弃的，但在大家相互鼓励和提携下，终于征服了陡坡。满以为接下来的路会好走，可却事与愿违。山顶上劲风凛冽，几乎把人吹飞，豆大的雨点打在脸上生疼。“坚持，很快就到了”。这是大家对周围人说得最多的一句话。已经无心欣赏云雾缭绕的群山，宛如明镜的天池，只想着快点追上前面的队伍，快点结束这超虐的徒步。咬着牙坚持着，终于又见到小村庄。久违了，无比亲切的小村庄。裤腿全湿了，还粘着泥巴，鞋子沉重了好几斤。 </p>
-<p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0121.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image012_thumb1.png" alt="clip_image012" title="clip_image012"></a> </p>
-<p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0131.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image013_thumb1.png" alt="clip_image013" title="clip_image013"></a> </p>
-<p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0141.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image014_thumb1.png" alt="clip_image014" title="clip_image014"></a> </p>
-<p>　　今晚，我们要好好地欢庆一番。所有人安全归来，没有大伤，活动相当圆满地结束，有什么理由不畅饮？为我们的患难与共，为孩子们出色的表现，为被磨砺得更坚强的意志，为爸爸妈妈们无私的爱，让我们举杯！ </p>
-<p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0151.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image015_thumb1.png" alt="clip_image015" title="clip_image015"></a> </p>
-<p>　　孩子们未来的路还很长，成长中还需要不断地培养和磨砺。但我知道，有爸爸妈妈们陪伴，你们的未来不是梦！ </p>
-<p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0161.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image016_thumb1.png" alt="clip_image016" title="clip_image016"></a> </p>
-<p><a href="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image0171.png" target="_blank" rel="external"><img src="http://7xi4kv.com1.z0.glb.clouddn.com/wp-content/uploads/2014/09/clip_image017_thumb1.png" alt="clip_image017" title="clip_image017"></a></p>
-<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p> 　　就着刚刚同吴越古道亲热完的余温，怀着不舍和留恋，娓娓道来徒步印象。画面一幅幅从脑海里闪过，每一幅都回味无穷，真真切切。<br>]]>
-    
-    </summary>
-    
-      <category term="先锋" scheme="http://mm.hanbobo.net/tags/%E5%85%88%E9%94%8B/"/>
-    
-      <category term="远足" scheme="http://mm.hanbobo.net/tags/%E8%BF%9C%E8%B6%B3/"/>
-    
-      <category term="Hiking" scheme="http://mm.hanbobo.net/categories/Hiking/"/>
     
   </entry>
   
