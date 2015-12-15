@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Step by Step, to Happiness]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://mm.hanbobo.net/"/>
-  <updated>2015-11-06T04:11:14.421Z</updated>
+  <updated>2015-12-14T05:20:31.794Z</updated>
   <id>http://mm.hanbobo.net/</id>
   
   <author>
@@ -13,6 +13,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Shadowsocks for OS X]]></title>
+    <link href="http://mm.hanbobo.net/2015/12/14/Shadowsocks-for-OS-X/"/>
+    <id>http://mm.hanbobo.net/2015/12/14/Shadowsocks-for-OS-X/</id>
+    <published>2015-12-14T04:50:33.000Z</published>
+    <updated>2015-12-14T05:20:31.794Z</updated>
+    <content type="html"><![CDATA[<p>　　ShadowsocksX是OS X下面一个比较好用的shadowsocks程序 , 启动后可自动实现全局翻墙，并根据 GFWList 区分墙内外流量,不需要配置端口。<br><a id="more"></a></p>
+<h2 id="1-_下载安装ShadossocksX软件">1. 下载安装ShadossocksX软件</h2><p><a href="http://7xi4vv.com1.z0.glb.clouddn.com/ShadowsocksX-2.6.dmg" target="_blank" rel="external">下载地址</a></p>
+<h2 id="2-_ShadowsocksX的配置和使用">2. ShadowsocksX的配置和使用</h2><p>　　下载之后拖到App程序里面，打开，会直接在menu栏显示出来。<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/SS_for_OSX01.png" alt="p01"></p>
+<blockquote>
+<blockquote>
+<p>默认选项是“自动代理模式”，在这个模式下，软件会自动区分国内外网页，国内网页不通过VPN，而国外网页通过VPN浏览。如果发现有的网站去不了，可以选择“全局模式”，这样所有网页浏览都通过VPN。  </p>
+</blockquote>
+</blockquote>
+<p>　　点击小飞机按钮，配置服务器节点信息。添加完成之后点击确定！<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/SS_for_OSX02.png" alt="p02"></p>
+<p>　　然后你可以直接使用chrome / firefox / safari 访问国外网站了。</p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>　　ShadowsocksX是OS X下面一个比较好用的shadowsocks程序 , 启动后可自动实现全局翻墙，并根据 GFWList 区分墙内外流量,不需要配置端口。<br>]]>
+    
+    </summary>
+    
+      <category term="OSX" scheme="http://mm.hanbobo.net/tags/OSX/"/>
+    
+      <category term="Shadowsocks" scheme="http://mm.hanbobo.net/tags/Shadowsocks/"/>
+    
+      <category term="VPN" scheme="http://mm.hanbobo.net/categories/VPN/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Tongariro Alpine Cross]]></title>
@@ -979,59 +1010,6 @@
       <category term="笔记" scheme="http://mm.hanbobo.net/tags/%E7%AC%94%E8%AE%B0/"/>
     
       <category term="VPN" scheme="http://mm.hanbobo.net/categories/VPN/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[G5/6 Reading List]]></title>
-    <link href="http://mm.hanbobo.net/2015/01/18/G5-6-Reading-List/"/>
-    <id>http://mm.hanbobo.net/2015/01/18/G5-6-Reading-List/</id>
-    <published>2015-01-18T02:19:07.000Z</published>
-    <updated>2015-03-18T09:07:52.000Z</updated>
-    <content type="html"><![CDATA[<p>　　This list is complied from several sources. Due to the (lack of) availability of English books in China, only those with ebook forms are included here.<br><a id="more"></a></p>
-<h2 id="Novels">Novels</h2><p><strong>Hatchet</strong><br>　　　<img src="http://d.gr-assets.com/books/1385297074l/50.jpg" alt=""><br>by Gary Paulsen (Simon &amp; Schuster, 2007) 192 pages.<br>　　Gary Paulsen is one of the most honored writers of contemporary literature for young readers. He has written more than one hundred book for adults and young readers, and is the author of three Newberry Honor titles: Dogsong, Hatchet, and The Winter Room.</p>
-<blockquote>
-<p>The story is about Brian, 13, and how he manages to survive 54 days in the Canadian wilderness after a plane crash. Brian was flying to visit his father when the pilot dies of a heart attack in mid-flight. Brian crash lands the plane into a small lake and swims out of the wreckage. He has his clothing, a tattered windbreaker and a hatchet (a gift from his mother). The novel takes us through Brian’s days, how he learns patience through his experiences with failures and small successes: building a fire, fishing and hunting, making his shelter a safe one. He endures a porcupine attack, a tornado and being utterly alone for almost two months. This is a tale of adventure but, more importantly, it is a tale of character growth.</p>
-</blockquote>
-<p>　　小汉堡说这个是少年版的鲁滨逊:) 作者一共写了5本同类型的书，分别是Hatchet (Brian’s Saga, #1) ，The River (Brian’s Saga, #2) ，Brian’s Winter (Brian’s Saga, #3) ，Brian’s Return (Brian’s Saga, #4) ，Brian’s Hunt (Brian’s Saga, #5) .<br><a href="http://pan.baidu.com/s/1ntmOt9B" target="_blank" rel="external">百度云链接</a><br><a href="http://www.amazon.com/Hatchet-Gary-Paulsen/dp/1416936475" target="_blank" rel="external">amazon link</a></p>
-<p><strong>The Miraculous Journey of Edward Tulane</strong><br>by Kate Dicamillo (Candlewick, 2009) 224 pages.<br>　　　<img src="http://wpc.556e.edgecastcdn.net/80556E/img.news/NEIIsFzLPx4VMP_1_1.jpg" alt=""></p>
-<blockquote>
-<p>Once, in a house on Egypt Street, there lived a china rabbit named Edward Tulane. The rabbit was very pleased with himself, and for good reason: he was owned by a girl named Abilene, who adored him completely. And then, one day, he was lost. . . .[/i]<br>Kate DiCamillo takes us on an extraordinary journey, from the depths of the ocean to the net of a fisherman, from the bedside of an ailing child to the bustling streets of Memphis. Along the way, we are shown a miracle — that even a heart of the most breakable kind can learn to love, to lose, and to love again.</p>
-</blockquote>
-<p>　　从前，在埃及街旁的一所房子里，住着一只名叫爱德华·图雷恩的瓷兔子。那小兔子很是自鸣得意，而且理由充足，他为一个名叫阿比林的女孩儿所拥有，她对他关怀备至，崇敬有加。 可是后来，有一天，他被丢失了。 《爱德华的奇妙之旅》的作者凯特·迪卡米洛把我们带上了一段异乎寻常的旅程——从海洋深处到渔夫的渔网，从垃圾堆的顶部到流浪汉营地的篝火边，从一个生病的孩子的床前导孟斐斯的街道上……一路上的见闻令我们惊鄂不已——即使是一颗极易破碎的心也可以失去爱、学会爱而又重新得到爱。 《爱德华的奇妙之旅》荣获波士顿全球号角书奖金奖。<br><a href="http://pan.baidu.com/s/1hq3n3la" target="_blank" rel="external">百度云链接</a><br><a href="http://www.amazon.com/Miraculous-Journey-Edward-Tulane/dp/076364367X" target="_blank" rel="external">amazon link</a></p>
-<p><strong>Peak</strong><br>by Roland Smith (Harcourt, 2007). 246 pages.<br><img src="http://d.gr-assets.com/books/1328876929l/721003.jpg" alt=""></p>
-<blockquote>
-<p>When 14-year-old Peak Marcello is caught scaling a skyscraper to place his signature graffiti tag, he is offered a choice: spend three years in juvenile detention or climb Mt. Everest with his long-absent father. Though the choice might be easy, the journey is not. Peak is physically and emotionally challenged by the grueling climb, the weather, and the politics and drama of climbing culture. And the pressure is on, because if Peak can reach the summit before his 15th birthday, he’ll break a world record and gain glory and money. Peak is gripping and surprising, and though it’s written for a middle-grade audience, readers young and old will be sucked in by the sharp writing and memorable characters. </p>
-</blockquote>
-<p>Teacher’s review is <a href="http://bbs.hanbobo.net/attachment/54b74e3f44293_Peak%20--%20teacher%20review.pdf" target="_blank" rel="external">attached</a>.<br><a href="http://pan.baidu.com/s/1c0IoMEc" target="_blank" rel="external">百度云链接</a><br><a href="http://www.amazon.com/Peak-Roland-Smith/dp/0152062688" target="_blank" rel="external">Amazon link</a></p>
-<p><strong>The White Darkness</strong><br>　　　<img src="http://upload.wikimedia.org/wikipedia/en/thumb/2/2d/TheWhiteDarkness.jpg/220px-TheWhiteDarkness.jpg" alt=""><br>by Geraldine McCaughrean (Harper Teen, 2005).  373 pages<br>　　Sym Wates is obsessed with everything Antarctic — especially the doomed explorer Titus Oates, who died in a 1911 expedition to the South Pole. She is thrilled when her uncle Victor arranges to take her to Antarctica, but her delight doesn’t last; it turns out that Uncle Victor has a strange ulterior motive for the trip and that some of Sym’s fellow travelers aren’t who they claim to be — especially Uncle Victor. The White Darkness weaves history, family drama and adventure into a thrilling tale.<br><a href="http://www.amazon.com/The-White-Darkness-Geraldine-McCaughrean/dp/0060890355" target="_blank" rel="external">Amazon Link</a></p>
-<p><strong>I Am the Ice Worm</strong><br>by MaryAnn Easley (Boys Mill Press, 1998). 127 pages.<br>　　　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/i%20am%20the%20iceworm.jpg" alt="Iceworm"></p>
-<blockquote>
-<p>This book is sort of a girls’ version of Gary Paulsen’s classic Hatchet. In both stories, a teenage character is stranded in the wilderness following a plane crash. In I Am the Ice Worm, 14-year-old Allison is rescued from the Alaskan wild by an Inupiat trapper, who takes her to his village to stay until she can be reunited with her mother. Allison’s upbringing in an upper-class family in southern California certainly didn’t prepare her for this icy adventure, but she turns out to have courage and adaptability that she didn’t expect. Though Allison may initially seem too “girly” for boy readers, this novel has a great blend of adventure, wilderness and family matters that will captivate boys and girls alike.</p>
-</blockquote>
-<p>女孩子版本的Hatchet:)<br><a href="http://www.amazon.com/gp/product/1563974126?tag=openlibr-20" target="_blank" rel="external">Amazon Link</a></p>
-<p><strong>The Secret Garden</strong><br>by Frances Hodgson Burnett<br>　　　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/garden.jpg" alt=""></p>
-<blockquote>
-<p>Mistress Mary is quite contrary until she helps her garden grow. Along the way, she manages to cure her sickly cousin Colin, who is every bit as imperious as she. These two are sullen little peas in a pod, closed up in a gloomy old manor on the Yorkshire moors of England, until a locked-up garden captures their imaginations and puts the blush of a wild rose in their cheeks; “It was the sweetest, most mysterious-looking place any one could imagine. The high walls which shut it in were covered with the leafless stems of roses which were so thick, that they matted together…. ‘No wonder it is still,’ Mary whispered. ‘I am the first person who has spoken here for ten years.’” As new life sprouts from the earth, Mary and Colin’s sour natures begin to sweeten. For anyone who has ever felt afraid to live and love, The Secret Garden’s portrayal of reawakening spirits will thrill and rejuvenate. Frances Hodgson Burnett creates characters so strong and distinct, young readers continue to identify with them even 85 years after they were conceived. </p>
-</blockquote>
-<p><a href="http://www.amazon.com/Secret-Garden-Frances-Hodgson-Burnett/dp/0451528832" target="_blank" rel="external">Amazon link</a><br><a href="http://www.gutenberg.org/ebooks/113" target="_blank" rel="external">Gutenberg download</a><br><a href="http://pan.baidu.com/share/link?shareid=1272012249&amp;uk=2837494960" target="_blank" rel="external">百度云链接</a></p>
-<p><strong>My Side of the Mountain</strong> by Jean Craighead George<br>　　　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/mountain.jpg" alt=""></p>
-<p>　　《山居岁月》（My side of the Mountain），文字美妙，关于森林、鸟兽的描写生动迷人；而同时，这也是一本适合儿童看的“野外生存手册”，每一个内心藏着荒野探险梦想的男孩，都会在这本书里找到他们的精神乐园。这本书曾于1960年获得纽伯瑞儿童文学银奖，也是美国中学会反复向学生推荐阅读的一本书。<br>1960年纽伯瑞儿童文学奖银奖作品。美国作家珍·克雷赫德·乔治根据童年经验改写。 每一个男孩都有过离开家，独自闯荡世界的想法，深居森林，与动物作伴。但是只有小主人公纽约男孩山姆把他变成现实。<br>　　五月的一天山姆离开家，一个人在荒原整整生活了一年。在这一年里，他训练了一只猎鹰，做了树屋，为自己在冬天储存了足够的食物，身穿自己制作的鹿皮衣与周围的动物为伍。本书细致的描绘了男孩在森林中生活的场景。好的作品对于人生经验真的是一种考验。</p>
-<p><strong>Goodnight Mister Tom</strong> by Michelle Magorian<br>　　　<img src="http://7xi4vv.com1.z0.glb.clouddn.com/night.jpg" alt=""></p>
-<p>　　《晚安,汤姆先生》(Good Night, Mister Tom),获得了卫报儿童小说奖(Guardian Children’s Fiction Prize)。该小说还被BBC评为有史以来最伟大的100部小说之一。</p>
-<blockquote>
-<p>London is poised on the brink of World War II. Timid, scrawny Willie Beech—the abused child of a single mother—is evacuated to the English countryside. At first, he is terrified of everything, of the country sounds and sights, even of Mr. Tom, the gruff, kindly old man who has taken him in. But gradually Willie forgets the hate and despair of his past. He learns to love a world he never knew existed, a world of friendship and affection in which harsh words and daily beatings have no place. Then a telegram comes. Willie must return to his mother in London. When weeks pass by with no word from Willie, Mr. Tom sets out for London to look for the young boy he has come to love as a son.</p>
-</blockquote>
-<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>　　This list is complied from several sources. Due to the (lack of) availability of English books in China, only those with ebook forms are included here.<br>]]>
-    
-    </summary>
-    
-      <category term="先锋读书" scheme="http://mm.hanbobo.net/tags/%E5%85%88%E9%94%8B%E8%AF%BB%E4%B9%A6/"/>
-    
-      <category term="Reading" scheme="http://mm.hanbobo.net/categories/Reading/"/>
     
   </entry>
   

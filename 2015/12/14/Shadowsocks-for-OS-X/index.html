@@ -1,0 +1,388 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>Shadowsocks for OS X | mGoAlltWay</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  
+    <meta name="author" content="GangX">
+  
+  
+    <meta name="description" content="ShadowsocksX是OS X下面一个比较好用的shadowsocks程序 , 启动后可自动实现全局翻墙，并根据 GFWList 区分墙内外流量,不需要配置端口。">
+  
+  <meta name="description" content="ShadowsocksX是OS X下面一个比较好用的shadowsocks程序 , 启动后可自动实现全局翻墙，并根据 GFWList 区分墙内外流量,不需要配置端口。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Shadowsocks for OS X">
+<meta property="og:url" content="http://mm.hanbobo.net/2015/12/14/Shadowsocks-for-OS-X/index.html">
+<meta property="og:site_name" content="mGoAlltWay">
+<meta property="og:description" content="ShadowsocksX是OS X下面一个比较好用的shadowsocks程序 , 启动后可自动实现全局翻墙，并根据 GFWList 区分墙内外流量,不需要配置端口。">
+<meta property="og:image" content="http://7xi4vv.com1.z0.glb.clouddn.com/SS_for_OSX01.png">
+<meta property="og:image" content="http://7xi4vv.com1.z0.glb.clouddn.com/SS_for_OSX02.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Shadowsocks for OS X">
+<meta name="twitter:description" content="ShadowsocksX是OS X下面一个比较好用的shadowsocks程序 , 启动后可自动实现全局翻墙，并根据 GFWList 区分墙内外流量,不需要配置端口。">
+  
+  
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/css/private_style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+
+<style id='inline-css' type='text/css'>
+#backtoTop{background-color:#eee;border-radius:100%;bottom:10%;height:48px;position:fixed;right:-100px;width:48px;transition:0.5s;-webkit-transition:0.5s}
+#backtoTop.button--show{right:10px}
+.per{font-size:16px;height:48px;line-height:48px;position:absolute;text-align:center;top:0;width:48px;color:#555;cursor:pointer}
+.per:before{content:attr(data-percent)}
+.per:hover:before{content:"\f1d8";font-family:FontAwesome;font-size:20px}
+</style>
+
+
+<body>
+  <div class="wrapper">
+    <header id="header"><header id="header">
+  <div class="title">
+    <h1><a href="/">mGoAlltWay</a></h1>
+    <p><a href="/">Step by Step, to Happiness</a></p>
+  </div>
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v1/st.js','_st');
+
+  _st('install','VzEiPsJVm5THVADbn6qo');
+</script>
+</script>
+  <nav class="nav">
+    <ul>
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/archives">Archives</a></li>
+      
+        <li><a href="/about">About</a></li>
+      
+        <li><a href="/atom.xml">rss</a></li>
+      
+      
+    </ul>
+    <div class="clearfix"></div>
+  </nav>
+  <div class="clearfix"></div>
+</header>
+</header>
+    <div class="content"><article class="post">
+  <header>
+    
+      <div class="panda">
+	   <img src="/imgs/panda.png" width="32" height="32">
+	  </div>
+      <a href="/2015/12/14/Shadowsocks-for-OS-X/">
+  <time datetime="2015-12-14T04:50:33.000Z">
+    2015-12-14
+  </time>
+</a>
+    
+    
+  
+    <h1 class="title">Shadowsocks for OS X</h1>
+  
+
+  </header>
+  
+  <div class="entry">
+    
+	
+      <p>　　ShadowsocksX是OS X下面一个比较好用的shadowsocks程序 , 启动后可自动实现全局翻墙，并根据 GFWList 区分墙内外流量,不需要配置端口。<br><a id="more"></a></p>
+<h2 id="1-_下载安装ShadossocksX软件">1. 下载安装ShadossocksX软件</h2><p><a href="http://7xi4vv.com1.z0.glb.clouddn.com/ShadowsocksX-2.6.dmg" target="_blank" rel="external">下载地址</a></p>
+<h2 id="2-_ShadowsocksX的配置和使用">2. ShadowsocksX的配置和使用</h2><p>　　下载之后拖到App程序里面，打开，会直接在menu栏显示出来。<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/SS_for_OSX01.png" alt="p01"></p>
+<blockquote>
+<blockquote>
+<p>默认选项是“自动代理模式”，在这个模式下，软件会自动区分国内外网页，国内网页不通过VPN，而国外网页通过VPN浏览。如果发现有的网站去不了，可以选择“全局模式”，这样所有网页浏览都通过VPN。  </p>
+</blockquote>
+</blockquote>
+<p>　　点击小飞机按钮，配置服务器节点信息。添加完成之后点击确定！<br><img src="http://7xi4vv.com1.z0.glb.clouddn.com/SS_for_OSX02.png" alt="p02"></p>
+<p>　　然后你可以直接使用chrome / firefox / safari 访问国外网站了。</p>
+<p>Thank you.<br><a href="https://twitter.com/gangxiao" target="_blank" rel="external">@gangxiao</a></p>
+
+    
+  </div>
+  <footer>
+    
+      
+  <div class="categories">
+    <a class="categories-link" href="/categories/VPN/">VPN</a>
+  </div>
+
+      
+  <div class="tags">
+    <a class="tags-link" href="/tags/OSX/">OSX</a>, <a class="tags-link" href="/tags/Shadowsocks/">Shadowsocks</a>
+  </div>
+
+	  
+<div class="navi clearfix">
+  
+  
+    <a href="/2015/11/02/Tongariro-Alpine-Cross/" class="alignright next" title="Tongariro Alpine Cross">Tongariro Alpine Cross</a>
+  
+</div>
+
+	  
+<div class="addthis_sharing_toolbox"></div>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-561b212f57df6ced"></script>
+
+	
+    <div class="clearfix"></div>
+  </footer>
+</article>
+
+
+<section id="comment">
+  <h1 class="title">评论</h1>
+<div class="ds-thread" data-thread-key="2015/12/14/Shadowsocks-for-OS-X/" data-title="Shadowsocks for OS X" data-url="http://mm.hanbobo.net/2015/12/14/Shadowsocks-for-OS-X/"></div>
+</section>
+
+
+
+</div>
+  </div>
+  <div class="widget-wrapper">
+    <aside id="sidebar">
+  
+  
+    
+      
+      
+
+<div class="widget tag first">
+  <h3 class="title">categories</h3>
+  <ul class="entry">
+  
+    <li><a href="/categories/Family/">Family</a><small>1</small></li>
+  
+    <li><a href="/categories/Family-Outing/">Family Outing</a><small>1</small></li>
+  
+    <li><a href="/categories/Hiking/">Hiking</a><small>1</small></li>
+  
+    <li><a href="/categories/Reading/">Reading</a><small>2</small></li>
+  
+    <li><a href="/categories/Shadowsocks/">Shadowsocks</a><small>3</small></li>
+  
+    <li><a href="/categories/Travel/">Travel</a><small>4</small></li>
+  
+    <li><a href="/categories/VPN/">VPN</a><small>8</small></li>
+  
+    <li><a href="/categories/先锋/">先锋</a><small>1</small></li>
+  
+    <li><a href="/categories/先锋读书/">先锋读书</a><small>1</small></li>
+  
+    <li><a href="/categories/徒步/">徒步</a><small>1</small></li>
+  
+    <li><a href="/categories/笔记/">笔记</a><small>5</small></li>
+  
+  </ul>
+</div>
+
+    
+      
+      
+
+<div class="widget tagcloud">
+  <h3 class="title">tagcloud</h3>
+  <div class="entry">
+    <a href="/tags/AnyConnect/" style="font-size: 17.5px;">AnyConnect</a><a href="/tags/Bali/" style="font-size: 10px;">Bali</a><a href="/tags/GFW/" style="font-size: 10px;">GFW</a><a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a><a href="/tags/Leisure/" style="font-size: 10px;">Leisure</a><a href="/tags/OSX/" style="font-size: 10px;">OSX</a><a href="/tags/SS/" style="font-size: 10px;">SS</a><a href="/tags/SSL/" style="font-size: 10px;">SSL</a><a href="/tags/Shadowsocks/" style="font-size: 10px;">Shadowsocks</a><a href="/tags/Singapore/" style="font-size: 10px;">Singapore</a><a href="/tags/VPN/" style="font-size: 10px;">VPN</a><a href="/tags/VPS/" style="font-size: 10px;">VPS</a><a href="/tags/Zheda/" style="font-size: 10px;">Zheda</a><a href="/tags/hexo/" style="font-size: 10px;">hexo</a><a href="/tags/hiking/" style="font-size: 10px;">hiking</a><a href="/tags/mm/" style="font-size: 10px;">mm</a><a href="/tags/ocserv/" style="font-size: 17.5px;">ocserv</a><a href="/tags/reading/" style="font-size: 10px;">reading</a><a href="/tags/trekking/" style="font-size: 10px;">trekking</a><a href="/tags/东京/" style="font-size: 10px;">东京</a><a href="/tags/先锋/" style="font-size: 12.5px;">先锋</a><a href="/tags/先锋读书/" style="font-size: 12.5px;">先锋读书</a><a href="/tags/写作/" style="font-size: 10px;">写作</a><a href="/tags/博客/" style="font-size: 10px;">博客</a><a href="/tags/学习/" style="font-size: 10px;">学习</a><a href="/tags/文章/" style="font-size: 10px;">文章</a><a href="/tags/旅行/" style="font-size: 15px;">旅行</a><a href="/tags/游记/" style="font-size: 10px;">游记</a><a href="/tags/福泉/" style="font-size: 10px;">福泉</a><a href="/tags/科学上网/" style="font-size: 15px;">科学上网</a><a href="/tags/笔记/" style="font-size: 20px;">笔记</a><a href="/tags/聚会/" style="font-size: 10px;">聚会</a><a href="/tags/读史/" style="font-size: 10px;">读史</a><a href="/tags/远足/" style="font-size: 10px;">远足</a>
+  </div>
+</div>
+
+    
+      
+      
+
+<div class="widget blogroll">
+  <h3 class="title">blogroll</h3>
+  <ul class="entry">
+  
+    
+    <li><a href="http://bbs.hanbobo.net" target="_blank">先锋论坛</a></li>
+  
+    
+    <li><a href="http://ss.hanbobo.net" target="_blank">先锋加速</a></li>
+  
+    
+    <li><a href="http://www.hanbobo.net" target="_blank">先锋少年</a></li>
+  
+    
+    <li><a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank">hexo你的博客</a></li>
+  
+    
+    <li><a href="http://http://zipperary.com/categories/hexo/" target="_blank">hexo系列教程</a></li>
+  
+  </ul>
+</div>
+
+    
+  
+</aside>
+<div class="clearfix"></div>
+  </div>
+  <footer id="footer"><div class="copyright">
+  
+  &copy; 2015 <a href="/">GangX</a>
+  
+</div>
+<div class="theme-copyright">
+  <a href="http://www.hanbobo.net/" target="_blank">先锋少年</a>
+   | 
+  <a href="http://bbs.hanbobo.net/" target="_blank">先锋论坛</a>
+   |
+  <font id="sum_counter"></font>
+  <font id="detail_counter"></font>
+</div>
+<div class="clearfix"></div>
+<html>
+<head>
+    <script src='http://7xi4vv.com1.z0.glb.clouddn.com/firebase.js'></script>
+    </head>
+<body>	
+<script>
+var myDataRef = new Firebase('https://seramat.firebaseio.com/')
+// 明细由当前页面的url表示，将反斜线替换成下划线，并将中文decode出来
+var current_url = decodeURI(window.location.pathname.replace(new RegExp('\\/|\\.', 'g'),"_"));
+// 获取总数，并将总访问量展示在页面上
+myDataRef.child("sum").on("value", function(data) {
+  var current_counter = data.val();
+  if( $("#sum_counter").length > 0  && current_counter >1 ){
+      $("#sum_counter").html(
+   	   	" | 总访问量 <font style='color:white'>"+ current_counter +"</font> 次"
+       );
+  };
+});
+// 获取明细，并将明细也展示在页面上
+myDataRef.child("detail/"+current_url).on("value", function(data){
+	var detail_counter = data.val();
+	if($("#detail_counter").length > 0 && detail_counter > 1){
+		$("#detail_counter").html(
+			" 本页访问量 <font style='color:white'>"+ detail_counter +"</font> 次"
+		);
+	}
+});
+// 总数+1
+myDataRef.child("sum").transaction(function (current_counter) {
+  return (current_counter || 0) + 1;
+});
+// 明细+1
+myDataRef.child("detail/"+current_url).transaction(function (current_counter) {
+  return (current_counter || 0) + 1;
+});
+</script>
+</body>
+</html>
+</footer>
+  <script src="/js/jquery.min.js"></script>
+<script src="/js/scale.fix.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+<script type="text/javascript">
+  var duoshuoQuery = { short_name: 'seramat' };
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';
+    ds.async = true;
+    ds.src = 'http://static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script>
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+  (function($){
+    $('.fancybox').fancybox();
+  })(jQuery);
+</script>
+
+
+<script>
+var bigfa_scroll = {
+    drawCircle: function(id, percentage, color) {
+        var width = jQuery(id).width();
+        var height = jQuery(id).height();
+        var radius = parseInt(width / 2.20);
+        var position = width;
+        var positionBy2 = position / 2;
+        var bg = jQuery(id)[0];
+        id = id.split("#");
+        var ctx = bg.getContext("2d");
+        var imd = null;
+        var circ = Math.PI * 2;
+        var quart = Math.PI / 2;
+        ctx.clearRect(0, 0, width, height);
+        ctx.beginPath();
+        ctx.strokeStyle = color;
+        ctx.lineCap = "square";
+        ctx.closePath();
+        ctx.fill();
+        ctx.lineWidth = 3;
+        imd = ctx.getImageData(0, 0, position, position);
+        var draw = function(current, ctxPass) {
+            ctxPass.putImageData(imd, 0, 0);
+            ctxPass.beginPath();
+            ctxPass.arc(positionBy2, positionBy2, radius, -(quart), ((circ) * current) - quart, false);
+            ctxPass.stroke();
+        }
+        draw(percentage / 100, ctx);
+    },
+    backToTop: function($this) {
+        $this.click(function() {
+            jQuery("body,html").animate({
+                scrollTop: 0
+            },
+            800);
+            return false;
+        });
+    },
+    scrollHook: function($this, color) {
+        color = color ? color: "#000000";
+        $this.scroll(function() {
+            var docHeight = (jQuery(document).height() - jQuery(window).height()),
+            $windowObj = $this,
+            $per = jQuery(".per"),
+            percentage = 0;
+            defaultScroll = $windowObj.scrollTop();
+            percentage = parseInt((defaultScroll / docHeight) * 100);
+            var backToTop = jQuery("#backtoTop");
+            if (backToTop.length > 0) {
+                if ($windowObj.scrollTop() > 200) {
+                    backToTop.addClass("button--show");
+                } else {
+                    backToTop.removeClass("button--show");
+                }
+                $per.attr("data-percent", percentage);
+                bigfa_scroll.drawCircle("#backtoTopCanvas", percentage, color);
+            }
+        });
+    }
+}
+jQuery(document).ready(function() {
+    jQuery("body").append('<div id="backtoTop" data-action="gototop"><canvas id="backtoTopCanvas" width="48" height="48"></canvas><div class="per"></div></div>');
+    var T = bigfa_scroll;
+    T.backToTop(jQuery("#backtoTop"));
+    T.scrollHook(jQuery(window), "#800080");
+});
+</script>
+
+<script src="/js/instantclick.min.js" data-no-instant></script>
+<script data-no-instant>InstantClick.init();</script>
+</body>
+</html>
